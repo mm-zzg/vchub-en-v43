@@ -11,7 +11,7 @@ The Report Viewer is used to display reports that have been created in the Repor
 **Properties**
 
 | **Name**    | **Description**   |
-|-------------|-----------------------------------|
+|:-------------|:-----------------------------------|
 | Name        | The name of this control.  |
 | X           | The distance between the left side of the control and the left side of the canvas.  |
 | Y           | The distance between the top of the control and the top of the canvas. |
@@ -26,7 +26,7 @@ The Report Viewer is used to display reports that have been created in the Repor
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example**
 
@@ -35,12 +35,12 @@ View the report.
 1. Insert a "Report Viewer" control on the page. Set the following properties.
 
 | **Property** | **Value**   |
-|--------------|-----|
+|:--------------|:-----|
 | Report List  | - Selected background: 99e699  <br>- Selected Font: Microsoft Yahei, 14, bold, f0672e | 
 | Report       | Line 1   |
 
-2.Click the "Preview" button on the page.<br>
+2. Click the "Preview" button on the page.<br>
 
-3.In the report viewer, click "Line 1" to view the data.
-    ![alt text](36.png)
+3. In the report viewer, click "Line 1" to view the data.
+ ![alt text](36.png)
 

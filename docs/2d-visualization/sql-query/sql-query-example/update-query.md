@@ -8,7 +8,7 @@ Add new data to the database.
 
 #### Creating a database connection
 
-On the "Databases"->"Database Connection" page, create a new database connection named **TestSQLQuery**. 
+On the "Databases"->"Database Connection" page, create a new database connection named **TestSQLQuery**.  Please refer to the [Database Connection](../../../management-platform/databases/database-connection/index.md)
 
 ![alt text](1.png)
 
@@ -16,7 +16,7 @@ On the "Databases"->"Database Connection" page, create a new database connection
 There is a table named `person_management` in the database, which is used to store personnel information. Its structure is as follows:
 
 | Id | name          | email               | gender | age |
-|----|---------------|---------------------|--------|-----|
+|:----|:---------------|:---------------------|:--------|:-----|
 | 1  | Alice Johnson | `alice@example.com`   | Female | 18  |
 | 2  | Bob Smith     | `bob@example.com`     | Male   | 19  |
 | 3  | Charlie Brown | `charlie@example.com` | Male   | 19  |
@@ -40,7 +40,7 @@ There is a table named `person_management` in the database, which is used to sto
     **Parameters:** Create a parameter called age. Acts as a placeholder in an SQL statement to which you can pass concrete values when executing a query.
     ![alt text](21.png)
 4. Click the "Test" button.You can see that Result returns the data 1, which means that the execution was successful, affecting a row of data.<br>
-   **Note**：Executing statements of type '**Update Query**' via the test button will also actually modify the database contents. 
+   `Note：Executing statements of type '**Update Query**' via the test button will also actually modify the database contents.`
    ![alt text](22.png)
 
 #### Use Update Query

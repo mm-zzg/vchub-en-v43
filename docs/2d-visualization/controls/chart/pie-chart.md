@@ -9,7 +9,7 @@ There are two styles: **Pie Chart** and **Ring Chart**.
 **Properties**
 
 | **Name**          | **Description**    |
-|-------------------|------------------|
+|:-------------------|:------------------|
 | Name              | The name of this control. |
 | X                 | The distance between the left side of the control and the left side of the canvas, in pixels. |
 | Y                 | The distance between the top of the control and the top of the canvas, in pixels.  |
@@ -28,7 +28,7 @@ There are two styles: **Pie Chart** and **Ring Chart**.
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example**
 
@@ -38,10 +38,10 @@ Use a pie chart to display the daily production capacity ratio of different prod
 2. Set the properties of the pie chart.
 
 | **Property** | **Value**              |
-|--------------|-------------------------------------------------|
+|:--------------|:-------------------------------------------------|
 | Legend       | Display, Microsoft YaHei, font size 14.    |
 | Label        | - **Show**: Turn on     <br>- **Position**: Outside.     <br>- **Numeric type**: Percentage.  <br>- **Decimals**: 1.          <br>- **Font**: Calibri, 14. |
-| Data         | Click the **Dataset** button to configure the dataset. <br>![alt text](37.png) <br>![alt text](38.png)  <br>After completing the setup, click the **Bind** button to perform dynamic cell binding.  ![alt text](39.png) |
+| Data         | Click the **Dataset** button to configure the dataset. <br>![alt text](37.png) <br>![alt text](38.png)  <br>After completing the setup, click the **Bind** button to perform [Dynamic Cell](../../property-binding/dynamic-cell.md) binding.  ![alt text](39.png) |
 
 3.Click the Preview button to preview.
     ![alt text](40.png)

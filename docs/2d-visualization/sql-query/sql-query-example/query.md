@@ -8,14 +8,14 @@ According to the age entered by the user, the corresponding person is queried in
 
 #### Creating a database connection
 
-On the "Databases"->"Database Connection" page, create a new database connection named **TestSQLQuery**.
+On the "Databases"->"Database Connection" page, create a new database connection named **TestSQLQuery**.Please refer to the [Database Connection](../../../management-platform/databases/database-connection/index.md) .
 
 ![alt text](1.png)
 
 There is a table named `person_management` in the database, which is used to store personnel information. Its structure is as follows:
 
 | Id | name          | email               | gender | age |
-|----|---------------|---------------------|--------|-----|
+|:----|:---------------|:---------------------|:--------|:-----|
 | 1  | Alice Johnson | `alice@example.com`  | Female | 18  |
 | 2  | Bob Smith     | `bob@example.com`     | Male   | 19  |
 | 3  | Charlie Brown | `charlie@example.com` | Male   | 19  |
@@ -30,11 +30,14 @@ There is a table named `person_management` in the database, which is used to sto
 3. In this example, we set the name of this SQL Query to **Query**.
     ![alt text](3.png)
      - **Database Connection:** Select an item whose status is "Connected "in the "Databases" ->"Database Connection" list. Here we select the **TestSQLQuery** already created in Step 1.
+     
      - **Query Type:** Select **Query**.
-     - **SQL Editor:** Write the following query that searches the `person_management` table against the value of age. Where "age" denotes the parameter.
-    ```sql
-    SELECT * FROM person_management WHERE age = @age;
-    ```
+     
+     - **SQL Editor:** Write the following query that searches the `person_management` table against the value of age. Where "@age" denotes the parameter.
+     ```sql
+      SELECT * FROM person_management WHERE age = @age;
+      ```
+     
      - **Parameters:** Create a parameter called age. Acts as a placeholder in an SQL statement to which you can pass concrete values when executing a query.
 4. Click the "Test" button to see the results.
     ![alt text](4.png)
@@ -52,6 +55,8 @@ There is a table named `person_management` in the database, which is used to sto
     The property binding window pops up and binds it to the value property of **NumberInput1**. When NumberInput1 enters different values, the query is performed according to different ages.
     ![alt text](9.png)
 5. Transform allow you to add, modify, or remove columns from the query again.
+    
+    
     When the Test button is clicked, the result is as follows:
     ![alt text](10.png)
     If we want to hide the **id** column, we can write the following script in the transformation.

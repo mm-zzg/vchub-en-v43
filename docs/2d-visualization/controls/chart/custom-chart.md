@@ -13,7 +13,7 @@ This control can only set properties by writing scripts, so to use this control 
 **Properties**
 
 | **Name** | **Description**    |
-|----------|-------|
+|:----------|:-------|
 | Name     | The name of this control.                                                          |
 | X        | The distance between the left side of the control and the left side of the canvas. |
 | Y        | The distance between the top of the control and the top of the canvas.             |
@@ -24,7 +24,7 @@ This control can only set properties by writing scripts, so to use this control 
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example**
 
@@ -69,7 +69,7 @@ Use a custom chart to display a bar chart that displays the production line's ca
 6. Click the "Preview" button on the page to view it.
     ![alt text](55.png)
 
-**Note:**  
+Note: 
 
 1. The actual display effect of custom charts can only be seen on the preview or run page. 
 2. Custom charts only support the following three methods in echarts:  

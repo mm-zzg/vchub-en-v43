@@ -1,6 +1,6 @@
 # Customize the Login Page
 
-If you prefer not to use the default login screen for VC Hub, you can configure a custom login screen for your project. This custom login screen will be displayed when users access the operation screen and login authentication is required.
+If you prefer not to use the default login screen for WAGO SCADA,, you can configure a custom login screen for your project. This custom login screen will be displayed when users access the operation screen and login authentication is required.
 
 You can configure a custom login screen for each item individually.
 

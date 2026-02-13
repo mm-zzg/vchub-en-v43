@@ -39,7 +39,8 @@ You can set the columns to be displayed by clicking the "Column Setting" button 
 
 **Event**
 
-Allows you to perform a specific event based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform a specific event based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
+
 
 **Example 1**
 
@@ -62,6 +63,23 @@ No buttons are displayed, only alarm information is displayed. In the "Appearanc
 The display effect is as follows:
 
 ![alt text](33.png)
+
+**Example 4**
+
+When an alarm occurs on a tag, a popup camera window is displayed to view the devices currently monitored by the camera.
+
+Pre-configure a popup window: DeviceMonitoring. Place a Camera control on the popup window to bind a Camera device. See [Camera](../../display/camera.md)   for detailed operations.
+
+In the action property of the Alarm control, set the Text to: View Monitor.
+
+Click the Script button and write the following script:
+
+```typescript
+const alarm = System.Context.currentAlarm
+await System.UI.openPopup('DeviceMonitoring') 
+```
+ 
+![img](../../../../assets/images/2dAlarmindex.gif)
 
 
 

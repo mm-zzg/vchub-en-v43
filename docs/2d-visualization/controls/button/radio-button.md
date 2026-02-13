@@ -7,7 +7,7 @@ The radio button control is used to select one of multiple mutually exclusive op
 **Properties**
 
 | **Name**       | **Description**  |
-|----------------|-------------|
+|:----------------|:-------------|
 | Name           | The name of this control.|
 | X              | The distance between the left side of the control and the left side of the canvas. |
 | Y              | The distance between the top of the control and the top of the canvas.|
@@ -26,7 +26,8 @@ The radio button control is used to select one of multiple mutually exclusive op
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
+
 
 **Example**
 
@@ -35,7 +36,7 @@ Change the device's operating mode via radio buttons.
 ![alt text](28.png)
 
 | **Property** | **Value**      |
-|--------------|----------|
+|:--------------|:----------|
 | Options      | Set the option name and option value.  <br>![alt text](29.png) |
 
 1. Add a radio button control to the page.

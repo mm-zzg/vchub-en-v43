@@ -1,6 +1,6 @@
 # Introduction to the Editor
 
-All pages need to be drawn within an editor. VC Hub has a built-in WYSIWYG(What you see is what you get) editor. The WYSIWYG editor offers the benefits of real-time preview, intuitive operation, reduced errors, and improved consistency, making it easier for users to create and edit content with faster, more intuitive feedback.
+All pages need to be drawn within an editor. WAGO SCADA has a built-in WYSIWYG(What you see is what you get) editor. The WYSIWYG editor offers the benefits of real-time preview, intuitive operation, reduced errors, and improved consistency, making it easier for users to create and edit content with faster, more intuitive feedback.
 
 The default window that displays when you first open a project has the following quick-start options. Create a new window by selecting the desired window type to be created. Opening it again displays the window that was open the last time you closed the browser, so you can continue editing from where you left off. 
 
@@ -34,7 +34,7 @@ There is a toolbar at the top of the editor. When the mouse is placed over any b
 | ![alt text](42.png) | Move the selected object up one layer | ![alt text](43.png)| Zoom in page  |
 | ![alt text](44.png) | Move the selected object down one layer |![alt text](45.png) | Adjust the display ratio of the page to 100%  |
 | ![alt text](46.png)| Move the selected object to the top layer | ![alt text](47.png)| Open the project management window  |
-|![alt text](48.png)| Move the selected object to the bottom layer  | ![alt text](49.png)|
+|![alt text](48.png)| Move the selected object to the bottom layer  | ![alt text](49.png) | Open the preview screen|
 | ![alt text](50.png) | Adjust the width of multiple selected objects to be the same as that of the reference object  Reference object selection rules:  <br>1. **Ctrl + click selection**: The last selected object is used as the reference. <br>2. **Mouse marquee selection**: The topmost object in the layer order is used as the reference  | ||
 | ![alt text](51.png) | Adjust the height of multiple selected objects to be the same as that of the reference object  Reference object selection rules:  <br>1. **Ctrl + click selection**: The last selected object is used as the reference. <br>2. **Mouse marquee selection**: The topmost object in the layer order is used as the reference | | |
 
@@ -45,10 +45,6 @@ There is a toolbar at the top of the editor. When the mouse is placed over any b
 The editor comes with a number of windows. You can check which window you want to open and adjust the display position and size of the window according to your usage habits. 
 
 ![alt text](52.png)
-
-You can click the ![alt text](55.png) button to display different window styles:
-
-![alt text](56.png)
 
 The form of window display is illustrated:
 
@@ -123,8 +119,14 @@ The language switch menu is used to switch between different language interfaces
 
 ![alt text](62.png)
 
+#### **Help Menu**
+
+View the help documentation in a new browser window.
+
+![alt text](109.png)
+
 ## **About Menu**
 
-Provides information about VC Hub, e.g. versions, copyrights, etc.
+Provides information about WAGO SCADA, e.g. versions, copyrights, etc.
 
 ![alt text](64.png)

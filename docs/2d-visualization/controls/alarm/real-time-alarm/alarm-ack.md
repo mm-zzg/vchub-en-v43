@@ -8,9 +8,6 @@ After the alarm occurs, the alarm can be acknowledged. There are three acknowled
 
 ## **Acknowledge Mode**
 
-In the alarm configuration of the tag, set the **Ack Mode** for the alarm.
-
-![alt text](22.png)
 
 #### **Automatic**
 

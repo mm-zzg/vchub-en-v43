@@ -20,7 +20,7 @@ After creation, an empty symbol editor will be displayed in the main design spac
 |-----------------|-----------|
 | W               | Width of the symbol. |
 | H               | Height of the symbol.   |
-| Background      | Background color of the symbol, supports property binding  <br>![alt text](12.png) |
+| Background      | Background color of the symbol, supports [property binding](../property-binding/index.md)  <br>![alt text](12.png) |
 | Custom Property | You can use custom properties like any other properties, such as for data binding, scripts, and styles. To configure custom properties, follow these steps:  <br>1. Click on the blank area of the symbol editor. <br>2. Go to "Appearance" > "Custom Property." <br>3. Click the plus (+) icon to add a row. <br>4. Enter the custom property name, data type, and initial value. <br>5. The custom property is automatically saved after you add it.  <br> ![alt text](13.png)|
 
 **Note:** Symbols support nesting, allowing one symbol to be embedded within another. However, a symbol cannot be nested within itself.
@@ -85,11 +85,11 @@ Once the symbol is created, you can drag the symbol onto the screen or screen te
 **Properties of the Symbol Instance**
 
 | **Name**        | **Description**                                                                                                                  |
-|-----------------|----------------------------------------------------------------------------------------------------------------------------------|
+|:-----------------|:----------------------------------------------------------------------------------------------------------------------------------|
 | Name            | Name of this symbol instance.                                                                                                    |
 | X               | The distance from the left side of the canvas to the left side of the symbol instance.                                           |
 | Y               | The distance from the top of the canvas to the top of the symbol instance.                                                       |
 | W               | The width of the symbol instance.                                                                                                |
 | H               | The height of the symbol instance.                                                                                               |
 | Path            | The complete path of the symbol instance.                                                                                        |
-| Custom Property | These are consistent with the custom properties set for the symbol. You can click the bind button to configure the property binding. |
+| Custom Property | These are consistent with the custom properties set for the symbol. You can click the bind button to configure the  [property binding](../property-binding/index.md)|

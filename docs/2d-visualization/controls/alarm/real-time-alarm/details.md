@@ -7,5 +7,6 @@ Premise: In the column settings of the active list, "Detail" is selected.
 
 On the running page, click the view button of details to view.
 
-![alt text](28.png)
+![alt text](34.png)
+![alt text](35.png)
 

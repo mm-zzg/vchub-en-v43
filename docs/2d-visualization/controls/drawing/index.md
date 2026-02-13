@@ -1,6 +1,6 @@
 # Drawing
 
- VC Hub comes with a set of drawing tools. Using the drawing tools, you can create your own shapes, such as lines, rectangles, polygons, etc. The following drawing controls are included.
+ WAGO SCADA comes with a set of drawing tools. Using the drawing tools, you can create your own shapes, such as lines, rectangles, polygons, etc. The following drawing controls are included.
 
  The following drawing controls are included:
 

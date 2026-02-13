@@ -49,8 +49,7 @@ Click the settings button on the right side of the menu item to pop up the navig
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
-
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 **Example**
 
 Use the navigation menu to display information about individual components of the photovoltaic power system.

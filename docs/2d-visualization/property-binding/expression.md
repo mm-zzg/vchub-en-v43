@@ -7,7 +7,7 @@ Value binding is achieved by writing scripts in the script editor.
 **Toolbar**
 
 | **Icon** | **Description** |
-|-----------|----------------|
+|:-----------|:----------------|
 | ![alt text](19.png) | Redo, re-execute the canceled operation, and restore the text to the state before "undo" |
 | ![alt text](20.png) | Undo, cancel the latest editing operation and restore the text to its previous state     |
 | ![alt text](21.png) | Format document |

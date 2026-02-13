@@ -57,7 +57,7 @@ Click the binding button in the **Value** column to open the settings window. He
 
 **Method 2**: When no cell in the DataTable is selected, you can also directly click the "Add Binding" button. This will add a blank row to the cell binding list, where you can manually enter the row and column information and the corresponding data from the DataTable.
 
-For example, in the cell bindings shown below, the set row is 0, the column is **Name**, corresponding to **Electricity** in the DataTable.
+For example, in the cell bindings shown below, the set row is 0, the column is **Name**, corresponding to column **A** in the DataTable.
 
 ![alt text](46.png)
 

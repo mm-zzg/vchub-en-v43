@@ -21,13 +21,14 @@ Display the value of the tag on the LED Display  in real time.
 
 Capacity values are displayed in real time on a pie chart.
 
-1. Draw a realtime chart on the page.
-2. Click the "Data" binding button.
-3. Click the "Select Tags" button to select tags.
+1. Draw a pie chart on the page.
+2. Click the "Value" binding button.
+3. Double-click the tag in the properties pop-up window to select it.
+4. Click the OK button to complete binding.
 
     ![alt text](11.png)
 
-4. Set the appearance of each line.
+5. Set the color of each area of the pie chart.
 
     ![alt text](12.png)
 

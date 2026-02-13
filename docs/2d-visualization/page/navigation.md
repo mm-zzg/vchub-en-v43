@@ -83,6 +83,7 @@ The following script functions can be used for page navigation:
 
 6. Go back to Page 1 and click on the Preview button to see how it works.
 
+
     When you click the "Open Page 2" button on Page 1, Page 2 is displayed; when you click the "Open Page 1" button on Page 2, Page 1 is displayed.
 
     ![navigation](../../assets/images/navigation.gif)

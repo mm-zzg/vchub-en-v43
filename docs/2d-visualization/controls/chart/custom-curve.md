@@ -7,7 +7,7 @@ A custom curve refers to a curve form created or defined based on actual conditi
 **Properties**
 
 | **Name** | **Description** |
-|----------|---------------------|
+|:----------|:---------------------|
 | Name     | The name of this control.  |
 | X        | The distance between the left side of the control and the left side of the canvas, in pixels.  |
 | Y        | The distance between the top of the control and the top of the canvas, in pixels.   |
@@ -22,7 +22,8 @@ A custom curve refers to a curve form created or defined based on actual conditi
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
+
 
 **Example**
 

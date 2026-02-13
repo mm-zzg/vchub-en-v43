@@ -7,7 +7,7 @@ The Datetime Input control is used to set the date and format the date.
 **Properties**
 
 | **Name**      | **Description**  |
-|--------------|------------------|
+|:--------------|:------------------|
 | Name              | The name of this control. |
 | X                 | Distance of the left side of the control from the left side of the canvas.|
 | Y                 | The distance from the top of the control to the top of the canvas. |
@@ -24,7 +24,7 @@ The Datetime Input control is used to set the date and format the date.
 
 **Event**
 
-Allows you to perform a specific event based on certain conditions. See the **2D Visualization-> Event** page for a complete description of the various events.
+Allows you to perform a specific event based on certain conditions. See the [Event](../../event/index.md)  page for a complete description of the various events.
 
 **Example**
 
@@ -36,24 +36,26 @@ Display the current system time with the Datetime Input control.
 2. Set the following properties for the control.
 
 | **Property**        | **Value**                                     |
-|---------------------|-----------------------------------------------|
+|:--------------------|:----------------------------------------------|
 | Background          | 03172c                                        |
 | Calendar Background | eff0f2                                        |
 | Border Color        | 12b5ac                                        |
 | Border Thickness    | 2                                             |
 | Fonts               | Digital Numbers, 18, bold, font color: 12b5ac |
 | Picker Type         | Datetime                                      |
-| Formatting          | a `h:mm:ss`                                     |
+| Formatting          | a h:mm:ss                                     |
 
 3.Set event for the control, event type is "LifeCycle" -> "Loaded".
     ![alt text](22.png)
 4.Turn on the "Enable" button and enter the following script into the Script Editor: 
-    ```typescript
+```typescript
+
     const data = await System.Tag.read('@System:Server.CurrentDateTime')
     const calendar = await System.UI.findControl('Datetime Input 1');
     calendar.value = data.value;
     calendar.applyChanges();
-    ```
+    
+ ```
 5.On the running page, view what the Datetime Input control displays.
     ![alt text](23.png)
 

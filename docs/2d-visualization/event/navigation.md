@@ -4,4 +4,4 @@ Simply select a page from the page list. When the trigger condition for the even
 
 ![alt text](2.png)
 
-For a description of its functions, see **Page->Navigation**.
+For a description of its functions, see [Navigation](../page/navigation.md).

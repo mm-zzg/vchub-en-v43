@@ -7,7 +7,7 @@ When the user selects an option, you can perform a specific action, such as upda
 **Properties**
 
 | **Name**         | **Description**                |
-|------------------|--------------|
+|:------------------|:--------------|
 | Name             | The name of this control.  |
 | X                | Distance of the left side of the control from the left side of the canvas.|
 | Y                | The distance from the top of the control to the top of the canvas.  |
@@ -29,7 +29,7 @@ When the user selects an option, you can perform a specific action, such as upda
 
 **Event**
 
-Allows you to perform a specific event based on certain conditions. See the **2D Visualization-> Event** page for a complete description of the various events.
+Allows you to perform a specific event based on certain conditions. See the [Event](../../event/index.md)  page for a complete description of the various events.
 
 **Example**
 

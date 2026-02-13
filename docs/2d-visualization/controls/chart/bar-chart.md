@@ -7,7 +7,7 @@ A bar chart is used to compare the numerical differences between different categ
 **Properties**
 
 | **Name**          | **Description**  |
-|-------------------|--------------|
+|:-------------------|:--------------|
 | Name              | The name of this control.  |
 | X                 | The distance between the left side of the control and the left side of the canvas, in pixels. |
 | Y                 | The distance between the top of the control and the top of the canvas, in pixels.    |
@@ -26,7 +26,7 @@ A bar chart is used to compare the numerical differences between different categ
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example**
 
@@ -40,7 +40,7 @@ Use a bar chart to display the daily production capacity of the production line.
 | Bar Interval Color | Set to the following:  <br>![alt text](29.png)|
 | Label              | Turn on and position: is Top.  <br>![alt text](30.png)  |
 | Y Axis Range       | 0~100   |
-| Data               | Click the **Dataset** button to configure the dataset.  <br>![alt text](31.png) <br>![alt text](32.png)  <br>After completing the setup, click the **Bind** button to perform dynamic cell binding.  <br>![alt text](33.png)  <br>![alt text](34.png)|
+| Data               | Click the **Dataset** button to configure the dataset.  <br>![alt text](31.png) <br>![alt text](32.png)  <br>After completing the setup, click the **Bind** button to perform [Dynamic Cell](../../property-binding/dynamic-cell.md) binding.  <br>![alt text](33.png)  <br>![alt text](34.png)|
 
 3.Click the Preview button to preview.
     ![alt text](35.png)

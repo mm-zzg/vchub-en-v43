@@ -7,7 +7,7 @@ Dynamic tag binding is very similar to tag binding, with the key difference bein
 ![alt text](33.png)
 
 | **Name**         | **Description**  |
-|------------------|-----------------|
+|:------------------|:-----------------|
 | Path             | Path of the tag with parameters |
 | Replacement list | Each line in the list corresponds to a parameter reference within **{}**. You can bind each line to any property on the current Page. To bind a parameter reference to a property, simply select the corresponding line and click the property binding button in the "Replace with" column. Then, choose a property from the property selector dialog that appears. |
 

@@ -2,7 +2,7 @@
 
 Trigger other operations or programs in the system in response to a specific event. 
 
-In VC Hub, configure specific events in the "Event" column of the page or control.
+In WAGO SCADA, configure specific events in the "Event" column of the page or control.
 
 ![alt text](1.png)
 

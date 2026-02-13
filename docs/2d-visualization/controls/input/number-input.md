@@ -7,7 +7,7 @@
 **Properties**
 
 | **Name**              | **Description**       |
-|-----------------------|-------------|
+|:----------------------|:-------------|
 | Name                  | The name of this control. | X                     | Distance of the left side of the control from the left side of the canvas. |
 | Y                     | The distance from the top of the control to the top of the canvas. |
 | W                     | Width of the control.  |
@@ -24,7 +24,7 @@
 
 **Event**
 
- Allows you to perform a specific event  based on certain conditions. See the **2D Visualization-> Event** page for a complete description of the various events.
+ Allows you to perform a specific event  based on certain conditions. See the [Event](../../event/index.md)  page for a complete description of the various events.
 
 **Example**
 
@@ -36,7 +36,7 @@ Modify the factory workshop temperature via a input number control.
 2. Set the properties of the control.
 
 | **Property**          | **Value** |
-|-----------------------|-----|
+|:-----------------------|:-----|
 | Fill                  | eff0f2 |
 | Border color          | rgba(128,128,128,0)   |
 | Border thickness      | 1|

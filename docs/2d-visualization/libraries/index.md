@@ -44,7 +44,7 @@ After uploading, the name of the uploaded zip file will be used as the library n
 
 ## Reference System Library
 
-VC Hub has built-in rich picture materials. After clicking "Add"->"Reference System Library" in the library window, users can view and choose which built-in materials to add to the library.
+WAGO SCADA has built-in rich picture materials. After clicking "Add"->"Reference System Library" in the library window, users can view and choose which built-in materials to add to the library.
 
 ![alt text](10.png)
 

@@ -1,6 +1,6 @@
 # Create Data Source
 
-Data connection is the first step before any data analysis. The built-in report designer of VC Hub seamlessly integrates with VC Hub's historical database as well as enterprise SQL databases such as MySQL, SQL Server, Oracle, etc. This chapter will provide detailed instructions on how to use VC Hub's historical tags as data sources for reports.
+Data connection is the first step before any data analysis. The built-in report designer of WAGO SCADA seamlessly integrates with WAGO SCADA's historical database as well as enterprise SQL databases such as MySQL, SQL Server, Oracle, etc. This chapter will provide detailed instructions on how to use WAGO SCADA's historical tags as data sources for reports.
 
 1. Double click the mouse on the report and open the design window.
 2. In the design pop-up window, click the "Add" button in the upper right corner of the data source list.
@@ -22,7 +22,7 @@ Data connection is the first step before any data analysis. The built-in report 
 **Configuration**
 
 | **Name**    | **Description**  |
-|-------------|------------------|
+|:-------------|:------------------|
 | Name        | The name of the data source.   |
 | Description | Description of the data source.   |
 | Query Mode  | Pull down to select the query mode, including: Raw，Fixed Points，Periodic.  When selecting the **Fixed Points**, the **Aggregation Mode** and **Points** must be set.   <br>![alt text](10.png)   <br>When selecting the **Periodic**, the **Aggregation Mode** and **Period** must be set.   <br>![alt text](11.png)|

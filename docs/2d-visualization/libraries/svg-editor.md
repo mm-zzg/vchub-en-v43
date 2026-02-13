@@ -39,8 +39,8 @@ Element types that are not supported for editing will be displayed in gray color
 
 **Properties**
 
-| **Name**     | **Description**                                                                              |
-|--------------|----------------------------------------------------------------------------------------------|
+| **Name**     | **Description**                      |
+|:--------------|:------------------------------------------------------|
 | Name         | The name of this control.                                                                    |
 | X            | The distance from the left side of the control to the left side of the page, the unit is px. |
 | Y            | The distance from the top side of the control to the top side of the page, the unit is px.   |
@@ -59,7 +59,7 @@ Element types that are not supported for editing will be displayed in gray color
 **Properties**
 
 | **Name**     | **Description**                                                               |
-|--------------|-------------------------------------------------------------------------------|
+|:--------------|:-------------------------------------------------------------------------------|
 | Name         | The name of this control.                                                     |
 | CX           | The position of the center point in the horizontal direction, the unit is px. |
 | CY           | The position of the center point in the vertical direction, the unit is px.   |
@@ -75,7 +75,7 @@ Element types that are not supported for editing will be displayed in gray color
 **Properties**
 
 | **Name**     | **Description**                                                       |
-|--------------|-----------------------------------------------------------------------|
+|:--------------|:-----------------------------------------------------------------------|
 | Name         | The name of this control.                                             |
 | CX           | The horizontal position of the center of the ellipse, the unit is px. |
 | CY           | The vertical position of the center of the ellipse, the unit is px.   |
@@ -91,8 +91,8 @@ Element types that are not supported for editing will be displayed in gray color
 
 **Properties**
 
-| **Name**     | **Description**                                                                        |
-|--------------|----------------------------------------------------------------------------------------|
+| **Name**     | **Description**              |
+|:--------------|:---------------------|
 | Name         | The name of this control.                                                              |
 | X1           | The horizontal  coordinate of the starting point of the straight line, the unit is px. |
 | Y1           | The vertical coordinate of the starting point of the straight line, the unit is px.    |
@@ -107,8 +107,8 @@ Element types that are not supported for editing will be displayed in gray color
 
 **Properties**
 
-| **Name**     | **Description**                                                                                                                                                                      |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name**     | **Description**                      |
+|:--------------|:--------------------------------------------------------------------|
 | Name         | The name of this control.                                                                                                                                                            |
 | Points       | A series of coordinate points, in the form of  <br>x1, y1  <br>x2, y2  <br>x3, y3 <br>…  <br>It will start from the first point and then connect the subsequent points one by one to form a broken line. |
 | Border Color | The border color of the control.                                                                                                                                                     |
@@ -121,7 +121,7 @@ Element types that are not supported for editing will be displayed in gray color
 **Properties**
 
 | **Name**     | **Description**  |
-|--------------|------------------|
+|:--------------|:------------------|
 | Name         | The name of this control. |
 | Points       | A series of coordinate points, in the form of  <br>x1, y1  <br>x2, y2  <br>x3, y3 <br>…  <br>It starts from the first point and connects the subsequent points one by one.   Unlike polyline, polygon will automatically connect the last point back to the first point, forming a closed area. |
 | Fill Color   | The fill color of the control.  |
@@ -135,7 +135,7 @@ Element types that are not supported for editing will be displayed in gray color
 **Properties**
 
 | **Name**     | **Description**   |
-|--------------|------------------|
+|:--------------|:------------------|
 | Name         | The name of this control.  |
 | D            | The d attribute is a string containing a series of commands and coordinates. These commands and coordinates define the shape of the path.  Common commands are:  <br>- **M**: Moves to a specified point. M10,10: Move to the (10, 10) point. <br>- **L**: Draws a line to a specified point. L100,100: draws a line from (10, 10) to (100, 100) <br>- **C**: Draws a cubic Bezier curve. C40,10, 65,10, 95,50: Draws a cubic Bezier curve with control points (40, 10) and (65, 10) and an endpoint (95, 50). <br>- **S**: Draws a smooth Bezier curve. S150,150, 200,100: Draws a smooth cubic Bessel curve with control points automatically derived and ending at (200, 100). <br>- **Q**: Draws a quadratic Bezier curve. Q50,10, 90,50: Draws a quadratic Bezier curve with a control point of (50, 10) and an end point of (90, 50). <br>- **T**: Draws a smooth quadratic Bezier curve. T150,150: draws a smooth quadratic Bessel curve with control points calculated automatically and ending at (150, 150). <br>- **Z**: Closes the path (returns to the starting point). Z: Close the path and return to the starting point |
 | Fill Color   | The fill color of the control.  |
@@ -149,7 +149,7 @@ Element types that are not supported for editing will be displayed in gray color
 **Properties**
 
 | **Name** | **Description** |
-|----------|------|
+|:----------|:------|
 | Name     | The name of this control.                                                            |
 | X        | The distance from the left of the control to the left of the canvas, the unit is px. |
 | Y        | The distance from the top of the control to the top of the canvas, the unit is px.   |
@@ -186,7 +186,7 @@ Element types that are not supported for editing will be displayed in gray color
 
     ![alt text](38.png)
 
-**Example 2** By using property binding, the color of elements in the SVG image can be dynamically changed.
+**Example 2**: By using property binding, the color of elements in the SVG image can be dynamically changed.
 
 1. Add an SVG image from the library to the page.
 

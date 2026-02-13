@@ -7,7 +7,7 @@ The Label control is used to display text, either static text or, through proper
 **Properties**
 
 | **Name** | **Description**  |
-|-----------------|----|
+|:-----------------|:----|
 | Name | The name of this control.| X | Distance of the left side of the control from the left side of the canvas. |
 | Y  | The distance from the top of the control to the top of the canvas. |
 | W | Width of the control.  |
@@ -23,11 +23,11 @@ The Label control is used to display text, either static text or, through proper
 
 **Animation**
 
-Allows you to perform specific animations based on certain conditions. See the  **2D Visualization-> Animation** page for a complete description of the various animations.
+Allows you to perform specific animations based on certain conditions. See the  [Animation](../../animation.md)  page for a complete description of the various animations.
 
 **Event**
 
-Allows you to perform a specific event based on certain conditions. See the **2D Visualization-> Event** page for a complete description of the various events.
+Allows you to perform a specific event based on certain conditions. See the [Event](../../event/index.md)  page for a complete description of the various events.
 
 **Example 1**
 
@@ -36,7 +36,7 @@ Displays a static text.
 ![alt text](5.png)
 
 | **Name**   | **Description**                                |
-|------------|------------------------------------------------|
+|:-----------|:------------------------------------------------|
 | Background | ace9ac                                         |
 | Text       | Demo Screen                                    |
 | Font       | Calibri,16, Horizontal center, Vertical center |
@@ -48,7 +48,7 @@ Use text to display the operating status of the device.
 ![alt text](6.png)
 
 | **Name** | **Description**                                                              |
-|----------|------------------------------------------------------------------------------|
+|:----------|:------------------------------------------------------------------------------|
 | Text     | Binding expression: "Device operational status: "+tag('@area:device1status') |
 | Font     | Calibri, 16, font color f0672e, horizontal left, vertical center             |
 
@@ -64,7 +64,7 @@ When the user right clicks on the label , the following context menu pops up
 |------------------|--------------|
 | Text             | Pump temperature |
 | Font             | Calibri, 16, #000000, Horizontal center, Vertical center|
-| Right Click Menu | Add the following 2 right-click menus: <br> ![alt text](8.png)  <br> - View Historical Chart: Click on the Action button, select “Navigation” in the Action Settings window, and select a pop-up window that displays the historical chart of the pump.          <br>Note: The pop-up window needs to be pre-configured.  <br>![alt text](9.png) <br> - Set Alarm Limits: Click the Action button and select “Set Value” in the Action Setting window. Select “Demo:temperature#Alarm. Limit”. Select ‘NumberInput1#value’ for the new value. <br> When you click on this context menu, it takes the value entered in the numberinput,set it as the limit value of Demo:temperature#Alarm.High.  <br>![alt text](10.png) |
+| Right Click Menu | Add the following 2 right-click menus: <br> ![alt text](8.png)  <br> - View Historical Chart: Click on the Action button, select “Navigation” in the Action Settings window, and select a pop-up window that displays the historical chart of the pump.          <br>Note: The pop-up window needs to be pre-configured.  <br>![alt text](9.png) <br> - Set Alarm Limits: Click the Action button and select “Set Value” in the Action Setting window. Select “@Demo:temperature#Alarm. Limit”. Select ‘NumberInput1#value’ for the new value.<br>When you click on this context menu, it takes the value entered in the numberinput,set it as the limit value of @Demo:temperature#Alarm.High.  <br>![alt text](10.png) |
 
 Click the preview button on the page, click the label control on the preview page, and then click “View Historical Chart” in the right-click menu to display the following effect:
 

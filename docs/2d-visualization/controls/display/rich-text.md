@@ -2,7 +2,7 @@
 
 Rich Text controls allow you to apply rich styles, formatting and multimedia elements to text. Compared to plain text, rich text can include font styles, colors, bold, italic, underline and other text styles, as well as insert tables, links and more.
 
-VC Hub's built-in rich text editor supports two editing modes: Markdown and WYSIWYG(what you see is what you get).
+WAGO SCADA's built-in rich text editor supports two editing modes: Markdown and WYSIWYG.
 
 **Markdown Mode**
 
@@ -37,7 +37,7 @@ Whether you choose Markdown or WYSIWYG mode depends on your personal preferences
 
 **Event**
 
-Allows you to perform a specific event based on certain conditions. See the**2D Visualization-> Event** page for a complete description of the various events.
+Allows you to perform a specific event based on certain conditions. See the [Event](../../event/index.md) page for a complete description of the various events.
 
 Example
 

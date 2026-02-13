@@ -8,7 +8,7 @@ Click the Settings button on the menu bar to set properties.
 
 
 | **Name**                   | **Description**  |
-|----------------------------|---------------------------------------|
+|:---------------------------|:---------------------------------------|
 | Project Name               | Displays the name of the current project.  |
 | Startup Page               | Set the startup page of the project, the first page created is selected by default.  After setting, this page is automatically displayed when you click the run button of the project in the project list.   |
 | Login Page                 | When the Identity Provider is set to **Local** type, you can customize a page to serve as the login page during runtime.   |
@@ -46,7 +46,7 @@ Sets the loading effect for the running page when navigating from Page1 to Page 
 
 Run the page and click the "Open Page 2" button on page 1. The page is loading. When the loading is completed, Page 2 is displayed.
 
-    ![page1](../../assets/images/page1.gif)
+ ![page1](../../assets/images/page1.gif)
 
 ## Auto-login for Project Runtime Page
 

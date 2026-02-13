@@ -47,10 +47,10 @@ Different devices (e.g. computers, tablets, cell phones, etc.) have different sc
 
 Once resolution adaptation is set up, the system will automatically recognize the resolution of the current device and automatically adapt and adjust it when the page is opened on a device with a different resolution.
 
-VC Hub includes 2 resolution adaptation methods, see Resolution Adaptation.
+WAGO SCADA includes 2 resolution adaptation methods, see Resolution Adaptation.
 
-| **Adaptation Method**                                                                                                                                                                                                                 | **Description**                                      |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Adaptation Method**    | **Description**                |
+|:-------------------------|:----------------------------|
 | ![alt text](8.png) | The aspect ratio remains unchanged.                                   |
 | ![alt text](9.png)| Stretch or zoom the page so that it spreads across the entire window. |
 
@@ -58,7 +58,8 @@ VC Hub includes 2 resolution adaptation methods, see Resolution Adaptation.
 
 In addition to the basic property settings, you can create custom properties for the page. You can use custom properties like any other property, such as data binding, scripts, and styles.
 
-Custom properties are important for passing parameters from one page to another. See chapter **Page-> Page Parameter Passing** for details.
+Custom properties are important for passing parameters from one page to another. See [Page Parameter Passing ](page-parameter-passing.md)  for details.
+
 
 To configure custom properties, do the following:
 
@@ -93,7 +94,7 @@ A popup page has more properties than a page, such as title bar settings. You ca
 
 #### **Popup Position**
 
-You can specify a specific location to open the popup page. 
+You can specify a specific location to open the popup page. See [Navigation ](navigation.md)  for details.
 
 ![alt text](14.png)
 

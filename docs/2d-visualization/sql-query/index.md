@@ -16,13 +16,17 @@ The SQL Query is located under "Project" > "Data Request" in the 2D editor.
 
 ## Where to use SQL Query?
 
-SQL Query can be used in several places. Here are some examples where SQL queries can be used.
+SQL Query can be used in several places. Here are some examples where SQL queries can be used. 
 
-1. Property binding. At present, only the Table control supports binding SQL Query. 
+1. Property binding. At present, only the Table control supports binding SQL Query. For details, please see [Table](../controls/table/table.md) 
+
     ![alt text](2.png)
     You can bind an created SQL Query. The result of a query can be displayed on the table control as the data set of the table.
     ![alt text](3.png)
+
 2. Script
-    Function **"System.Db.runSqlQuery"** can be used to call SQL Query from any script.
+
+
+    [System.Db.runSqlQuery](../../appendix/system-function/system-db/system-db-runsqlquery.md) can be used to call SQL Query from any script.
     ![alt text](4.png)
 

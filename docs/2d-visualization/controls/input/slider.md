@@ -5,7 +5,7 @@ The slider control is used to display the current value and optional range, i.e.
 **Properties**
 
 | **Name** | **Description** |
-|----------|-----------------|
+|:----------|:-----------------|
 | Name | The name of this control. |
 | X | The distance of the left side of the control from the left side of the canvas. |
 | Y  | The distance from the top of the control to the top of the canvas. |
@@ -17,7 +17,7 @@ The slider control is used to display the current value and optional range, i.e.
 
 **Event**
 
-Allows you to perform a specific event based on certain conditions. See the **2D Visualization-> Event** page for a complete description of the various events.
+Allows you to perform a specific event based on certain conditions. See the [Event](../../event/index.md) page for a complete description of the various events.
 
 **Example 1**
 

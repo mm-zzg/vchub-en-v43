@@ -31,7 +31,7 @@ Once the page is created, there will be an initial permission: Authenticated.
 **Notes:**  
 
 1. Directory nodes do not require permission settings. 
-2. When setting permissions in batch mode, selecting pages will **not** display their existing permissions in the permissions area on the right. To view the assigned permissions, please use the **"View"** button in the page area. 
+2. When setting permissions in batch mode, selecting pages will **not** display their existing permissions in the permissions area on the right. To view the assigned permissions, please use the **"View"** button in the page area.
 
 ## Set permissions for individual page
 

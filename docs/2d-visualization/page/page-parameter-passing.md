@@ -57,7 +57,7 @@ System.UI.openPopup("Motor_Details", {
  
 5.Click the Preview button . On the preview page, click the button "Motor 1" to open a popup page with the text "Motor 1"; click the button "Motor 2" to open a popup page with the text "Motor 2". 
 
-    ![page-parameter-passing](../../assets/images/page-parameter-passing.gif)
+![page-parameter-passing](../../assets/images/page-parameter-passing.gif)
 
 
 
