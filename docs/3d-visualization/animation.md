@@ -1,14 +1,14 @@
 # Animation
 
-By rationally applying animation effects, VC Hub can bring users a more efficient, intuitive and pleasant interface interaction experience.
+By rationally applying animation effects, WAGO SCADA can bring users a more efficient, intuitive and pleasant interface interaction experience.
 
-In VC Hub, when the model has animation attributes, the "Animation" column will be displayed in the attribute bar on the right. Click the setting button to set the animation.
+In WAGO SCADA, when the model has animation attributes, the "Animation" column will be displayed in the attribute bar on the right. Click the setting button to set the animation.
 
 ![alt text](3d_Animation1.png)
 
 ## **Animation type**
 
-VC Hub's 3D models support the following animation types:
+WAGO SCADA's 3D models support the following animation types:
 
 #### Blink
 
@@ -27,7 +27,7 @@ Create a sphere model that represents an alarm light that flashes when the value
 | **Name**   | **Value**   |
 |:------------|:--------------------------|
 | Enable     | Enable      |
-| Bool value | Expression: tag('Default:temperature) > 40;  <br> **Note:** This animation only takes effect when the value is a Boolean value.  |
+| Bool value | Expression: tag('Default:temperature) > 40;  <br>  **Note:** This animation only takes effect when the value is a Boolean value.  |
 | Executions | The number of times to flash when the value is true        |
 | Duration   | The execution time of each flash, unit ms.          |
 
