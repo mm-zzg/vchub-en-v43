@@ -8,7 +8,7 @@ When establishing a connection (such as during redundancy or networking), the sy
 
 If the remote certificate itself or any certificate in its chain exists in the Trust Store and a valid trust chain can be established, the remote certificate is considered trusted.
 
-Click **“Node” → “Trust Store”** to display the certificate list.
+Click **"Node" → "Trust Store"** to display the certificate list.
 
 ![alt text](18.png)
 

@@ -1,11 +1,11 @@
 # Networking
 
-The networking module allows multiple VC Hub instances to be connected to form a decentralized distributed cluster.
+The networking module allows multiple SCADA instances to be connected to form a decentralized distributed cluster.
 
 The Networking module provides the following features:
 
-- A web socket-based tunnel network over which VC Hub instances can send and receive data.
-- Cross-node remote asset tree access, other VC Hub instances can access the remote asset tree associated with the current VC Hub instance.
+- A web socket-based tunnel network over which SCADA instances can send and receive data.
+- Cross-node remote asset tree access, other SCADA instances can access the remote asset tree associated with the current SCADA instance.
 - Incoming connection security configuration based on white list or manual auditing, incoming connections can also be disabled.
 - SSL support, incoming connections must start a secure connection when SSL is enabled, and incoming connections will not be successfully accessed until the certificate for the incoming connection has been audited.
 
@@ -21,17 +21,17 @@ The steps below will guide you through the configuration process for networking.
 
 **Example 1: No root certificate uploaded to the Trust Store of Node A and Node B**
 
-Step 1: On Node A,go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
+Step 1: On Node A,** **go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
 
-Step 2: On Node A,navigate to "Node" → "Networking" → "General Settings", enable *Networking*. Keep "Require Two Way Authentication" disabled.
+Step 2: On Node A,** **navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*. Keep “Require Two Way Authentication“ disabled.
 
-Step 3: On Node B,go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
+Step 3: On Node B,** **go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
 
-Step 4: On Node B,navigate to "Node" → "Networking" → "General Settings", enable *Networking*.
+Step 4: On Node B,** **navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*.
 
-Step 5: On Node A, navigate to "Node" → "Networking" → "Outgoing Connections", create a new connection to Node B , the outgoing address should be set to the identifier of Node B, such as its node name or host address.
+Step 5: On Node A, navigate to ”Node” → “Networking“ → ** **"Outgoing Connections", create a new connection to Node B , the outgoing address should be set to the identifier of Node B, such as its node name or host address.
 
-Step 6: On Node B, navigate to "Node" → "Networking" → "Incoming Connections", under the certificate list, approve Node A’s certificate. Once approved, Node A will appear in the incoming connections list.
+Step 6: On Node B, navigate to ”Node” → “Networking“ → ** **"Incoming Connections", under the certificate list, approve Node A’s certificate. Once approved, Node A will appear in the incoming connections list.
 
 Step 7: On Node B, approve Node A’s connection from the incoming connection list. Once approved, the networking connection between Node A and Node B is established.
 
@@ -42,15 +42,15 @@ Step 7: On Node B, approve Node A’s connection from the incoming connection li
 
 Step1: On Node A, go to  "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
 
-Step 2: On Node A, navigate to "Node" → "Networking" → "General Settings", enable *Networking*. Keep "Require Two Way Authentication" disabled.
+Step 2: On Node A, navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*. Keep “Require Two Way Authentication“ disabled.
 
 Step 3: On Node B, go to  "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
 
-Step 4: On Node B, navigate to "Node" → "Networking" → "General Settings", enable *Networking*.
+Step 4: On Node B, navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*.
 
-Step 5: On Node A, navigate to "Node" → "Networking" →  "Outgoing Connections", create a new connection to Node B , the outgoing address should be set to the identifier of Node B, such as its node name or host address.
+Step 5: On Node A, navigate to ”Node” → “Networking“ →  "Outgoing Connections", create a new connection to Node B , the outgoing address should be set to the identifier of Node B, such as its node name or host address.
 
-Step 6: On Node B, navigate to "Node" → "Networking" →  "Incoming Connections",
+Step 6: On Node B, navigate to ”Node” → “Networking“ →  "Incoming Connections",
 
 - If the root certificate of Node A’s networking certificate exists in Node B’s Trust Store, the certificate will be automatically trusted and won’t appear in the certificate list. Node A will appear directly in the incoming connection list.
 - If the root certificate is not present, Node A’s certificate will appear in the certificate list. Approve it to establish trust and display Node A in the incoming connection list.
@@ -70,7 +70,7 @@ After clicking "**Node**" > "**Networking**", users can see the general configur
 ![alt text](1.png)
 
 | **Configuration Item**         | **Description**  |
-|--------------------------------|-----------------|
+|:-------------------------------|:-----------------|
 | Enabled                        | Uncheck the box to disable the networking function.  |
 | Port                           | Default 8099, the listening port for networking.|
 | Require Two Way Authentication | Performs two-way TLS authentication. If true, you need to approve the remote node's certificate in the outgoing list before approving this node's certificate in the remote node's incoming list. |
@@ -87,7 +87,7 @@ When the current node needs to connect to another node, you can create an outgoi
 
 **Note:** For clarity, the current node is referred to as **Node A**, and the other node is referred to as **Node B** in the following sections. 
 
-**Add Outgoing Connection**: Click "Add" button to pop up the Add window, fill in the address and port of the remote VC Hub node and confirm, an outgoing connection will be created.
+**Add Outgoing Connection**: Click "Add" button to pop up the Add window, fill in the address and port of the remote SCADA node and confirm, an outgoing connection will be created.
 
 ![alt text](2.png)
 
@@ -95,23 +95,23 @@ When the current node needs to connect to another node, you can create an outgoi
 
 ![alt text](3.png)
 
-| **Configuration item**   | **Description**                                                                                                                                                          |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Configuration item**   | **Description**    |
+|:--------------------------|:---------------------|
 | Enabled                  | Uncheck to disable this outgoing connection.                                                                                                                             |
-| Host                     | The network address of the remote VC Hub process.                                                                                                                        |
-| Port                     | Default 8099, the listening port of the remote VC Hub node.                                                                                                              |
+| Host                     | The network address of the remote SCADA process.                                                                                                                        |
+| Port                     | Default 8099, the listening port of the remote  SCADA node.                                                                                                              |
 | Description              | Information about the outgoing connection.                                                                                                                               |
 | Ping Rate(ms)            | In milliseconds, the frequency of heartbeats sent to the remote connection after the incoming connection is created.                                                     |
 | Ping Timeout(ms)         | In milliseconds, the timeout for sending a heartbeat to the remote connection after the incoming connection is created.                                                  |
-| Http Connect Timeout(ms) | In milliseconds, default 10000, the timeout for http requests to connect to a remote VC Hub process.                                                                     |
-| Http Read Timeout(ms)    | Unit milliseconds, default 10000, timeout time for http request to send data to remote VC Hub process.                                                                   |
+| Http Connect Timeout(ms) | In milliseconds, default 10000, the timeout for http requests to connect to a remote SCADA process.                                                                     |
+| Http Read Timeout(ms)    | Unit milliseconds, default 10000, timeout time for http request to send data to remote SCADA process.                                                                   |
 | Missed Pings             | After the incoming connection is created and the number of heartbeat failures exceeds the maximum number, this incoming connection will be determined to be unavailable. |
 
 On the outgoing connections page, users can view all currently created outgoing connections as well as their statuses.
 
 ![alt text](4.png)
 
-###### Managing Outgoing Connection Status
+###### **Managing Outgoing Connection Status**
 
 When adding an outgoing connection on **Node A**, the connection address should be set to the **node name** or **host** of **Node B**.
 
@@ -119,12 +119,13 @@ After the connection is added, the information displayed in the outgoing connect
 
 1. If "Require Two Way Authentication" is disabled on **Node A**, only the  “Outgoing Connections“ list is displayed.
    ![alt text](4.png)
-   Just after creating an outgoing connection, the status of the node's outgoing connection is shown as **Faulted**.
-   The status of the data in the "Outgoing Connections" list depends on the operations performed on the ”Incoming Connections” page of **Node B**  for both certificates and incoming connections.
-   The status of the outgoing address is displayed as **Running** only if the certificate and the incoming connection are all approved on **Node B's** "Incoming Connections" page.
+   Just after creating an outgoing connection, the status of the node's outgoing connection is shown as **Faulted**.<br>
+   The status of the data in the "Outgoing Connections" list depends on the operations performed on the ”Incoming Connections” page of **Node B**  for both certificates and incoming connections.<br>
+   The status of the outgoing address is displayed as **Running** only if the certificate and the incoming connection are all approved on **Node B's** "Incoming Connections" page.<br>
 1. If "Require Two Way Authentication" is enabled on **Node A** , both the  “Outgoing Connections“ list and the "Certificate" list will be shown.
    ![alt text](5.png)
-   In this case, you must first **allow Node B’s certificate** in the certificate list on Node A’s outgoing connections page. Only after that will Node A appear in the incoming connection list on Node B.
+
+   In this case, you must first **allow Node B’s certificate** in the certificate list on Node A’s outgoing connections page. Only after that will Node A appear in the incoming connection list on Node B.<br>
    The status of Node A’s outgoing connection will be shown as **"Running"** only when all the following conditions are met:
       1. On Node A’s "Outgoing Connections" page, Node B’s  certificate in the "Certificate" list has been approved.
       2. On Node B’s "Incoming Connections" page:
@@ -153,11 +154,18 @@ Once Node A’s certificate and incoming connection are allowed on Node B’s si
 Example:
 
 1. Node A creates an outgoing connection and specifies Node B as the target address.On Node B, navigate to ”Incoming Connections”. 
-   You will see Node A’s certificate listed with a default status of “Pending Approval.”
+   
+   
+You will see Node A’s certificate listed with a default status of “Pending Approval.”
    ![alt text](6.png)
+
+
 2. On Node B’s "Incoming Connections" page, click **“Approve”** for Node A’s certificate. After approval, Node A will appear in the incoming connections list with a connection status of **“Pending Approval.”**
    ![alt text](7.png)
+
+
 3. Approve the incoming connection for Node A. At this point, the networking between Node A and Node B is established.
+
 4. On Node A, the outgoing connection to Node B will now show a status of **“Running.”**
 
 **Note:**

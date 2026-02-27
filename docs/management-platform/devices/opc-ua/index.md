@@ -10,6 +10,7 @@ Used for communication with the OPC UA server. Only UA TCP is supported,  UA HTT
    ![alt text](2.png)
 2. On the "**Server Discovery**" page, after entering the Discovery URL, click the search button to display the list of all OPC UA servers under the current URL.
    ![alt text](3.png)
+
    **Note**: Click the "**Skip**" button to manually configure connection settings. This is especially useful when the server does not allow anonymous endpoint access but provides a separate discovery endpoint. 
 3. Select a server and click "Next" to proceed to the "Select Endpoint" page. Choose a security policy and security mode. The default selection is **Best Available**. Selecting an entry means that the chosen security policy and security mode will be used to connect to the endpoint.
    ![alt text](4.png)
@@ -18,8 +19,8 @@ Used for communication with the OPC UA server. Only UA TCP is supported,  UA HTT
 
 **Configuration Fields**
 
-| **Name**            | **Description**                                                          |
-|------------------------|--------------------------------------------------------------------------|
+| **Name**            | **Description**              |
+|:------------------------|:--------------------------------|
 | Name                   | Name of the frame connection.                                            |
 | Endpoint URL           | The address of the device connection.                                    |
 | Best Available         | Use the highest level of security to connect.                            |
@@ -31,22 +32,26 @@ Used for communication with the OPC UA server. Only UA TCP is supported,  UA HTT
 | Operation Timeout (ms) | The operation timeout time of the device in milliseconds.                |
 | Session Timeout (ms)   | The session timeout time for the device in milliseconds.                 |
 
-5.Click the **"OK"** button. The data will be displayed on the OPC UA list.
+5. Click the **"OK"** button. The data will be displayed on the OPC UA list.
    ![alt text](6.png)
-6.Click the Enable button  to enable the device.
+
+6. Click the Enable button  to enable the device.
    ![alt text](7.png)
+
 7. Click the "Add Group" button on the created device to open a new window and add a group to the current device.
 
-   Each group represents a subscription set, which can be created based on different subscription methods or intervals. The driver subscribes to and receives data according to the group's configuration.
-   ![alt text](8.png)
+Each group represents a subscription set, which can be created based on different subscription methods or intervals. The driver subscribes to and receives data according to the group's configuration.
+![alt text](8.png)
+
+
 8. On the "Add Group" page, check **"Show Advanced Properties"** to access additional settings.
    ![alt text](9.png)
    ![alt text](10.png)
 
 **Advanced Property Fields**
 
-| **Name**                      | **Description**                                                                                                                                                                                                                        |
-|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name**                      | **Description**                      |
+|:------------------------------|:--------------------------------------|
 | Life Time Count(s)            | Maintain the subscription in an active state for a default duration of 1200 seconds.                                                                                                                                                   |
 | Keep Alive Count(s)           | Specifies the maximum time between Publish responses for a Subscription. If no notifications are available, an empty Publish response is returned in order to tell the Client that the Subscription is still alive. The default is 5s. |
 | Max Notifications Per Publish | Specifies the maximum number of notifications that the Client wishes to receive in a single Publish response. A value of zero indicates that there is no limit.                                                                        |
@@ -82,13 +87,16 @@ Configure the OPC client connection:
 3. The connection will be displayed as "**Test Connection Failed**". This is usually correct and expected because KEPServerEX denies access to the OPC UA client that the system creates for the first time. Therefore it is only necessary to allow KEPServerEX to trust the OPC UA client created by the system. 
 4. On the server where KEPServer is installed, right-click on the KEPServerEX icon on the desktop where KEPServerEX is installed and select "**OPC UA Configuration**" from the menu. As shown in the following figure, click the Trusted Clients tab:
    ![alt text](13.png)
+
 5. Click the Trusted Clients tab.
    ![alt text](14.png)
+
 6. Click the corresponding OPC UA client for your system, click the** Trust **button, and then click Close. The OPC Server Connections page now displays the status of the Kepware to which you want to connect.
 7. Right-click the KEPServerEX icon on the desktop where KEPServerEX is installed and select **Reinitialize** from the menu.
 8. Re-click **Test Connection** to verify that the connection was successful.
 9. Click **View** in the action bar to display information about the directories or nodes configured in the OPC UA server (Kepware).
    ![alt text](15.png)
+
 10. Click on any directory or node to display the relevant property information for the current directory or node on the right side.
    ![alt text](16.png)
 
@@ -129,8 +137,8 @@ If you manually or batch-update the **NodeId** property, you must also update th
 
 **Supported Data Types**
 
-| **DataType**      | **Suggested Tag DataType**                    | **Read/Write** | **Description**                                                                                |
-|-------------------|-----------------------------------------------|----------------|-----------------------------------------------------------------------------------------|
+| **DataType** | **Suggested Tag DataType** | **Read/Write** | **Description**|
+|:-------------------|:---------------|:----------------|:----------|
 | Null              | [any]                                         | R              | **any:** Any data type.  Not a universal data type, usually occurs when an error occurs |
 | Byte              | Integer                                       | R/W            |                                                                                         |
 | SByte             | Integer                                       | R/W            |                                                                                         |

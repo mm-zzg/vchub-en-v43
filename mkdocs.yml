@@ -203,8 +203,15 @@ nav:
                             - management-platform/workspaces/can-not-log-in.md
                   - Projects:
                             - management-platform/projects/index.md
+                            - management-platform/projects/import-and-export.md
                   - Devices:
                             - management-platform/devices/index.md
+                            - Camera:
+                                      - management-platform/devices/camera/index.md
+                                      - management-platform/devices/camera/batch-operation.md
+                                      - management-platform/devices/camera/deploy.md
+                                      - management-platform/devices/camera/play.md
+                                      - management-platform/devices/camera/security.md                   
                             - Modbus TCP:
                                       - management-platform/devices/modbus-tcp/index.md
                                       - management-platform/devices/modbus-tcp/batch-operation.md

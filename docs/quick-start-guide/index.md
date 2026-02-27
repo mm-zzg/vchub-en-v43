@@ -12,11 +12,11 @@ Click the "Add" button in the project list to create a project.
 
 ## 2.Add a Database
 
-After the installation of VC Hub, a SQLite database will be automatically created, which you can use for basic testing. You can also click "[Database](../management-platform/databases/index.md)" -> "[Database Connection](../management-platform/databases/database-connection/index.md)" page and then click the "New" button to create a new database connection. 
+After the installation of WAGO SCADA, a SQLite database will be automatically created, which you can use for basic testing. You can also click "[Database](../management-platform/databases/index.md)" -> "[Database Connection](../management-platform/databases/database-connection/index.md)" page and then click the "New" button to create a new database connection. See details in [Database Connection](./management-platform/databases/database-connection/index.md).
 
 ## 3.Add Assets
 
-After the installation of VC Hub, a default asset will be automatically created, which you can use for basic testing. You can also click "Tags" -> "[Assets](../management-platform/assets-and-tags/asset/index.md)" page and then click the "New" button to create new assets.
+After the installation of VC Hub, a default asset will be automatically created, which you can use for basic testing. You can also click "Tags" -> "[Assets](../management-platform/assets-and-tags/asset/index.md)" page and then click the "New" button to create new assets.See details in [Assets](../management-platform/assets-and-tags/asset/index.md)
 
 ## 4.Open the Editor
 
@@ -61,7 +61,7 @@ Enable the simulated property for this tag, using simulated value as the tag val
 
 ## 7.Enable History for Tags
 
-At the top of the tag editing page, enable [history](../management-platform/assets-and-tags/tag/tag-properties/history.md) to store the value of the tag historically.
+At the top of the tag editing page, enable [history](../management-platform/assets-and-tags/tag/tag-properties/history.md) to store the value of the tag historically. See details in [history](../management-platform/assets-and-tags/tag/tag-properties/history.md)
 
 ![alt text](8.png)
 

@@ -1,6 +1,6 @@
 # Batch Operation of MQTT SparkplugB Devices
 
-In industrial settings, it is often necessary to create multiple devices in bulk. VC Hub enables this through its export and import functions.
+In industrial settings, it is often necessary to create multiple devices in bulk. WAGO SCADA enables this through its export and import functions.
 
 **Note:** To quickly create devices, it is recommended to first manually add a device to the list. Then, export the device and use the exported fields as a reference to add new devices.
 
