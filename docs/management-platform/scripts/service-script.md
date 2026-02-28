@@ -21,7 +21,7 @@ On the "**Scripts**" -> "**Service Script**" screen, click the "**Tag Changed**"
 ![alt text](3.png)
 
 | **Property** | **Description**                                                                                                                                                                                                                                                           |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:--------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name         | The name of the script.                                                                                                                                                                                                                                                   |
 | Tag List     | The tag to be bound.                                                                                                                                                                                                                                                      |
 | Trigger      | Used to set what conditions trigger this script to contain:  <br>- **Value Changed**: the script will be triggered when the value of any tag in the tag list changes. <br>- **Timestamp Changed**: The script is triggered when the timestamp of any tag in the tag list changes. |
@@ -46,7 +46,7 @@ Periodical scripts are scripts that are triggered at a set frequency and execute
 On the "**Scripts**" -> "**Service Script**" page, click the "Periodical" tab, and then click the "Add" button on the upper right corner of the list. 
 
 | **Attribute**  | **Description**                                               |
-|----------------|---------------------------------------------------------------|
+|:----------------|:---------------------------------------------------------------|
 | Name           | The name of the script.                                       |
 | Frequency (ms) | How often the script is executed.                             |
 | Timezone       | Sets the time zone according to which the script is executed. |

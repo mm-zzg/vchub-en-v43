@@ -4,7 +4,7 @@ The history database will partition data into separate tables based on time sett
 
 The data cleanup feature will delete partitioned data (raw and preprocessed partitioned tables) whose data is older than a specific period of time
 
-**Note**: When InfluxDB is selected , there is no configuration for partitioning, pre-processing, and data cleaning (InfluxDB itself has the above configurations,  VC Hub does not provide this configuration).
+**Note**: When InfluxDB is selected , there is no configuration for partitioning, pre-processing, and data cleaning (InfluxDB itself has the above configurations,  WAGO SCADA does not provide this configuration). 
 
 ## **Data Partitioning and Deletion**
 
@@ -17,7 +17,7 @@ The data cleanup feature will delete partitioned data (raw and preprocessed part
 **Configuration Description**
 
 | **Configuration Item** | **Description** |
-|------------------------------|--------------------------|
+|:------------------------------|:--------------------------|
 | Enable Partitioning          | Whether to partition the stored historical data. |
 | Partition size               | The size of the data storage partition. According to the partitioning rules, data with the same rules will be stored together.   <br> **Daily**: A new table will be created daily to store history records      <br> **Weekly**: A new table will be created weekly to store history records     <br> **Monthly**:  A new table will be created monthly to store history records <br> **Quarterly**: A new table will be created quarterly to store history records  <br> **Half-yearly**:  A new table will be created half-yearly to store history records<br> **Annually**:  A new table will be created annually to store history records |
 | Enable Data Pruning          | Whether or not to delete historical data that exceeds the data cleanup time configuration. |

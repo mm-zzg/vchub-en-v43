@@ -15,8 +15,8 @@
 
 **Configuration description**
 
-| **Configuration items** | **Description**                                                                                                              |
-|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| **Configuration items** | **Description**    |
+|:--------------------------------------|:--------------------------------|
 | Name                                 | Name of the history database.                                                                                                  |
 | Description                          | Description Information of the history database.                                                                               |
 | Database Connection                  | The database connection used for this configuration, derived from data created by the Database Connections page.               |

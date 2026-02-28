@@ -2,9 +2,9 @@
 
 InfluxDB is a high-performance time-series database that focuses on large amounts of time-series data and supports flexible customizable retention policies and SQL-like interfaces.
 
-VC Hub supports **InfluxDB Enterprise** and **InfluxDB OSS V1**, but not **InfluxDB OSS V2**.
+WAGO SCADA supports **InfluxDB Enterprise** and **InfluxDB OSS V1**, but not **InfluxDB OSS V2**.
 
-On this page, we will demonstrate how to connect VC Hub to InfluxDB.
+On this page, we will demonstrate how to connect WAGO SCADA to InfluxDB.
 
 1. On the "**Databases**" -> "**Database Connection**" page, click the "Add" button. 
    ![alt text](6.png)
