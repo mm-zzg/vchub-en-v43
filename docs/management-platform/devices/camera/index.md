@@ -35,7 +35,7 @@ If you want to successfully manage and use camera devices, please first deploy t
 
 ![alt text](3.png)
 
-**Configuration Fields **
+**Configuration Fields**
 
 | **Name** | **Description**      |
 |----------|----------------------|

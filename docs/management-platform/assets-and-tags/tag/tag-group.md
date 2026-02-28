@@ -37,7 +37,7 @@ Users can add a new tag group by clicking the "Add" button in the upper right co
 ![alt text](8.png)
 
 | **Name**     | **Description**                                                                                                                       |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------|
+|:--------------|:----------------------------------------|
 | Name         | The name of the tag group, the name can not be repeated. The tag will be associated with this name when it is bound to the tag group. |
 | Description  | Description information of the tag group, optional.                                                                                   |
 | Refresh Type | Controls how the tag is pushed to the screen, categorized into value change and periodical.                                           |

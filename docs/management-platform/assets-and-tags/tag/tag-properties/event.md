@@ -21,7 +21,7 @@
 | DateTime      | √                  | X                 |
 
 | **Name**      | **Description**                                                                                            |
-|---------------|------------------------------------------------------------------------------------------------------------|
+|:---------------|:-----------------------------|
 | Set Value     | After checking this option, an event will be recorded whenever a write operation is performed on this tag. |
 | Value Changed | After checking this option, an event will be recorded whenever the value of the Boolean tag changes.       |
 

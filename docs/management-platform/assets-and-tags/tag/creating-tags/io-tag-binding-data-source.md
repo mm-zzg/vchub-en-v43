@@ -17,16 +17,19 @@ I/O tags can be bound to data sources. You can either bind a fixed data source p
 2. In the data source text box, the left side of the "=" represents the parameter name, and the right side represents the parameter value. You can modify the parameter value, but it is not recommended to modify the parameter name, as changing the parameter name will invalidate the binding path. 
 3. Please ensure that the content on both sides of the "=" in the data source input field matches the case of the fields on the configuration page. Otherwise, the data source binding may fail. It is recommended not to modify the parameter name on the left side of the "=". 
 
-    Example: Data Source Parameter Field: <br>
+
+Example:
+
+Data Source Parameter Field:
     ![alt text](14.png) <br>
-    Configuration Page Field: <br>
+Configuration Page Field: <br>
     ![alt text](15.png) 
 
 
 #### Data Source Binding Path Parameters
 
 | **DataSource Type** | **Paremeters**  |
-|---------------------|-----------|
+|:---------------------|:-----------|
 | **OPC UA**          | - DataSourceType <br>- Path <br>- NodeId <br>- DisplayName <br>- DeviceName <br>- GroupName <br>- DataType <br>- IndexOfArrayStr         |
 | **Modbus TCP**      | - DataSourceType <br>- DeviceName <br>- FrameName <br>- DataType <br>- Address <br>- Bit (Only Bool tag displays this parameter) |
 | **Modbus RTU**      | - DataSourceType <br>- DeviceName <br>- FrameName <br>- DataType <br>- Address <br>- Bit (Only Bool tag displays this parameter) |

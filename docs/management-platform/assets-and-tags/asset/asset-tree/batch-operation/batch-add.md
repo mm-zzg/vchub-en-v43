@@ -4,14 +4,13 @@ In the **Instance** and **Model** tabs, only basic information is added initiall
 
 ## Download "New Template"
 
-In the **Instance** or **Model** tab, click the **More** button and then select **Batch Operation**.
+1. In the **Instance** or **Model** tab, click the **More** button and then select **Batch Operation**.
+ ![alt text](7.png)
+ ![alt text](8.png)
 
-    ![alt text](7.png)
-    ![alt text](8.png)
+  In the **Batch Operation** popup, click **Download "New Template"** to download a blank batch addition excel template in the browser. Users can fill in the required information in the template.
 
-In the **Batch Operation** popup, click **Download "New Template"** to download a blank batch addition excel template in the browser. Users can fill in the required information in the template.
-
-    ![alt text](9.png)
+ ![alt text](9.png)
 
 
 #### "New Template" Introduction

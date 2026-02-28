@@ -2,7 +2,7 @@
 
 ## **References**
 
-References in the VC Hub system refer generically to relationships between models and instances, and instances refer generically to model instances and instances.
+References in the WAGO SCADA system refer generically to relationships between models and instances, and instances refer generically to model instances and instances.
 
 References can occur in multiple hierarchies, so there may also be a reference relationship between two instances.
 
@@ -31,7 +31,7 @@ There is a subset of "Motor Instance" instances under the "Line" model, and sinc
 
 The Instantaneous Power tag under the Motor instance is referenced from the Instantaneous Power object under the Motor model.
 
-**Production Line Instances and Production Lines**
+Production Line Instances and Production Lines
 
 The "Line Instance" instance is referenced from the "Line" model, and there will be a "Motor Instance" under the "Line Instance". The "Motor Instance" will exist under the "Line Instance" and will reference the "Instantaneous Power" tag under the "Motor Instance".
 
@@ -40,6 +40,7 @@ The "Line Instance" is referenced from the "Line" model.
 The "Motor Instance" under "Line Instance" is referenced from the "Motor Instance" under "Line".
 
 The "Instantaneous Power" tag under "Motor Instance" under "Line Instance" is referenced from the "Motor Instance" under "Line". The "Instantaneous power" tag under "Motor instance" under "Line" is referenced from the "Instantaneous power" tag under "Motor instance" under "Line".
+
 
 #### **Influence between referenced objects**
 
@@ -60,7 +61,7 @@ In the above, the definition of reference is introduced, and the concept of rewr
 
 As shown in the figure, the "instantaneous power" under the "line instance" is referenced from the "instantaneous power" under the "line" model, and the "instantaneous power" under the "line" model is referenced from the "motor" model. The "instantaneous power" under the "line" model is referenced from the "instantaneous power" under the "motor" model, which, in general, realizes a 2-tier referencing Overall, a 2-layer referencing relationship is realized.
 
-We use "Instantaneous Power Out", "Instantaneous Power Middle", and "Instantaneous Power In" to refer to them (the references do not have any meaning here, and are only for (there is no meaning in the substitution here, it is only for the sake of explanation).
+We use "Instantaneous Power Out", "Instantaneous Power Middle", and "Instantaneous Power In" to refer to them (the references do not have any meaning here, and are only for (there is no meaning in the substitution here, it is only for the sake of explanation)).
 
 Suppose we create "Instantaneous Power In" with an initial value of 50 and a unit of "W", then we initialize "Instantaneous Power Out", When we initialize "Instantaneous Power Out" and "Instantaneous Power Middle", their initial value will also be 50, and the unit of configuration will also be "W", under this premise:
 

@@ -1,12 +1,13 @@
 # Models and Instances
 
-Models and instances in VC Hub provide object-oriented data design capabilities. By defining a model and generating one or more instances, complex configuration screens can be built quickly. All instances inherit the data configuration changes in the model, which significantly reduces the amount of work involved in data model configuration.
+Models and instances in WAGO SCADA provide object-oriented data design capabilities. By defining a model and generating one or more instances, complex configuration screens can be built quickly. All instances inherit the data configuration changes in the model, which significantly reduces the amount of work involved in data model configuration.
 
-In VC Hub, tags in the model do not perform any operations and the model can be thought of as a device template. We can instantiate the model and the instantiated data will be subject to data push and subscription.
+
+In WAGO SCADA, tags in the model do not perform any operations and the model can be thought of as a device template. We can instantiate the model and the instantiated data will be subject to data push and subscription.
 
 ## **What types of data can be included under models and instances**
 
-Model instances, sets and tags are also included under models and instances.  
+Model instances, sets and tags are also included under models and instances.
 
 A complete model usually contains many complex components that are built through subsets. When a model is referenced and created as an instance, the instance references all the subsets under the model. Changes made to the configuration of these subsets in the model will also affect the corresponding instance.
 
@@ -86,11 +87,11 @@ The data to be monitored for the motors: switching status, instantaneous power.
 
 - Scenario 3: You need to add an "Arm" device to each Line. 
 
-    Simply create a model named "Arm" in the **Model tab**, add an I/O tag named "Distance" under the model, and then under the Line model, instance the " Arm" model. "model.
+ Simply create a model named "Arm" in the **Model tab**, add an I/O tag named "Distance" under the model, and then under the Line model, instance the " Arm" model. "model.
 
-    Under the **Instances tab**, you will see that under Line 1, Line 2, and Line 3, instances of the Arm are displayed, and the Distance tag is displayed under the instances.
+Under the **Instances tab**, you will see that under Line 1, Line 2, and Line 3, instances of the Arm are displayed, and the Distance tag is displayed under the instances.
 
-    ![alt text](20.png)
+![alt text](20.png)
 
 
 
@@ -99,16 +100,16 @@ The data to be monitored for the motors: switching status, instantaneous power.
 
 #### **Model**
 
-| **Configuration** | **Description**                                                                                                            |
-|-------------------|----------------------------------------------------------------------------------------------------------------------------|
+| **Configuration** | **Description**        |
+|:-------------------|:------------------------------------|
 | Name              | Name of the model, required. The name of the model, mandatory, unique and non-repeatable among nodes of the same level.    |
 | Description       | Description of the model, optional.                                                                                        |
 | Parameter         | Additional configurations of the model, user-defined additions and deletions, e.g., the model number in the "Motor" model. |
 
 #### **Instance**
 
-| **Configuration** | **Description**                                                                                                                                                                                                                                                                                                              |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Configuration** | **Description**  |
+|:-------------------|:--------------------------|
 | Name              | The name of the instance, mandatory, unique and non-repeatable among nodes of the same level.                                                                                                                                                                                                                                |
 | Reference         | The path of the instance that directly references the object. When an instance is created, the reference path must be a model that exists in the current asset, and when multiple layers are involved, the reference path will not point to the root model, but to the instance that corresponds to the direct relationship. |
 | Description       | The description of the instance, optional.                                                                                                                                                                                                                                                                                   |
@@ -116,8 +117,8 @@ The data to be monitored for the motors: switching status, instantaneous power.
 
 #### **Set**
 
-| **Configuration** | **Description**                                                                              |
-|-------------------|----------------------------------------------------------------------------------------------|
+| **Configuration** | **Description**  |
+|:-------------------|:---------------|
 | Name              | The name of the set, required, unique and non-repeatable name among nodes of the same level. |
 | Reference         | This set directly references the path to the object.                                         |
 

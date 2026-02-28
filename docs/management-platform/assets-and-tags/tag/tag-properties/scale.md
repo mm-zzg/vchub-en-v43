@@ -12,9 +12,9 @@
  When the switch is turned on, the range conversion configuration will be automatically displayed in the popup window, users can set the range conversion configuration according to the actual needs, and click the **"OK"**  button after the setting is completed.
 ![alt text](18.png)
 
-| **Name** | **Description**                                                                                                                                                                                                                                                                         |
-|----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Mode     | There  are 3 modes:  -  Linear:This mode is displayed when the data type of the tag is Integer, Double. -  Square: This mode is displayed when the data type of the tag is Integer,Double. - Re verse:This mode is displayed when the data type of the tag is Bool.                     |
+| **Name** | **Description**       |
+|:----------|:-----------------------|
+| Mode     | There  are 3 modes:  <br>-  Linear:This mode is displayed when the data type of the tag is Integer, Double. <br>-  Square: This mode is displayed when the data type of the tag is Integer,Double. <br>- Re verse:This mode is displayed when the data type of the tag is Bool.                     |
 | Raw      | Configurable when the mode is Linear or Square.   <br>![alt text](19.png) |
 | Value    | Configurable when the mode is Linear or Square.  <br>![alt text](20.png)  |
 
