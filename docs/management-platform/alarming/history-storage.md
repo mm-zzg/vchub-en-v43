@@ -1,6 +1,6 @@
 # History Storage
 
-VC Hub allows you to store alarm data in a database. Basic data about the alarms that have occurred, such as path, time, level, status, etc. can be stored.
+WAGO SCADA allows you to store alarm data in a database. Basic data about the alarms that have occurred, such as path, time, level, status, etc. can be stored.
 
 Multiple history database can be created, where you can store a part of the alarms in one database and another part of the alarms in another database. And set different storage policies for each library.
 
@@ -18,10 +18,10 @@ On the Historical Alarm control, you can select a history bank for data filterin
 **Properties of the Popup**
 
 | **Name**            | **Description**                  |
-|---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Name                | The name of the alarm history storage.                                                                                                                                                                                                                                                     |
+|:---------------------|:--------------------|
+| Name                | The name of the alarm history storage.         |
 | Type                | Drop down selections containing: Database and Remote.   When Database is selected for Type, in the Database Connection field, select a locally created database. When Remote is selected, you need to select the remote node as well as the remote alarm history storage.                  |
-| Database Connection | Drop-down list to select the database that has been created in the "Databases" -> "Database Connection" page. Single-select only.  | Note: The drop-down option does not include databases of type InfluxDB. | |-------------------------------------------------------------------------| |
+| Database Connection | Drop-down list to select the database that has been created in the "Databases" -> "Database Connection" page. Single-select only.  <br> Note: The drop-down option does not include databases of type InfluxDB.  |-------------------------------------------------------------------------| |
 | Description         | Description of the alarm history storage.                                                                                                                                                                                                                                                  |
 | Retention Days      | The number of days that the alarm data under this alarm history storage will be retained in the database.                                                                                                                                                                                  |
 | Min Priority        | Sets which levels of alarm data are stored. Only alarms with a priority level equal to or higher than the specified priority level are stored.                                                                                                                                             |
@@ -31,8 +31,8 @@ The following is displayed when “Remote” is selected as the type:
 
 **Properties of the Popup**
 
-| **Name**             | **Description**                                                                                                                                                                                                                                                                                                                                           |
-|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name**             | **Description**       |
+|:----------------------|:---------------------|
 | Name                 | The name of the alarm history storage.                                                                                                                                                                                                                                                                                                                    |
 | Type                 | Drop down selections containing: Database and Remote.   When Database is selected for Type, in the Database Connection field, select a locally created database. When Remote is selected, you need to select the remote node as well as the remote alarm history storage.                                                                                 |
 | Remote Node          | Drop down to select a node name that forms a networking with the current node.                                                                                                                                                                                                                                                                            |
@@ -40,7 +40,7 @@ The following is displayed when “Remote” is selected as the type:
 | Query Only           | Default is turned off. When it is turned on, only remote alarms can be queried, and new alarms generated at the remote node will not be stored in the database; if it is turned off, new alarms generated at the remote node will be stored in the database. The database mentioned here refers to the database used by the remote alarm history storage. |
 | Description          | Description of the alarm history storage.                                                                                                                                                                                                                                                                                                                | 
 
-3.When the settings are complete, click the OK button.
+3. When the settings are complete, click the OK button.
 
 ## **History Database Application**
 

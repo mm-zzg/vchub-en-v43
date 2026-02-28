@@ -1,6 +1,6 @@
 # Failed
 
-In VC Hub, when a notification rule fails to execute, a message is logged in the failed List. By default, all failed data from the last 7 days are displayed, and the user can query the list for a time span of up to 1 year. If there is an failed message in the list, an icon will be displayed in the upper right corner of the menu; the icon will disappear only when there is no any failed message in the list. In addition, users can resend or delete these anomalies in order to better manage and resolve the anomalies in the system.
+In WAGO SCADA, when a notification rule fails to execute, a message is logged in the failed List. By default, all failed data from the last 7 days are displayed, and the user can query the list for a time span of up to 1 year. If there is an failed message in the list, an icon will be displayed in the upper right corner of the menu; the icon will disappear only when there is no any failed message in the list. In addition, users can resend or delete these anomalies in order to better manage and resolve the anomalies in the system.
 
 ## View
 

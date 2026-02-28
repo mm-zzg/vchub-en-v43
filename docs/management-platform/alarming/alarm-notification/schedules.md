@@ -14,7 +14,7 @@ Notification scheduling is used to manage and set the schedule for sending alarm
 **Properties**
 
 | **Name**       | **Description**                                                                                                                                                                                                                                                                        |
-|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:----------------|:-------------------------------------|
 | Name           | Schedule Name, required and must be unique.                                                                                                                                                                                                                                            |
 | Description    | Description of the schedule, optional.                                                                                                                                                                                                                                                 |
 | Timezone       | Time zone for the schedule to run.                                                                                                                                                                                                                                                     |
@@ -30,14 +30,14 @@ Notification scheduling is used to manage and set the schedule for sending alarm
 1. Click "**Alarming** "->" **Alarm Notifications** "->"**Schedules**" to enter the notification schedule list page.
     ![alt text](1.png)
 2. Click the "**Add**" button. In the new pop-up window, select "Holiday".
-    ![alt text](4.png)
-3. Click "Next" to enter the detailed configuration window. 
     ![alt text](5.png)
+3. Click "Next" to enter the detailed configuration window. 
+    ![alt text](6.png)
 
 **Properties**
 
 | **Name**    | **Description**                                                                                             |
-|-------------|-------------------------------------------------------------------------------------------------------------|
+|:-------------|:-------------------|
 | Name        | Schedule Name, required and must be unique.                                                                 |
 | Description | Description of the schedule, optional.                                                                      |
 | Timezone    | Time zone for the schedule to run.                                                                          |
@@ -49,7 +49,7 @@ Notification scheduling is used to manage and set the schedule for sending alarm
 
 Click '**View Schedule**' in 'Regular Schedule' to see the current schedule dates in the pop-up schedule table.
 
-![alt text](6.png)
+![alt text](23.png)
 
 Click 'View Schedule' in 'Holiday Schedule', and the pop-up schedule table will display all holiday dates.
 
@@ -64,9 +64,9 @@ In the alarm notification rules, you will select the notification service.
 1. Click on **"Alarming" -> "Alarm Notifications" ->  Rules"** to enter the notification rules list page.
 2. Click the **"New"** button in the upper right corner of the list.
 3. In the pop-up window, click the **'+Email'**  or '**+SMS**'  button to add a new notification rule.In the schedule dropdown, select the previously created schedule.
-    ![alt text](8.png)
+
 
 **Note:** Notification schedules can only select regular schedules. The purpose of holiday schedules is to determine whether regular schedules should ignore these holidays when sending notifications. 
 
-
+ ![alt text](8.png)
 

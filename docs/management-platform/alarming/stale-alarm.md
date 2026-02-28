@@ -12,6 +12,6 @@
 ![alt text](5.png)
 
 | **Name**                  | **Description**                                                                              |
-|---------------------------|----------------------------------------------------------------------------------------------|
+|:---------------------------|:---------------|
 | Alarm Retention Period(h) | The duration for which an alarm remains active if it is not handled or acknowledged in time. |
 

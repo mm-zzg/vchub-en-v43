@@ -16,7 +16,7 @@ This configuration is used to define what is included in the email notification 
 **Properties**
 
 | **Name**       | **Description**  |
-|----------------|------------------|
+|:----------------|:------------------|
 | Name           | The name of the notification message is required. The name is unique and cannot be repeated.  |
 | Description    | Description of the message of the notification, optional. |
 | Subject        | The subject of the email received.  |
@@ -31,7 +31,7 @@ In the alarm notification rules, you will select the notification service.
 
 1. Click on **"Alarming" -> "Alarm Notifications" -> "Rules"** to enter the notification rules list page.
 2. Click the **"New"** button in the upper right corner of the list.
-3. In the pop-up window, click the **'+Email'** button to add a new Email notification rule.In the notification message dropdown, select the previously created notification message.
+3. In the pop-up window, click the **'+Email'** button to add a new Email notification rule. In the notification message dropdown, select the previously created notification message.
 
     ![alt text](6.png)
 

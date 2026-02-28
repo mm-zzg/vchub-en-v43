@@ -17,7 +17,7 @@ Used to configure sending alarm notifications via DingTalk to specific groups or
 **Properties**
 
 | **Name** |**Description** |
-|---------------|----------------|
+|:---------------|:----------------|
 | Name             | Notification service name.|
 | Description      | Notification service description. |
 | Send To          | You can configure recipients as either DingTalk groups or individual DingTalk Members. After selecting the type, add the corresponding information in the section below. |

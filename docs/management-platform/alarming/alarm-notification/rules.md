@@ -13,7 +13,7 @@ Notification rules offer flexible configuration options that allow you to precis
 **Porperties**
 
 | **Name**       | **Description**                                                                           |
-|----------------|-------------------------------------------------------------------------------------------|
+|:----------------|:----------------------|
 | Name           | The name of the notification rule is required. The name is unique and cannot be repeated. |
 | Description    | Description of the notification rule, optional.                                           |
 | Alarm Criteria | Decide whether to send an alarm notification based on the Alarm Status or Shelve Status.  |
