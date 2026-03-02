@@ -66,8 +66,8 @@ It includes six categories:
     The matching strategy is set to "Match Any" by default. Users can adjust it according to the actual situation, and only one matching strategy is supported for selection.
 
 | **Matching Strategy** | **Description**                                                                                    |
-|-----------------------|----------------------------------------------------------------------------------------------------|
+|:-----------------------|:----------------------------------------------------------------------------------------------------|
 | Match All             | Users must have all access levels in order to possess the corresponding permissions.               |
 | Match Any             | Users can have the corresponding permissions as long as they possess any one of the access levels. |
 
-3.**Click the "OK" button to save.**
+3. **Click the "OK" button to save.**

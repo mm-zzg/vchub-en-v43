@@ -1,13 +1,13 @@
 # Identity Provider
 
-The **Identity Provider** provides a way for users to log into **VC Hub** using credentials stored outside of VC Hub. It supports **Single Sign-On (SSO)**.
+The **Identity Provider** provides a way for users to log into **WAGO SCADA** using credentials stored outside of WAGO SCADA. It supports **Single Sign-On (SSO)**.
 
-VC Hub can connect to two different types of Identity Providers:
+WAGO SCADA can connect to two different types of Identity Providers:
 
-- **Local** – The built-in Identity Provider of VC Hub.
+- **Local** – The built-in Identity Provider of WAGO SCADA.
 - **OpenID Connect** – An external authentication provider based on the OpenID Connect protocol.
 
-After successfully installing VC Hub, the **Identity Provider list** will display a built-in Identity Provider by default.
+After successfully installing WAGO SCADA, the **Identity Provider list** will display a built-in Identity Provider by default.
 
 ![alt text](25.png)
 
@@ -39,15 +39,14 @@ You are allowed to create multiple **OpenID Connect** type Identity Providers.
 **Properties**
 
 | **Name**      | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|---------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:---------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name          | The name of the Identity Provider.                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Description   | The description of the Identity Provider.                                                                                                                                                                                                                                                                                                                                                                                              |
 | URL           | The URL of the OpenID Provider configuration file.                                                                                                                                                                                                                                                                                                                                                                                     |
 | Redirect URL  | After OpenID Connect authentication succeeds or fails, the Identity Provider will redirect the user's browser to the VC Hub URL.                                                                                                                                                                                                                                                                                                       |
 | Client Id     | The unique identifier assigned by the Identity Provider to each OpenID Connect client application.                                                                                                                                                                                                                                                                                                                                     |
 | Client Secret | The confidential credentials used to authenticate the OpenID Connect client, equivalent to a "password".                                                                                                                                                                                                                                                                                                                               
-| Scope        | Through scopes, VC Hub tells the Identity Provider which user information it needs access to.  For example:  ![alt text](31.png) This means that VC Hub is requesting access to the user's roles and email address.
-
+| Scope        | Through scopes, WAGO SCADA tells the Identity Provider which user information it needs access to.  For example:  ![alt text](31.png) This means that WAGO SCADA is requesting access to the user's roles and email address.
 
 
 
@@ -60,13 +59,11 @@ You are allowed to create multiple **OpenID Connect** type Identity Providers.
 
 ## Important Nodes
 
-According to the OpenID Connect (OIDC) protocol, when integrating a third-party Identity Provider (such as Auth0) into VC Hub, it is necessary to configure the login callback URL (Redirect URI) and logout callback URL (Post Logout Redirect URI) of VC Hub on the third-party platform.
+According to the OpenID Connect (OIDC) protocol, when integrating a third-party Identity Provider (such as Auth0) into WAGO SCADA, it is necessary to configure the login callback URL (Redirect URI) and logout callback URL (Post Logout Redirect URI) of WAGO SCADA on the third-party platform.
 
 When a project file is exported from the original server and imported to a new server, OIDC validation will fail if the new server’s address is not registered with the third-party Identity Provider, resulting in users being unable to log in. Therefore, after migrating the project, the new server’s callback URLs must be added to the existing configuration on the third-party platform (e.g., in the Auth0 management console).
 
-**Example for Auth0:** In the application's **Allowed Callback URLs** and **Allowed Logout URLs** fields, append the new server's address to the existing list, separated by a comma. 
-
-For example:
+**Example for Auth0:** In the application's **Allowed Callback URLs** and **Allowed Logout URLs** fields, append the new server's address to the existing list, separated by a comma. For example:
 
 ![alt text](32.png)
 

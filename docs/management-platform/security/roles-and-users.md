@@ -1,6 +1,6 @@
 # Roles and Users
 
-VC Hub provides 3 built-in roles.
+WAGO SCADA provides 3 built-in roles.
 
 - Admin: Has all privileges.  
 - Configurator: The only difference from Admin is that Admin cannot be selected for the role when creating a user.  
@@ -18,7 +18,7 @@ You can add other roles in the Roles page.
 **Configurations:**
 
 | **Name**     | **Description**                                                                                                                                                           |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:--------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Role Name    | The name of this role.                                                                                                                                                    |
 | Description    | The description of this role.                                                                                                                                                    |
 | Startup Page | You can configure a startup page for a role when the role can only view the running page of a specific project. Select a page from all project pages as the startup page. |

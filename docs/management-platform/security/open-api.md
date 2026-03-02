@@ -1,6 +1,6 @@
 # OIDC Server(Open API) Registrations
 
- VC Hub includes a built-in OpenID Connect (OIDC) identity server, which is used to authenticate users using industry-standard OIDC protocols. 
+ WAGO SCADA includes a built-in OpenID Connect (OIDC) identity server, which is used to authenticate users using industry-standard OIDC protocols. 
 
 The OIDC server supports different flows in in OIDC protocols for different kinds of applications.
 
@@ -24,7 +24,7 @@ Click the "Register" button to add new  OpenId Client.
 **Properties**
 
 | **Name**                   | **Description**                                                                                                                                                                                                                                                                                           |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:----------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Client Id                  | The id of client credential                                                                                                                                                                                                                                                                               |
 | Client Secret              | The secret of client credential                                                                                                                                                                                                                                                                           |
 | Repeat Secret              | The repeat secret of client credential used to ensure user enter two same secret                                                                                                                                                                                                                          |
@@ -38,12 +38,12 @@ Click the "Register" button to add new  OpenId Client.
 
  **Note**：**When registerating a new open client,  the content should be based on purpose of the client application.** 
 
-#### Scenario 1:  A client application configurated to use VC Hub as its identity provider to authenticate its end user.
+#### Scenario 1: A client application configurated to use SCADA as its identity provider to authenticate its end user.
 
 1. When registering an OpenID client, select the **Authorization Code Flow** or **Implicit Flow**. It is recommended to use **Authorization Code Flow** for better security.
 2. Enter the redirect url and logout redirect url of the client application. 
 
-     Take VC Hub as an example:
+     Take SCADA as an example:
 
      The **Redirect URL:** http://{client-applicatoin-host}/api/oidc/callback/signin 
 
@@ -53,7 +53,7 @@ Click the "Register" button to add new  OpenId Client.
 
 3. Open the **Identity Provider** configuration interface in the client application.Enter the following information:Client ID,Client Secret.
 
-If VC Hub is the client application, you should fill in the identity provider configuration page with the client information you previously registered.
+If SCADA is the client application, you should fill in the identity provider configuration page with the client information you previously registered.
 
 ![alt text](37.png)
 
@@ -90,7 +90,7 @@ Click the "**Reset Secret**" button to reset the secret of the credential.
 
 ## Delete
 
-Clicking the "Delete" button will remove the API authorization. Once deleted, this authorization can no longer be used to access the interface data of VC Hub.
+Clicking the "Delete" button will remove the API authorization. Once deleted, this authorization can no longer be used to access the interface data of WAGO SCADA.
 
 ![alt text](43.png)
 
@@ -102,8 +102,8 @@ Given the differing use cases and security considerations of these flows, we sto
 
 **Best Practices:**
 
-- If your application is intended for end-user  interactions, select the **Authorzation Code Flow**.
-- If your application is designed for server-to-sever comunication (e.g.,Open API), select the **Client Credential Flow**.The Open API of VC Hub is designed for server-to-server, as the its permissions of APIs are tied to the client ID.
+- If your application is intended for end-user  interactions, select the **Authorzation Code Flow.**
+- If your application is designed for server-to-sever comunication (e.g.,Open API), select the **Client Credential Flow.** The Open API of SCADA is designed for server-to-server, as the its permissions of APIs are tied to the client ID.
 
 By selecting the appropriate authorization flow, you can enhance the security of your client while ensuring your application operates in compliance with beset practices.
 

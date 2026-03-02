@@ -1,6 +1,6 @@
 # User Attribute Mapping
 
-User attribute mapping allows you to map information from the Identity Provider response document to easily understandable attributes. For this to work, VC Hub must already have a valid Identity Provider configuration that returns a response document when attempting to log in.
+User attribute mapping allows you to map information from the Identity Provider response document to easily understandable attributes. For this to work, WAGO SCADA must already have a valid Identity Provider configuration that returns a response document when attempting to log in.
 
 ## Configuring User Attribute Mapping
 
@@ -14,7 +14,7 @@ User attribute mapping allows you to map information from the Identity Provider 
 **Properties**
 
 | **Name**     | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:--------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Username     | Mapping for username.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | Role         | Mapping for role.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Name         | Mapping for name.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -41,7 +41,7 @@ User attribute mapping allows you to map information from the Identity Provider 
 
 }
 
-2.The mapping paths can be set as follows:
+2. The mapping paths can be set as follows:
 
   ![alt text](35.png)
 
@@ -50,7 +50,7 @@ User attribute mapping allows you to map information from the Identity Provider 
    - `user_roles` → The local role（role）
    - `name` → The local name（name）
 
-3.In **VC Hub**, the end-user information is mapped as follows:
+3. In **WAGO SCADA**, the end-user information is mapped as follows:
 
 {
 

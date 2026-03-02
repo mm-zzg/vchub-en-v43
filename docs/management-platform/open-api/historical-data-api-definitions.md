@@ -9,7 +9,7 @@ Protocol: Https
 Request Payload(QueryString):
 
 | Name            | Type     | Description                                                                                                          |
-|-----------------|----------|----------------------------------------------------------------------------------------------------------------------|
+|:-----------------|:----------|:----------------------------------------------------------------------------------------------------------------------|
 | startTime       | DateTime | The start time                                                                                                       |
 | endTime         | DateTime | The end time                                                                                                         |
 | queryMode       | String   | The query mode(None,Raw,FixedPoints,Periodic)                                                                        |
