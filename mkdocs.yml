@@ -628,6 +628,11 @@ nav:
                                                 - 3d-visualization/3d-low-code-example/object-models-in-the-scene/text-annotation/text.md
         - Appendix:
                   - appendix/index.md
+                  - Demo Workspace:
+                            - appendix/demo-workspace/index.md
+                            - appendix/demo-workspace/home.md
+                            - appendix/demo-workspace/components.md
+                            - appendix/demo-workspace/features.md
                   - System Function:
                             - appendix/system-function/index.md
                             - System.Alarm:
