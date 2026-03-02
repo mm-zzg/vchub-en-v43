@@ -1,41 +1,28 @@
 # Version Update Notes
 
- VC Hub is constantly evolving and being updated, with each new version bringing new features and bug fixes. Here, you can quickly preview the new features and resolved issues of the corresponding versions.
+ WAGO SCADA is constantly evolving and being updated, with each new version bringing new features and bug fixes. Here, you can quickly preview the new features and resolved issues of the corresponding versions.
 
-## Determining Your Current Version
+### Determining Your Current Version
 
- You can find out the version number of VC Hub you are currently using in the following two ways:
+ You can find out the version number of WAGO SCADA you are currently using in the following two ways:
 
-1.  In the bottom right corner of the management platform, you can find the corresponding VC Hub version number.
-2.  In the top right corner ofthe configuration editing interface, there is an exclamation mark icon. You can click on this icon to get the corresponding VC Hub version number information.
+1.  In the bottom right corner ofthe management platform, you can find the corresponding WAGO SCADA version number.
+2.  In the top right corner ofthe configuration editing interface, there is an exclamation mark icon. You can click on this icon to get the corresponding WAGO SCADA version number information.
 
 ![alt text](5.png)
 
 ![alt text](6.png)
 
--  WYSIWYG Configuration Editor：VC Hub provides a WYSIWYG (What You See Is What You Get) configuration editor, allowing you to preview the configuration effects in real-time.
--  Standardized Alarms：VC Hub offers standardized alarm functions, including various limit alarms, rate of change alarms, and equal value alarms, and provides corresponding real-time and historical configuration controls.
--  Object-Oriented VC Hub supports the direct creation of tags and supports the creation of tags in an object-oriented manner. You can build your field applications through the concept of assets.
--  Multi-Database: VC Hub supports the configuration of various databases for historical data storage, such as MySQL, SQL Server, etc.
--  Networking and Redundancy: VC Hub supports large-scale configurations and high-availability scenarios. You can build your complexfield configuration projects through multiple SCADA networking.
--  3D Digital Twin: VC Hub supports 3D configuration, like 2D configuration. You can build your digital twin scenarios, and it provides many 3D API for you to configure more advanced and complex digital twin applications.
+-  WYSIWYG Configuration Editor：WAGO SCADA provides a WYSIWYG (What You See Is What You Get) configuration editor, allowing you to preview the configuration effects in real-time.
+-  Standardized Alarms：WAGO SCADA offers standardized alarm functions, including various limit alarms, rate of change alarms, and equal value alarms, and provides corresponding real-time and historical configuration controls.
+-  Object-Oriented WAGO SCADA supports the direct creation of tags and supports the creation of tags in an object-oriented manner. You can build your field applications through the concept of assets.
+-  Multi-Database: WAGO SCADA supports the configuration of various databases for historical data storage, such as MySQL, SQL Server, etc.
+-  Networking and Redundancy: WAGO SCADA supports large-scale configurations and high-availability scenarios. You can build your complexfield configuration projects through multiple SCADA networking.
+-  3D Digital Twin: WAGO SCADA supports 3D configuration, like 2D configuration. You can build your digital twin scenarios, and it provides many 3D API for you to configure more advanced and complex digital twin applications.
 
-## New Features
+#### New Features
 
-#### 5.0.X
-
-- **License Management**: Support license activation, deactivation, refresh, update and deletion.
-- **Force logout online user**: If the number of concurrent users reaches the license limit, the system will automatically force the earliest logged-in user to log out when a user with security permission logs in. Ensure that users with security permission can always access the system, or release the login slots for other users to use.
-
-#### 4.5.X
-
-- **License Management**: Activate the license using DRM. This version only supports the trial mode of the license.
-
-#### 4.4.X
-
-- **Logo and Name Modification**: The product logo has been replaced, and the product name has been changed from WAGO SCADA to WAGO Visualization and Control Hub, abbreviated as VC Hub.
-
-#### 4.3.X
+###### 4.3.X
 
 - **SVG Editor**: Through the SVG editor, users can modify and save attributes of SVG images in the library, such as color, size, text content, and visibility.
 - **Toggle Button**: Switches between ON and OFF states when clicked. Commonly used to control Boolean-type devices, such as start/stop or on/off switches.
@@ -45,7 +32,7 @@
 - **Screen Functions and Expression Functions**: By defining screen functions or expression functions, common logic can be centralized and reused. This avoids writing the same logic repeatedly in each component, allowing one modification to take effect globally, reducing maintenance costs.
 - **Binding Support for Enabling/Disabling Animations**: When configuring animations for components, the enabling and disabling of animations can be controlled through property bindings.
 
-#### 4.2.X
+###### 4.2.X
 
 - **Permissions**：Supports single sign-on; allows setting permissions for projects and pages.
 - **SQL Query**：Enables querying data from third-party databases. It is a pre-configured query that can be later bound to controls. When executing SQL statements, parameters can be passed to return dynamic result sets.
@@ -54,15 +41,15 @@
 - **Parameterized Data Source Binding**：When binding a data source to a tag, parameters can be used to replace path content. Later, modifying the parameter value will automatically update the path.
 - **Batch Editing Control Properties**：For the same type of controls, such as multiple labels, selecting all of them allows batch modification of their properties.
 - **Editable System Tags**：System tags can be edited and configured for alarms, historical storage, and other settings.
-- **OPC UA**：Add discovery service function.
-- **Camera**: Configure WebRTC Streamer to set up the camera, enabling camera streaming while keeping it separate from the VC Hub server.
-- **WeCom and DingTalk support to receive alarm notification**: Support to send alarm notification to WeCom group, WeCom account, DingTalk group , DingTalk account.
+- **OPC UA** Add discovery service function.
+- **Camera:** Configure WebRTC Streamer to set up the camera, enabling camera streaming while keeping it separate from the WAGO SCADA server.
+- **WeCom and DingTalk support to receive alarm notification:** Support to send alarm notification to WeCom group, WeCom account, DingTalk group , DingTalk account.
 
-#### 4.1.X
+###### **4.1.X**
 
-- **Alarm Notifications**: VC Hub can send alarm notifications to specific users when a system alarm occurs. Notifications can be sent via email or SMS.
-- **Symbols**: Symbols can be used to create detailed models of devices or systems, supporting combinations of multiple components and sub-symbols. This allows users to easily monitor the overall system operation. VC Hub supports user-defined symbols, enhancing operational efficiency.
-- **Workspace Upgrades**: VC Hub supports upgrading historical workspaces to the version of the currently installed package.
-- **Open API**: VC Hub allows data to be shared with external applications or partners via APIs for seamless data sharing.
+- **Alarm Notifications**: WAGO SCADA can send alarm notifications to specific users when a system alarm occurs. Notifications can be sent via email or SMS.
+- **Symbols**: Symbols can be used to create detailed models of devices or systems, supporting combinations of multiple components and sub-symbols. This allows users to easily monitor the overall system operation. WAGO SCADA supports user-defined symbols, enhancing operational efficiency.
+- **Workspace Upgrades**: WAGO SCADA supports upgrading historical workspaces to the version of the currently installed package.
+- **Open API**: WAGO SCADA allows data to be shared with external applications or partners via APIs for seamless data sharing.
 - **Property Binding**: Added support for "Dynamic Tag" binding and "Cell Update" binding.
-- **Batch Operation Tags**: VC Hub supports bulk addition and editing of tags through Excel.
+- **Batch Operation Tags**: WAGO SCADA supports bulk addition and editing of tags through Excel.
