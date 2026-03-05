@@ -11,12 +11,13 @@ If you want to successfully manage and use camera devices, please first deploy t
 
 #### **Creating a WebRTC Streamer**
 
-1. Navigate to ”**Device”** ->" **Camera"** page, then click the **"Add WebRTC Streamer"** button.
-2. On the Add page, enter the WebRTC Streamer information.
+1.Navigate to ”**Device”** ->" **Camera"** page, then click the **"Add WebRTC Streamer"** button.
+
+2.On the Add page, enter the WebRTC Streamer information.
 
 ![alt text](1.png)
 
-**Configuration Fields **
+**Configuration Fields**
 
 | **Name** | **Description**                                     |
 |:----------|:-----------------------------------------------------|
@@ -24,14 +25,14 @@ If you want to successfully manage and use camera devices, please first deploy t
 | Host     | The network address of the WebRTC Streamer service. |
 | Port     | The port of the WebRTC Streamer service.            |
 
-3. Click the **"OK"** button. The data will be displayed in the Camera list.
+3.Click the **"OK"** button. The data will be displayed in the Camera list.
 
 ![alt text](2.png)
 
 #### **Creating a Camera Device**
 
-1. In the actions column of the created device, click the **"Add Camera"** button to add a Camera for the current device.
-2. On the Add page, enter the camera information.
+1.In the actions column of the created device, click the **"Add Camera"** button to add a Camera for the current device.
+2.On the Add page, enter the camera information.
 
 ![alt text](3.png)
 
@@ -40,20 +41,20 @@ If you want to successfully manage and use camera devices, please first deploy t
 | **Name** | **Description**      |
 |----------|----------------------|
 | Name     | The name of the Camera.               |
-| Onvif    | Currently, only basic PTZ functionality (pan, tilt, zoom) is supported. Ensure the camera supports the Onvif protocol.  | Host     | The network address of the Onvif service.                        | |----------|------------------------------------------------------------------| | Port     | The listening port of the Onvif service.                         | | Username | The authentication username for connecting to the Onvif service. | | Password | The authentication password for connecting to the Onvif service. |  Click the **"Test Onvif Connection"** button to verify if the Onvif service is accessible.       |
-| RTSP     | RTSP (Real-Time Streaming Protocol) is a network protocol used to control the transmission of audio and video streams.  | RTSP     | The playback address of the camera's real-time video stream.   For details on RTSP addresses, refer to the RTSP protocol overview below. | |----------|------------------------------------------------------------------------------------------------------------------------------------------| | Username | The authentication username for connecting to the RTSP stream (if not included in the address).                                          | | Password | The authentication password for connecting to the RTSP stream (if not included in the address).                                          |  If the RTSP URL contains username and password information, but the user has also set a username and password in the respective fields, the username and password entered in the username and password fields will be used as the RTSP username and password.  ![alt text](4.png) |
+| Onvif    | Currently, only basic PTZ functionality (pan, tilt, zoom) is supported. Ensure the camera supports the Onvif protocol. <br> **Host:** The network address of the Onvif service.        <br> **Port:** The listening port of the Onvif service.    <br> **Username:**  The authentication username for connecting to the Onvif service. <br> **Password:** The authentication password for connecting to the Onvif service. <br> Click the **"Test Onvif Connection"** button to verify if the Onvif service is accessible.       |
+| RTSP     | RTSP (Real-Time Streaming Protocol) is a network protocol used to control the transmission of audio and video streams.  <br> **RTSP:**  The playback address of the camera's real-time video stream.  <br> For details on RTSP addresses, refer to the RTSP protocol overview below. <br> **Username:** The authentication username for connecting to the RTSP stream (if not included in the address).                                          <br> **Password** The authentication password for connecting to the RTSP stream (if not included in the address).        <br>If the RTSP URL contains username and password information, but the user has also set a username and password in the respective fields, the username and password entered in the username and password fields will be used as the RTSP username and password.  ![alt text](4.png) |
 
-3. Click the **"OK"** button. The data will appear in the sub-list under the corresponding WebRTC Streamer device.
+3.Click the **"OK"** button. The data will appear in the sub-list under the corresponding WebRTC Streamer device.
 
 ![alt text](5.png)
 
-###### **Onvif Protocol Overview**
+##### **Onvif Protocol Overview**
 
 **ONVIF** (Open Network Video Interface Forum) is a standardized protocol jointly developed by security industry manufacturers. It aims to achieve interoperability among network cameras, NVRs, access control systems, and other devices from different brands. 
 
 By providing a unified interface specification, ONVIF addresses device compatibility issues and supports functionalities such as device discovery, configuration management, real-time streaming, and PTZ control.
 
-###### **RTSP Protocol Overview**
+##### **RTSP Protocol Overview**
 
 RTSP (Real Time Streaming Protocol) is a network protocol used for real-time streaming media delivery.An RTSP address is typically used to specify the location of a video or audio stream.The format of an RTSP address can vary depending on the situation, but usually follows some common rules.
 
@@ -86,8 +87,8 @@ In this example:
 
 
 **Notes:**  
-- The exact format of the RTSP address may vary depending on the configuration of the streaming server and supported parameters. Some streaming servers may use other protocol prefixes, such as rtsps:// for RTSP over SSL (RTSP Secure Connection). 
-- When using RTSP addresses, the format of the camera address may vary partially between brands, so please check the documentation of the corresponding brand to ensure that the address is parsed and used correctly! 
+  - The exact format of the RTSP address may vary depending on the configuration of the streaming server and supported parameters. Some streaming servers may use other protocol prefixes, such as rtsps:// for RTSP over SSL (RTSP Secure Connection). 
+  - When using RTSP addresses, the format of the camera address may vary partially between brands, so please check the documentation of the corresponding brand to ensure that the address is parsed and used correctly! 
 
 #### Application Scenarios
 
@@ -98,7 +99,7 @@ The limitations on the number of monitored cameras are primarily influenced by t
 - **Number of Video Controls in the Browser**: The number of active video controls on the web browser is key factor. For example, opening 1  video control in 10 browsers is essentially equivalent in server bandwidth consumption to opening 10  video controls in a single browser.
 - **Video Quality**: The resolution of the videos directly affects bandwidth usage. Video at 360p consumes considerably less bandwidth compared to streaming 4K video.
 
-###### **Server Bandwidth Description (For Reference Only)**
+##### **Server Bandwidth Description (For Reference Only)**
 
 | Parameter                             | Description              |
 |:---------------------------------------|:--------------------------|

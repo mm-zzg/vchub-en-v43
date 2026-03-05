@@ -4,11 +4,11 @@ By default, WebRTC Streamer is installed using the HTTP protocol. When SSL is re
 
 WebRTC Streamer supports deployment using the **HTTPS** protocol.
 
-#### Obtain an HTTPS certificate
+##   Obtain an HTTPS certificate
 
 We can use certificates issued by official authorities or generate our own development certificates.
 
-###### How to generate a development certificate?
+####  How to generate a development certificate?
 
 1. Use OpenSSL 
 2. Use of third-party websites
@@ -38,7 +38,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 -----END RSA PRIVATE KEY-----
 ```
  
-#### Deploy WebRTC Streamer using HTTPS
+##  Deploy WebRTC Streamer using HTTPS
 
 Place the previously generated `server.pem` file in the root directory of the WebRTC Streamer program.
 
@@ -65,23 +65,23 @@ nullLogger level:4
 HTTP Listen at 7443s
 ```
  
-#### Common Problems
+##  Common Problems
 
 In case the OpenSSL configuration is not set up correctly, the server will not start. Configure an error log file in 'civetweb.conf' to get more information:
 
-```Plain Text
-  error_log_file error.log
+```
+   error_log_file error.log
 ```
  
 Check the content of 'error.log':
 
-```Plain Text
-load_dll: cannot load libeay32.*/libcrypto.*/ssleay32.*/libssl.*
+```
+   load_dll: cannot load libeay32.*/libcrypto.*/ssleay32.*/libssl.*
 ```
  
 This error message means, the SSL library has not been installed (correctly). For Windows you might use the pre-built binaries. A link is available at the OpenSSL project home page ( [http://www.openssl.org/related/binaries.html](http://www.openssl.org/related/binaries.html)). Choose C:\Program Files\OpenSSL-Win64 as installation directory - this is the default location.
 
-```Plain Text
+```
 set_ssl_option: cannot open server.pem: error:PEM routines:*:PEM_read_bio:no start line
 set_ssl_option: cannot open server.pem: error:PEM routines:*:PEM_read_bio:bad end line
 ```

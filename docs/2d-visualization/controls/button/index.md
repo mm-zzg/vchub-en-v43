@@ -11,4 +11,3 @@ Contains the following controls:
 - [2-State Button](button/2-state-button.md)
 - [Multi-State Button](button/multi-state-button.md) 
 
-

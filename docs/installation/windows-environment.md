@@ -47,33 +47,38 @@ To further enhance system security, it is recommended to perform the following s
 1. Create a dedicated service account<br>
     
     
-      Create a dedicated account in Windows local users and groups (e.g., WAGOSCADASvc):
+   Create a dedicated account in Windows local users and groups (e.g., WAGOSCADASvc):
+   
       ![alt text](14.png)
+       
 2. Set service installation directory permissions
     
     
     Navigate to the service installation directory (e.g., C:\Program Files\WAGO SCADA), right-click the mouse, select "Properties" → "Security"
 
-   - Based on the actual security requirements, select the users or groups to be retained, and delete the unnecessary ones (such as Users, Everyone).
-   - Add the WagoScadaSvc user and grant Read, Write, and Modify permissions.
-   - Ensure the changes are applied to all subfolders and files.
-            Note: This step must be completed before changing the service logon account; otherwise, the service may fail to start or restart.
+      - Based on the actual security requirements, select the users or groups to be retained, and delete the unnecessary ones (such as Users, Everyone).
+      - Add the WagoScadaSvc user and grant Read, Write, and Modify permissions.
+      - Ensure the changes are applied to all subfolders and files.
+      
+      Note: This step must be completed before changing the service logon account; otherwise, the service may fail to start or restart.
 
 3. Modify the service logon account
 
-      In Services (services.msc), locate the WAGO SCADA service → right-click → Properties → Log On → select "This account":
 
-   - Enter .\WagoScadaSvc and the password.
-   - Save and restart the service.
+    In Services (services.msc), locate the WAGO SCADA service → right-click → Properties → Log On → select "This account":
+
+     - Enter .\WagoScadaSvc and the password.
+     - Save and restart the service.
+
 4. Set application data directory permissions
 
      Navigate to the application data directory chosen during installation (e.g., C:\ProgramData\WAGOSCADA), in the right-click menu, click "Properties"
 
     → "Security":
 
-   - Based on the actual security requirements, select the users or groups to be retained, and delete the unnecessary ones (such as Users, Everyone).
-   - Add the WagoScadaSvc user and grant Read, Write, and Modify permissions.
-   - Ensure the changes are applied to all subfolders and files.
+     - Based on the actual security requirements, select the users or groups to be retained, and delete the unnecessary ones (such as Users, Everyone).
+     - Add the WagoScadaSvc user and grant Read, Write, and Modify permissions.
+     - Ensure the changes are applied to all subfolders and files.
 5. Verify configuration
 
       Access the WAGO SCADA site (e.g., http://localhost:8066) and confirm that the site is running normally.

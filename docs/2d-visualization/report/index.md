@@ -1,6 +1,6 @@
 # Report
 
-A report is a document that displays data in the form of tables, charts, etc. VC Hub has a built-in flexible and efficient report designer, including images, graphics, tables and other tools, which can be dragged and dropped way to quickly design various types of reports.
+A report is a document that displays data in the form of tables, charts, etc. WAGO SCADA has a built-in flexible and efficient report designer, including images, graphics, tables and other tools, which can be dragged and dropped way to quickly design various types of reports.
 
 You can right-click the report node in the "Project" window and click "Add" to create it.
 

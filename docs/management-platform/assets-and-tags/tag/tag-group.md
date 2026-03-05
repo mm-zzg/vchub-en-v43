@@ -2,7 +2,7 @@
 
 The primary purpose of tag groups is to organize tags into groups, allowing the tags within each group to be pushed to the real-time display at a consistent refresh rate. This mechanism is designed to enhance the performance of the system's real-time pages by reducing the frequency at which the client processes tag values. By decreasing the frequency of server-client interactions, especially when the client has limited performance capabilities, this helps prevent page crashes due to excessive refresh operations.
 
-In VC Hub, a default tag group named "Default" is automatically created by the system. This group is configured to enable both value change and periodic push, with the periodic frequency set to 500ms.
+In WAGO SCADA, a default tag group named "Default" is automatically created by the system. This group is configured to enable both value change and periodic push, with the periodic frequency set to 500ms.
 
 When creating a tag, you need to assign it to an already existing tag group.
 

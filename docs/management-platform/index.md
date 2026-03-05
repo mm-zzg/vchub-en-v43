@@ -1,8 +1,8 @@
 # Management Platform
 
- In order to allow the configurator to focus on the configuration, VC Hub has grouped all other configuration-related tasks into our Management Panel. Before starting your configuration, you need to configure your project in the Management Panel.
+ In order to allow the configurator to focus on the configuration, WAGO SCADA has grouped all other configuration-related tasks into our Management Panel. Before starting your configuration, you need to configure your project in the Management Panel.
 
- Below you will find a list of important features of the VC Hub Management Panel, which can be accessed by clicking on the corresponding links.
+ Below you will find a list of important features of the WAGO SCADA Management Panel, which can be accessed by clicking on the corresponding links.
 
 | **Feature**       | **Description**   |
 |-----------------------|---------------------------|

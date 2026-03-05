@@ -19,7 +19,7 @@
 
 ## **How do I get data from my PLC?**
 
- The process of getting data from a PLC into VC Hub is divided into two steps:
+ The process of getting data from a PLC into WAGO SCADA is divided into two steps:
 
 1.  Add the device.
 2.  Add the I/O tag in the Assets window of the editor. Bind a data source to the tag and select the device you added in step 1 in the data source. See the [Creating Tags](../assets-and-tags/tag/creating-tags/index.md) page.

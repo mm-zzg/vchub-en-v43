@@ -90,21 +90,21 @@ If your installation server is not connected to an external network, you can fol
 
 Activation Steps:
 
-1. Click on the "Offline Activation" button.
+  1. Click on the "Offline Activation" button.
 
-![alt text](46.png)
+   ![alt text](46.png)
 
-2. Click the "Generate Activation Request" button to automatically generate and display the activation request content. Please save the activation request. 
+  2. Click the "Generate Activation Request" button to automatically generate and display the activation request content. Please save the activation request. 
 
-![alt text](47.png)
+  ![alt text](47.png)
 
-3. Transfer the generated activation request content to a machine with network access. Visit the following address and enter the request content. After confirmation, the license is automatically generated.
+  3. Transfer the generated activation request content to a machine with network access. Visit the following address and enter the request content. After confirmation, the license is automatically generated.
 
-![alt text](48.png)
+  ![alt text](48.png)
 
-4. Go back to the offline activation page, paste in the license, and click the "Activate Button" to complete the offline activation.
+  4. Go back to the offline activation page, paste in the license, and click the "Activate Button" to complete the offline activation.
 
-![alt text](49.png)
+  ![alt text](49.png)
 
 
 
@@ -125,17 +125,17 @@ If your installation server is not connected to an external network, you can fol
 
 Please note that offline deactivation does not check the remaining deactivation count, but only when you submit the offline deactivation request to the server. Therefore, it may happen that the offline request is generated successfully, but it fails to submit the offline request content because the offline request count is exhausted. Don't worry, you can use the same key to activate it on the original server and resume normal use.
 
-1. Click on the "Offline Deactivation" button.
+  1. Click on the "Offline Deactivation" button.
 
-![alt text](51.png)
+  ![alt text](51.png)
 
-2. Clicking on the "Generate Deactivation Request" button will automatically generate and display the content of the deactivation request. After clicking this button, the license will be deleted from the current machine. Please save the content of the deactivation request.
+  2. Clicking on the "Generate Deactivation Request" button will automatically generate and display the content of the deactivation request. After clicking this button, the license will be deleted from the current machine. Please save the content of the deactivation request.
 
-![alt text](52.png)
+  ![alt text](52.png)
 
-3. Transfer the generated deactivation request to a machine with network access. Visit the WAGO SCADA License Service site, enter the content of the inactivation request into the inactivation input box and click on the confirmation button.
+  3. Transfer the generated deactivation request to a machine with network access. Visit the WAGO SCADA License Service site, enter the content of the inactivation request into the inactivation input box and click on the confirmation button.
 
-![alt text](53.png)
+  ![alt text](53.png)
 
 
 ## Refresh
@@ -155,21 +155,23 @@ If your installation server is connected to an extranet and has access to the WA
 
 If your installation server is not connected to an external network, you can follow the steps below to refresh offline.
 
-1. Click the "Offline Refresh" button.
+  1. Click the "Offline Refresh" button.
 
-![alt text](56.png)
+  ![alt text](56.png)
 
-2. Click the "Generate Refresh Request" button to automatically generate and display the content of the refresh request. Please save the content of the refresh request.
+  2. Click the "Generate Refresh Request" button to automatically generate and display the content of the refresh request. Please save the content of the refresh request.
 
-![alt text](57.png)
+  ![alt text](57.png)
 
-3. Transfer the content of the generated refresh request to a machine with network access. Access the WAGO SCADA License Service site and enter the content of the request. After confirmation, a new license is automatically generated. Copy the license and transfer it to the server to be refreshed.
+  3. Transfer the content of the generated refresh request to a machine with network access. Access the WAGO SCADA License Service site and enter the content of the request. After confirmation, a new license is automatically generated. Copy the license and transfer it to the server to be refreshed.
 
-![alt text](58.png)
+  ![alt text](58.png)
 
-4. Go back to the offline refresh page, paste and input the new license, and click "Refresh" button to complete the offline refresh operation.
+  4. Go back to the offline refresh page, paste and input the new license, and click "Refresh" button to complete the offline refresh operation.
 
-![alt text](59.png)
+  ![alt text](59.png)
+
+
 
 ## Emergency Activation 
 

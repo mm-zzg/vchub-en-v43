@@ -1,6 +1,6 @@
 # Navigation
 
-By setting up page navigation, you can navigate between different pages in VC Hub.
+By setting up page navigation, you can navigate between different pages in WAGO SCADA.
 
 Navigation settings can be configured in the event properties of the control.
 

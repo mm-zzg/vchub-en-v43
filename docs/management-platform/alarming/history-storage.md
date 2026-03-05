@@ -40,7 +40,7 @@ The following is displayed when “Remote” is selected as the type:
 | Query Only           | Default is turned off. When it is turned on, only remote alarms can be queried, and new alarms generated at the remote node will not be stored in the database; if it is turned off, new alarms generated at the remote node will be stored in the database. The database mentioned here refers to the database used by the remote alarm history storage. |
 | Description          | Description of the alarm history storage.                                                                                                                                                                                                                                                                                                                | 
 
-3. When the settings are complete, click the OK button.
+3.When the settings are complete, click the OK button.
 
 ## **History Database Application**
 

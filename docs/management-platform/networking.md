@@ -21,17 +21,17 @@ The steps below will guide you through the configuration process for networking.
 
 **Example 1: No root certificate uploaded to the Trust Store of Node A and Node B**
 
-Step 1: On Node A,** **go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
+Step 1: On Node A, go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
 
-Step 2: On Node A,** **navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*. Keep “Require Two Way Authentication“ disabled.
+Step 2: On Node A, navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*. Keep “Require Two Way Authentication“ disabled.
 
-Step 3: On Node B,** **go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
+Step 3: On Node B, go to "Node" → "Certificate Management", configure the *Redundancy and Networking Certificate*.
 
-Step 4: On Node B,** **navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*.
+Step 4: On Node B, navigate to ”Node” → “Networking“ → “General Settings“, enable *Networking*.
 
-Step 5: On Node A, navigate to ”Node” → “Networking“ → ** **"Outgoing Connections", create a new connection to Node B , the outgoing address should be set to the identifier of Node B, such as its node name or host address.
+Step 5: On Node A, navigate to ”Node” → “Networking“ →  "Outgoing Connections", create a new connection to Node B , the outgoing address should be set to the identifier of Node B, such as its node name or host address.
 
-Step 6: On Node B, navigate to ”Node” → “Networking“ → ** **"Incoming Connections", under the certificate list, approve Node A’s certificate. Once approved, Node A will appear in the incoming connections list.
+Step 6: On Node B, navigate to ”Node” → “Networking“ →  "Incoming Connections", under the certificate list, approve Node A’s certificate. Once approved, Node A will appear in the incoming connections list.
 
 Step 7: On Node B, approve Node A’s connection from the incoming connection list. Once approved, the networking connection between Node A and Node B is established.
 
@@ -122,12 +122,18 @@ After the connection is added, the information displayed in the outgoing connect
    Just after creating an outgoing connection, the status of the node's outgoing connection is shown as **Faulted**.<br>
    The status of the data in the "Outgoing Connections" list depends on the operations performed on the ”Incoming Connections” page of **Node B**  for both certificates and incoming connections.<br>
    The status of the outgoing address is displayed as **Running** only if the certificate and the incoming connection are all approved on **Node B's** "Incoming Connections" page.<br>
-1. If "Require Two Way Authentication" is enabled on **Node A** , both the  “Outgoing Connections“ list and the "Certificate" list will be shown.
+
+2. If "Require Two Way Authentication" is enabled on **Node A** , both the  “Outgoing Connections“ list and the "Certificate" list will be shown.
    ![alt text](5.png)
 
    In this case, you must first **allow Node B’s certificate** in the certificate list on Node A’s outgoing connections page. Only after that will Node A appear in the incoming connection list on Node B.<br>
+   
    The status of Node A’s outgoing connection will be shown as **"Running"** only when all the following conditions are met:
+
+
       1. On Node A’s "Outgoing Connections" page, Node B’s  certificate in the "Certificate" list has been approved.
+
+
       2. On Node B’s "Incoming Connections" page:
          - Node A’s certificate has been approved .
          - Node A’s incoming connection has been approved.
@@ -153,20 +159,20 @@ Once Node A’s certificate and incoming connection are allowed on Node B’s si
 
 Example:
 
-1. Node A creates an outgoing connection and specifies Node B as the target address.On Node B, navigate to ”Incoming Connections”. 
+  1. Node A creates an outgoing connection and specifies Node B as the target address.On Node B, navigate to ”Incoming Connections”. 
    
    
-You will see Node A’s certificate listed with a default status of “Pending Approval.”
+  You will see Node A’s certificate listed with a default status of “Pending Approval.”
    ![alt text](6.png)
 
 
-2. On Node B’s "Incoming Connections" page, click **“Approve”** for Node A’s certificate. After approval, Node A will appear in the incoming connections list with a connection status of **“Pending Approval.”**
+  2. On Node B’s "Incoming Connections" page, click **“Approve”** for Node A’s certificate. After approval, Node A will appear in the incoming connections list with a connection status of **“Pending Approval.”**
    ![alt text](7.png)
 
 
-3. Approve the incoming connection for Node A. At this point, the networking between Node A and Node B is established.
+  3. Approve the incoming connection for Node A. At this point, the networking between Node A and Node B is established.
 
-4. On Node A, the outgoing connection to Node B will now show a status of **“Running.”**
+  4. On Node A, the outgoing connection to Node B will now show a status of **“Running.”**
 
 **Note:**
 

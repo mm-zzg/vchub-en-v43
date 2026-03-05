@@ -1,6 +1,6 @@
 # Services
 
-There are five types of alarm notification services in VC Hub.
+There are five types of alarm notification services in WAGO SCADA.
 
 - [Email(SMTP)](email.md) 
 - [SMS(Twilio)](sms-twilio.md) 

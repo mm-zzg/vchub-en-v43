@@ -8,10 +8,15 @@
 3. Depending on the selected database type, different configuration screens will be displayed.
 When MySQL, SQL Server, PostgreSQL is selected, the following configuration screen is displayed: 
     ![alt text](3.png)
+
     When InfluxDB is selected, the following configuration screen is displayed:
+
     ![alt text](4.png)
+
     When SQLite is selected, the following configuration screen is displayed:
+
     ![alt text](5.png)
+
 4. Click **"OK"** button to save the data after setting is completed. 
 
 **Configuration items**

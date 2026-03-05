@@ -4,7 +4,7 @@ All alarms can be shelved. Alarms that have been shelved are displayed in the sh
 
 When shelving an alarm, the shelve duration needs to be set.
 
-![alt text](25.png)
+![alt text](36.png)
 
 Check all the shelved alarms in the shelved list. Shelve alarms according to the alarm path. After shelving alarms with the same path, they will be displayed as one shelved alarm.
 

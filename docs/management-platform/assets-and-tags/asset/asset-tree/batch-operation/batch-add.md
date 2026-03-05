@@ -10,7 +10,11 @@ In the **Instance** and **Model** tabs, only basic information is added initiall
 
   In the **Batch Operation** popup, click **Download "New Template"** to download a blank batch addition excel template in the browser. Users can fill in the required information in the template.
 
- ![alt text](9.png)
+| **Batch Operation on Models**  ![alt text](9.png) | **Batch Operation on Instances**  ![alt text](29.png) |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+ 
 
 
 #### "New Template" Introduction
@@ -41,6 +45,8 @@ In the **"Important Notes"** sheet, users can find descriptions and examples for
 
 After editing the template, click the **Import "New Template"** button to import the newly added information.
 
-![alt text](13.png)
+| **Batch Operation on Models**  ![alt text](13.png) | **Batch Operation on Instances**  ![alt text](30.png) |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 
 

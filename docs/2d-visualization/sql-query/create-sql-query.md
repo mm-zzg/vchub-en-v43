@@ -17,7 +17,7 @@ To create an SQL Query, right-click the "SQL Query" node and select "Add".
 | Description         | Description of the SQL Query. |
 | Database Connection | The dropdown displays database connections that are in the "Connected" state, allowing the user to select one. During database connection verification, only the currently selected database will be validated, without verifying its backup database.|
 | Query Type          | Query types include **Query**,  **Scalar Query**，**Update Query**. See [SQL Query](index.md)   <br> When **Scalar Query** is selected, the fallback value can be set. A fallback value is returned when the query fails. <br>  ![alt text](8.png) |
-| Record Log          | Enable/Disable log recording|
+
 
 ## SQL 
 

@@ -44,6 +44,6 @@ Open API offers WebSocket API for real-time data access. Using the WebSocket API
 8.After the payload is sent, postman will continuously receive the real-time tag values.
     ![alt text](20.png)
 
-9.The above example demonatrates how to subscribe the tag values. For the other Websocket APIs, refer to chapter **Open API-> Realtime Data API Definitions**. The **target** field in the payload in the example below represents the method name of Reamtime Data API.  You can invoke the other WebSocket APIs by replacing **target** value with the method name specified in the **Realtime Data API Definitions** document. 
+9.The above example demonatrates how to subscribe the tag values. For the other Websocket APIs, refer to chapter [Realtime Data API Definitions](../realtime-data-api-definitions.md). The **target** field in the payload in the example below represents the method name of Reamtime Data API.  You can invoke the other WebSocket APIs by replacing **target** value with the method name specified in the **Realtime Data API Definitions** document. 
     ![alt text](21.png)
 

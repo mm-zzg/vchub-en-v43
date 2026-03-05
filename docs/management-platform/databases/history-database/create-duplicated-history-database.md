@@ -7,7 +7,7 @@
 3. Fill in the configuration and click "OK" button to save. 
     ![alt text](3.png)
 
-**Configuration** ** Description**
+**Configuration Description**
 
 | **Configuration Item** | **Description**    |
 |----------------------------------|---|

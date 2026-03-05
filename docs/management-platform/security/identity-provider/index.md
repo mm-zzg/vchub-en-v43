@@ -21,8 +21,10 @@ When the **Local** Identity Provider is enabled, users can log in using accounts
 
 1. In the **"Security" → "Identity Provider"** list, click the **"Add"** button in the upper right corner.
     ![alt text](26.png)
+
 2. In the **Identity Provider** pop-up window, select **Local**, then click **"Next"**.
     ![alt text](27.png)
+
 3. In the **Add** pop-up window, enter a name, then click the **"OK"** button to complete the addition.
     ![alt text](28.png)
 
@@ -33,6 +35,7 @@ You are allowed to create multiple **OpenID Connect** type Identity Providers.
 1. In the **"Security" → "Identity Provider"** list, click the **"Add"** button in the upper right corner.
 2. In the **Identity Provider** pop-up window, select **OpenID Connect** and then click **"Next"** to proceed.
     ![alt text](29.png)
+
 3. In the **Add** pop-up window, complete the setup, then click the **"OK"** button to finish the addition.
     ![alt text](30.png)
 
@@ -46,7 +49,7 @@ You are allowed to create multiple **OpenID Connect** type Identity Providers.
 | Redirect URL  | After OpenID Connect authentication succeeds or fails, the Identity Provider will redirect the user's browser to the VC Hub URL.                                                                                                                                                                                                                                                                                                       |
 | Client Id     | The unique identifier assigned by the Identity Provider to each OpenID Connect client application.                                                                                                                                                                                                                                                                                                                                     |
 | Client Secret | The confidential credentials used to authenticate the OpenID Connect client, equivalent to a "password".                                                                                                                                                                                                                                                                                                                               
-| Scope        | Through scopes, WAGO SCADA tells the Identity Provider which user information it needs access to.  For example:  ![alt text](31.png) This means that WAGO SCADA is requesting access to the user's roles and email address.
+| Range        | Through scopes, WAGO SCADA tells the Identity Provider which user information it needs access to.  For example:  ![alt text](31.png) This means that WAGO SCADA is requesting access to the user's roles and email address.
 
 
 

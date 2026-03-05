@@ -2,7 +2,7 @@
 
 In the industrial world, in addition to monitoring the real-time status of a device, it is often necessary to record historical data, such as the energy consumption of a device, in order to analyze the production status and optimize the production efficiency.
 
-In VC Hub, tags are an important medium for receiving device values and issuing commands. In order to make the storage of historical values more realistic and to reduce server hardware storage consumption, tags support various recording modes.
+In WAGO SCADA, tags are an important medium for receiving device values and issuing commands. In order to make the storage of historical values more realistic and to reduce server hardware storage consumption, tags support various recording modes
 
 ## **How to Enable**
 

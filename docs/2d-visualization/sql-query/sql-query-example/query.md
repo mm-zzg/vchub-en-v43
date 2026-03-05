@@ -27,19 +27,22 @@ There is a table named `person_management` in the database, which is used to sto
 1. Create the project, click the  **Design** button in the action bar to enter the editor.
 2. Create an SQL Query by right-clicking on the SQL Query node in the 2D editor and selecting **Add** button.<br>
     ![alt text](2.png)
+
 3. In this example, we set the name of this SQL Query to **Query**.
     ![alt text](3.png)
+
      - **Database Connection:** Select an item whose status is "Connected "in the "Databases" ->"Database Connection" list. Here we select the **TestSQLQuery** already created in Step 1.
      
      - **Query Type:** Select **Query**.
      
      - **SQL Editor:** Write the following query that searches the `person_management` table against the value of age. Where "@age" denotes the parameter.
-     ```sql
+      ```sql
       SELECT * FROM person_management WHERE age = @age;
       ```
      
      - **Parameters:** Create a parameter called age. Acts as a placeholder in an SQL statement to which you can pass concrete values when executing a query.
-4. Click the "Test" button to see the results.
+
+4.Click the "Test" button to see the results.
     ![alt text](4.png)
 
 #### **Use Query**

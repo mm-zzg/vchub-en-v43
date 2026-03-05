@@ -1,4 +1,4 @@
-# OIDC Server(Open API) Registrations
+# OpenID Connect Client Registrations
 
  WAGO SCADA includes a built-in OpenID Connect (OIDC) identity server, which is used to authenticate users using industry-standard OIDC protocols. 
 
@@ -31,8 +31,8 @@ Click the "Register" button to add new  OpenId Client.
 | Grant Type                 | OIDC authorization modes include Authorization Code Flow, Client Credentials Flow, Implicit Flow, and Refresh Token Flow. Supports multiple selections. When the Client Credentials mode is selected, the required APIs must be configured. For the other three modes, configuring APIs is not necessary. |
 |Refresh Token                 | Optional, default not selected.Use in combination with the Grant Type.|
 | Scope                      | The scopes of user info. The scope includes: address,email,phone,profile,roles                                                                                                                                                                                                                            |
-| Redirect URL               | The redirect URL. When login on VC Hub OIDC login page, the user will be redirected the Redirect URL.                                                                                                                                                                                                      |
-| Logout Redirect URL        | When user logout from VC Hub OIDC endpoint, the user will be redirected the Logout Redirect URL.                                                                                                                                                                                                           |
+| Redirect URL               | The redirect URL. When login on WAGO SCADA OIDC login page, the user will be redirected the Redirect URL.                                                                                                                                                                                                      |
+| Logout Redirect URL        | When user logout from WAGO SCADA OIDC endpoint, the user will be redirected the Logout Redirect URL.                                                                                                                                                                                                           |
 | OpenID Connect MetaAddress | A URL for auto-discovery of Identity Provider (IdP) configurations.                                                                                                                                                                                                                                       |
 | Description                | The description the client credential                                                                                                                                                                                                                                                                     |
 
@@ -57,7 +57,7 @@ If SCADA is the client application, you should fill in the identity provider con
 
 ![alt text](37.png)
 
-#### Scenario 2:  The client application interacts with VC Hub by making Open API requests from its backend
+#### Scenario 2:  The client application interacts with WAGO SCADA by making Open API requests from its backend
 
 1. When registering an **OpenID client**, you should select only the **Client Credentials Flow** as grant type.
 

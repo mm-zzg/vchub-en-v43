@@ -43,8 +43,8 @@ Use a pie chart to display the daily production capacity ratio of different prod
 | Label        | - **Show**: Turn on     <br>- **Position**: Outside.     <br>- **Numeric type**: Percentage.  <br>- **Decimals**: 1.          <br>- **Font**: Calibri, 14. |
 | Data         | Click the **Dataset** button to configure the dataset. <br>![alt text](37.png) <br>![alt text](38.png)  <br>After completing the setup, click the **Bind** button to perform [Dynamic Cell](../../property-binding/dynamic-cell.md) binding.  ![alt text](39.png) |
 
-3.Click the Preview button to preview.
-    ![alt text](40.png)
+3.Click the Preview button to preview.<br>
+     ![alt text](40.png)
 
-4.Close the preview and change the style of the pie chart to donut chart . Preview again.
-    ![alt text](41.png)
+4.Close the preview and change the style of the pie chart to donut chart . Preview again.<br>
+     ![alt text](41.png)

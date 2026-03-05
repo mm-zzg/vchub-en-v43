@@ -64,7 +64,7 @@ For local WAGO SCADA nodes, they only need to configure networking connections w
 
 ##### Service Level Agreements Analysis
 
-System stability is enhanced. In the event of a VM failure, the VC Hub service on the other VM will continue to monitor device data, providing sufficient time for fault handling.
+System stability is enhanced. In the event of a VM failure, the WAGO SCADA service on the other VM will continue to monitor device data, providing sufficient time for fault handling.
 
 | Across two or more availability zones in the same Azure region | In the same availability set or the same dedicated host group |
 |:----------------------------------------------------------------|:---------------------------------------------------------------|
@@ -83,7 +83,7 @@ System stability is enhanced. In the event of a VM failure, the VC Hub service o
 
 #### Overview
 
-We recommend users to regularly back up important data within VC Hub. Users can choose to perform backups manually or automatically.
+We recommend users to regularly back up important data within WAGO SCADA . Users can choose to perform backups manually or automatically.
 
 #### How to operate
 

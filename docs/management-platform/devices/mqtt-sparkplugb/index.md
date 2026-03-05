@@ -13,6 +13,7 @@ The MQTT SparkplugB driver in WAGO SCADA is designed and developed based on the 
    ![alt text](2.png)
 
 4. Click "Add Node" in the Operation column, enter the node name and add a new node for the current group.
+  
    **Node:** Node represents the entity of a specific device, and has a unique identifier, which is used to distinguish each device. 
    ![alt text](3.png)
 

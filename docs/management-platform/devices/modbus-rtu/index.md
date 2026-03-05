@@ -21,7 +21,8 @@ The Modbus RTU driver in WAGO SCADA communicates data with devices (typically PL
 
 4. Click the Enable button in the Enable Status column to enable the device.
    ![alt text](2.png)
-    **Configuration Fields**
+   
+   **Configuration Fields**
 
    | **Name**              | **Description**        |
    |:-------------------------|:-----------------------------|
@@ -37,17 +38,17 @@ The Modbus RTU driver in WAGO SCADA communicates data with devices (typically PL
 
 5. Click on the "**Add Frame**" button on the created device to add a frame to the current device.
 
-- Frame: The frame is the same as a data frame in the Modbus protocol, it is the basic unit of data transmission, it is used to record the slave address, storage area, start and end address, data encoding format and frequency of data acquisition for data communication, and the I/O tags can be bound to the frame in the WAGO SCADA program.
+    - Frame: The frame is the same as a data frame in the Modbus protocol, it is the basic unit of data transmission, it is used to record the slave address, storage area, start and end address, data encoding format and frequency of data acquisition for data communication, and the I/O tags can be bound to the frame in the WAGO SCADA program.
 
 6. In the Add Frame screen, leave the default values and enter the following information in the following fields.(The following data is only an example, please fill in the fields according to the actual situation)
 
- - Name: HoldingRegister1
- - Slave Address: 1
- - Function: Holding Register
- - Start Address: 1
- - Endind Address: 11
- - Data Encoding: Big Endian
- - Frequency (ms): 1000
+    - Name: HoldingRegister1
+    - Slave Address: 1
+    - Function: Holding Register
+    - Start Address: 1
+    - Endind Address: 11
+    - Data Encoding: Big Endian
+    - Frequency (ms): 1000
 
 7. Click the "**OK**" button. The data will be displayed under the previously created device.
    ![alt text](3.png)

@@ -38,13 +38,13 @@ In addition to the built-in controls, you can support the use of SVG, PNG , JPEG
 
 ## **SVG**
 
-Scalable Vector Graphics (SVG) have several advantages over other image types. Because they are vector images, they can be scaled without loss of sharpness or resolution. To use a picture in VC Hub, simply drag the picture directly onto the page where you want it to appear.
+Scalable Vector Graphics (SVG) have several advantages over other image types. Because they are vector images, they can be scaled without loss of sharpness or resolution. To use a picture in WAGO SCADA, simply drag the picture directly onto the page where you want it to appear.
 
 ![alt text](5.png)
 
 ## **Binding**
 
-Binding is a mechanism that allows properties on controls to change based on changes in values elsewhere in VC Hub. For example, the value of tag can be bound to a Gauge or a LED Diaplay. The power of binding comes from the variety of binding types.
+Binding is a mechanism that allows properties on controls to change based on changes in values elsewhere in WAGO SCADA. For example, the value of tag can be bound to a Gauge or a LED Diaplay. The power of binding comes from the variety of binding types.
 
 Binding types:
 

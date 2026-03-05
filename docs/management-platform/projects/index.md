@@ -77,8 +77,6 @@ Please refer to: 2D Configuration, 3D Configuration, Assets and Tags for specifi
 ![alt text](10.png)
 
 
-![alt text](11.png)
-
 #### **Run**
 
 Select any project and click the **Run** button to open the project **startup page**, the **startup page** can be set in the “Project Configuration“ window, refer to 2D Configuration.

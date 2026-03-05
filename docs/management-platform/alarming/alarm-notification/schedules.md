@@ -1,6 +1,6 @@
 # Schedules
 
-Notification scheduling is used to manage and set the schedule for sending alarm notifications at specific times or dates. By configuring the notification schedule, users can flexibly control when the VC Hub system sends notifications, ensuring that alarms are communicated at appropriate times. This is crucial for avoiding unnecessary disturbances or missing critical notifications. For example, you can configure the system to send alarm notifications from Monday to Friday, between 09:00 and 18:00 each day.
+Notification scheduling is used to manage and set the schedule for sending alarm notifications at specific times or dates. By configuring the notification schedule, users can flexibly control when the WAGO SCADA system sends notifications, ensuring that alarms are communicated at appropriate times. This is crucial for avoiding unnecessary disturbances or missing critical notifications. For example, you can configure the system to send alarm notifications from Monday to Friday, between 09:00 and 18:00 each day.
 
 ## Standard Schedule
 

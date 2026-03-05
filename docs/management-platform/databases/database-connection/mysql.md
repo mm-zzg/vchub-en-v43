@@ -1,6 +1,6 @@
 # MySQL
 
-On this page we will demonstrate how to connect VC Hub to MySQL. 
+On this page we will demonstrate how to connect WAGO SCADA to MySQL.
 
 1. On the "**Databases**" -> "**Database Connection**" page, click the "Add" button. 
     ![alt text](6.png)

@@ -30,9 +30,11 @@ In the alarm notification rules, you will select the notification service.
 2. Click the **"New"** button in the upper right corner of the list.
 3. In the pop-up window, click the **'+SMS'** button to add a new sms notification rule. In the notification message dropdown, select the previously created notification message.
 
-    ![alt text](7.png)
-
 **Note:** Notification content and notification service must match. For example, when you select the notification **service** for SMS(Twilio), you should also select SMS(Twilio) as the notification **message**. 
+
+![alt text](7.png)
+
+
 
 
 

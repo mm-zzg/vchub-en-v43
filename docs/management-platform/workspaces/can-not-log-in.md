@@ -24,7 +24,7 @@ If you have other workspaces in your system and have the login information for t
       ![alt text](21.png)
 4. **Modify the ".ini" file in the root directory of the workspace folder.**
 
-   Change the **Current** field to the **target workspace ID**.
+     Change the **Current** field to the **target workspace ID**.
 
 5. **Restart the service.**
 
@@ -37,9 +37,13 @@ If there are no other available workspaces in your system, Method 1 will not be 
 1. **Log in to the WAGO SCADA installation server.**
 
 2. **Navigate to the program installation directory.**
-   - Default installation directory for Windows: `C:\Program Files\WAGO SCADA`
-   - Default installation directory for Linux: `/usr/local/bin/wagoscada`
-   - If you changed the installation directory during setup, go to your custom installation directory.
+    
+    - Default installation directory for Windows: `C:\Program Files\WAGO SCADA`
+    
+    - Default installation directory for Linux: `/usr/local/bin/wagoscada`
+    
+    - If you changed the installation directory during setup, go to your custom installation directory.
+    
 3. **Delete the "workspace_initialized" file in the root directory**
 4. **Restart the service**
 5. **Refresh the frontend page, and you will be guided to create a new workspace Simply enter a username and password to complete the workspace creation.**

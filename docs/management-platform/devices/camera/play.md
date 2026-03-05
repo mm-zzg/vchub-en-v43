@@ -6,13 +6,13 @@ If you want to access the camera video over the Internet, deploying a Coturn tra
 - ***The server hosting the Coturn service must be able to access the internet and be accessible from the external network, with a fixed public IP address or domain name***
 - ***Additionally, the firewall must allow TCP and UDP traffic on ports 3478, 3479, and 5349, as well as UDP traffic on ports 49152–65535***
 
-#### Download Coturn
+##  Download Coturn
 
 Official website:  [GitHub - coturn/coturn: coturn TURN server project](https://github.com/coturn/coturn)
 
-#### Deploy Coturn
+##  Deploy Coturn
 
-###### Docker
+####  Docker
 
 The following steps are based on Docker being already installed.
 
@@ -36,7 +36,7 @@ docker run -d --network=host coturn/coturn --log-file=stdout -v --min-port=49152
  
 Note： [ Docker does not perform well with a large range of ports](https://github.com/instrumentisto/coturn-docker-image/issues/3).
 
-##### Linux
+####  Linux
 
 ```bash
 # install coturn
@@ -76,7 +76,7 @@ sudo systemctl enable coturnservice
 sudo systemctl start coturnservice
 ```
  
-##### Window
+####  Window
 
 The Coturn server currently does not have an official Windows version since its design and development are primarily aimed at Linux/Unix systems. If you want to deploy Coturn in a Windows environment, you have the following options:
 
@@ -87,7 +87,9 @@ The Coturn server currently does not have an official Windows version since its 
 2. Using Docker for Windows
 
    - Please refer to the above **Docker** instructions.
-#### How to Use?
+
+
+##  How to Use?
 
 After the Coturn server is deployed, we can use its configuration in WebRtc Streamer by attaching startup parameters when launching WebRtc Streamer. For example:
 
@@ -100,21 +102,21 @@ After the Coturn server is deployed, we can use its configuration in WebRtc Stre
 # -R {min udp port}:{max udp port}：During Coturn startup, set the UDP port range. For example, when starting with Docker, use -p 49152-65535:49152-65535/udp, or in a binary installation, use --min-port=49152 --max-port=65535. Please ensure that the UDP port range of WebRtc Streamer matches the UDP port range of Coturn.
 ```
  
-###### Docker
+####  Docker
 
 ```bash
 # docker run -d --network=host -it mpromonet/webrtc-streamer -o -s "{server machine's external IP or domain}:3478" -t "{account}:{password}@{server machine's external IP or domain}:3478" -R {min udp port}:{max udp port}
 docker run -d --network=host -it mpromonet/webrtc-streamer -o -s "122.254.123.122" -t "admin:mm123456789@122.254.123.122:3478" -R 49152:65535
 ```
  
-###### Linux
+####  Linux
 
 ```bash
 # ./webrtc-streamer -H 0.0.0.0:8000 -o -s "{server machine's external IP or domain}:3478" -t "{account}:{password}@{server machine's external IP or domain}:3478" -R {min udp port}:{max udp port}
  ./webrtc-streamer -H 0.0.0.0:8000 -o -s "122.254.123.122:3478" -t "turn:mm123456789@122.254.123.122:3478" -R 49152:65535
 ```
  
-###### Windows
+####  Windows
 
 ```bash
 # webrtc-streamer.exe -H 0.0.0.0:8000 -o -s "{server machine's external IP or domain}:3478" -t "{account}:{password}@{server machine's external IP or domain}:3478" -R {min udp port}:{max udp port}

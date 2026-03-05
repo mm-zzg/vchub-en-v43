@@ -40,6 +40,7 @@ After the export is successful, edit the file in Excel according to the exported
 
 **Notes:**  
 1. Columns created manually in Excel will not appear in the custom list after import. 
+
 2. If a custom property column is deleted in Excel, the corresponding values in the custom list will be empty after import. 
 
 

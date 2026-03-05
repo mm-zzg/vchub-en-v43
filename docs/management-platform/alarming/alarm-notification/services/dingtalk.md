@@ -67,7 +67,7 @@ In a DingTalk group, click the **Group Settings** button in the top-right corner
     ![alt text](57.png)
 6. Click "Direct Publishing" to publish the application
     ![alt text](58.png)
-7. You can view the created applications on the** Application Development** page
+7. You can view the created applications on the **Application Development** page
     ![alt text](59.png)
 8. On the “Application Development” page, click the “Application Details” button of the application to enter the Add Application Capability page.
     ![alt text](60.png)

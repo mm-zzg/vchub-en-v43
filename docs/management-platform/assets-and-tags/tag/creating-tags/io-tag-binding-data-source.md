@@ -20,7 +20,7 @@ I/O tags can be bound to data sources. You can either bind a fixed data source p
 
 Example:
 
-Data Source Parameter Field:
+Data Source Parameter Field:<br>
     ![alt text](14.png) <br>
 Configuration Page Field: <br>
     ![alt text](15.png) 

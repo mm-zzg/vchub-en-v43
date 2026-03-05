@@ -1,6 +1,6 @@
 # Page Permission
 
-You can set up security for your pages in VC Hub. After security is set, only users who meet the security requirements can view the running page.
+You can set up security for your pages in WAGO SCADA. After security is set, only users who meet the security requirements can view the running page.
 
 Once the page is created, there will be an initial permission: Authenticated.
 

@@ -19,7 +19,7 @@ WAGO SCADA provides an installation package for the Linux environment, with the 
    ![alt text](23.png)
 8. The installation is complete.
    ![alt text](24.png)
-9. After completion, the default access to the VC Hub site is: `http://localhost:8066`. After the installation, you will enter the configuration wizard interface.
+9. After completion, the default access to the WAGO SCADA site is: `http://localhost:8066`. After the installation, you will enter the configuration wizard interface.
 
 **Notes:** 
 

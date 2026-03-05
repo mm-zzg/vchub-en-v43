@@ -4,9 +4,9 @@ In industrial settings, it is often necessary to create multiple devices in bulk
 
 **Note:** To quickly create devices, it is recommended to first manually add a device to the list. Then, export the device and use the exported fields as a reference to add new devices.
 
-#### Batch Addition
+##  Batch Addition
 
-###### 1.Export Devices
+####  1.Export Devices
 
 Click the "Export" button in the upper right corner of the list to export all device information.
 
@@ -26,13 +26,13 @@ Double click the Camera.xlsx file under the zip file to view the exported device
 - If it is a WebRTCStreamer, the "IsWebRTCStreamer" field is set to **True**.
 - Camera information is listed directly under the corresponding WebRTCStreamer. For example, in the image above, the WebRTCStreamer **"FactoryA"** has 1 camera, Camera1.
 
-###### **2.Adding Devices in Excel**
+####  **2.Adding Devices in Excel**
 
 Select the WebRTCStreamer and camera, then drag the mouse to quickly copy.
 
 ![camera-1](../../../assets/images/camera-1.gif)
 
-###### 3.Import Devices
+####  3.Import Devices
 
 Click the "Import" button in the upper right corner of the list to import the exported content. 
 
@@ -42,7 +42,7 @@ After uploading the file you want to import, if you set a password when exportin
 
 ![alt text](27.png)
 
-#### Batch Modification
+##  Batch Modification
 
 You can batch modify device information through the exported Excel. After making changes in the Excel, import it back. During the import, the data will be updated based on the name.
 
@@ -51,7 +51,7 @@ You can batch modify device information through the exported Excel. After making
 - If the WebRTC Streamer name or camera name in the Excel does not exist in the Camera list, the WebRTC Streamer and camera will be added to the list.
 - If a WebRTC Streamer in the Camera list does not exist in the imported file, the data for that WebRTC Streamer will remain unaffected in the list.
 
-#### Batch Deletion
+##  Batch Deletion
 
 After selecting the devices to be deleted, click the **Delete** button at the top of the list to perform batch deletion.
 

@@ -1,8 +1,9 @@
- # Input
- Allows the user to enter data.
+# Input
+
+Allows the user to enter data.
 
  
- Containsthe following controls:
+Containsthe following controls:
  
 - [Dropdown](input/dropdown.md) 
 - [Text Input](input/text-input.md)

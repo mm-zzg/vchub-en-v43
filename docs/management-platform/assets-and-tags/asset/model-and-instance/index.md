@@ -53,7 +53,6 @@ The data to be monitored for the motors: switching status, instantaneous power.
     ![alt text](9.png)
 8. In the Add pop-up window, set the name to Line, select "Line" for model,  In the batch generate, click "Generate." In the popup, set the batch instance quantity to 3 and the starting index to 1.<br>
     ![alt text](10.png)
-    Click the ”OK“ button of ”Setting“ window.<br>
     ![alt text](11.png)
 9. Setting is complete, click the OK button, you can see the information of 3 Line after instantiation in the instance list. <br>
     ![alt text](12.png)

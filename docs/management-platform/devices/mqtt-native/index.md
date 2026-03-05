@@ -13,6 +13,8 @@ The MQTT Native driver in WAGO SCADA is designed and developed based on the MQTT
     ![alt text](2.png)
 
 4. Click "**Add Node**" in the Operation column, enter the node name and add a new node for the current group.
+
+
 **Node**: Node represents the entity of a specific device, and has a unique identifier, which is used to distinguish each device.
     ![alt text](3.png)
 
@@ -68,17 +70,28 @@ Subject: Topic
 **message_type explanation**
 
 1. **NBIRTH** - Transport Device Configuration Information
-    **Topic:** wsV1.0/**{group_name}**/NBIRTH/**{node_name}**
-    **Permission:** Write
-    After successfully connecting to SCADA, the client can push all device configuration information and measurement point configuration information under the current node_name to the system through this Topic.
+   
+     **Topic:** wsV1.0/**{group_name}**/NBIRTH/**{node_name}**
+   
+     **Permission:** Write
+   
+     After successfully connecting to SCADA, the client can push all device configuration information and measurement point configuration information under the current node_name to the system through this Topic.
+
 2. **NDATA** - Transmission of measurement point data
-    **Topic**：wsV1.0/**{group_name}**/NDATA/**{node_name}**/**[{device_name}]** 
-    **Permission:** Write
-    After successfully pushing the measurement point configuration information, the client can push the measurement point data to the system through this Topic.
+     
+     **Topic**：wsV1.0/**{group_name}**/NDATA/**{node_name}**/**[{device_name}]** 
+    
+     **Permission:** Write
+    
+     After successfully pushing the measurement point configuration information, the client can push the measurement point data to the system through this Topic.
+
 3. **NCMD** - Return Measurement Point Data
-    **Topic:** wsV1.0/**{group_name}**/NCMD/**{node_name}**/**[{device_name}]**  
-    **Permission:** Read  
-    Clients can subscribe to this Topic to receive data when they need and allow certain points to receive values from the system.
+     
+     **Topic:** wsV1.0/**{group_name}**/NCMD/**{node_name}**/**[{device_name}]**  
+    
+     **Permission:** Read  
+    
+     Clients can subscribe to this Topic to receive data when they need and allow certain points to receive values from the system.
 
 
 - Square brackets `[]` indicate that the path segment is **optional**.

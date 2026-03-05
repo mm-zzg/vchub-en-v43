@@ -26,7 +26,7 @@ WAGO SCADA is compatible with OpenID Connect (OIDC) and can seamlessly integrate
 
 
 
-6. Click the **"Create" **button, then navigate the application detail page, then enter the "**Allowed Callback URLs**" and "**Allowed Logout URLs**".  The callback URL of SCADA is **https://{scada-host}/api/oidc/callback/signin**, and the logout url is **https://{scada-host}/api/oidc/callback/signout**. The callback URL can be copied from the identity provider form.
+6. Click the **"Create"**button, then navigate the application detail page, then enter the "**Allowed Callback URLs**" and "**Allowed Logout URLs**".  The callback URL of SCADA is **https://{scada-host}/api/oidc/callback/signin**, and the logout url is **https://{scada-host}/api/oidc/callback/signout**. The callback URL can be copied from the identity provider form.
 
     ![alt text](6.png)
 
@@ -36,7 +36,7 @@ WAGO SCADA is compatible with OpenID Connect (OIDC) and can seamlessly integrate
 
     ![alt text](8.png)
 
-8. Navigate to the identity provider management page on SCADA and click the **"Add" **button to open the identity provider creation form, then fill the form the "**Client ID**" and "**Client Secret**". And fill the URL field with the value which is composed of the **Domain** copied from from the previous step and the path **/.well-known/openid-configuration**
+8. Navigate to the identity provider management page on SCADA and click the **"Add"** button to open the identity provider creation form, then fill the form the "**Client ID**" and "**Client Secret**". And fill the URL field with the value which is composed of the **Domain** copied from from the previous step and the path **/.well-known/openid-configuration**
 
     ![alt text](9.png)
 

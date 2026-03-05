@@ -17,7 +17,7 @@ On this page, we will demonstrate how to connect WAGO SCADA to InfluxDB.
     - Host: localhost
     - Port: 8087
     - Use SSL: Enabled
-          - Data is transmitted over an encrypted channel between the VC Hub and the InfluxDB server, ensuring confidentiality and integrity. This prevents third parties from eavesdropping or tampering with the data, which is crucial when handling sensitive information.
+          - Data is transmitted over an encrypted channel between the WAGO SCADA and the InfluxDB server, ensuring confidentiality and integrity. This prevents third parties from eavesdropping or tampering with the data, which is crucial when handling sensitive information.
     - Database Name: history
     - UserName: admin
     - Password: admin@12345 

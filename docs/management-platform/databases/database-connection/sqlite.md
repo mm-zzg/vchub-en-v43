@@ -1,6 +1,6 @@
 # SQLite
 
-On this page, we will demonstrate how to connect VC Hub to SQLite.
+On this page, we will demonstrate how to connect WAGO SCADA to SQLite.
 
 1. On the "**Databases**" -> "**Database Connection**" page, click the "Add" button. 
     ![alt text](6.png)

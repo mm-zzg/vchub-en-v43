@@ -4,15 +4,15 @@
 2. Additionally, the server hosting WebRtc Streamer should also be deployed on a server accessible from the public network.
 3. And the TURN server information must be included during the startup of WebRtc Streamer.
 
-#### UML Sequence Diagram
+##  UML Sequence Diagram
 
 ![alt text](6.png)
 
-#### Deploy
+##  Deploy
 
-##### Linux
+####  Linux
 
-###### **Download**
+#####  **Download**
 
 Download Address:  [Releases · mpromonet/webrtc-streamer](https://github.com/mpromonet/webrtc-streamer/releases) 
 
@@ -20,7 +20,7 @@ Below is the v0.8.10 download interface; the red box highlights the Linux versio
 
 ![alt text](7.png)
 
-###### **Deploying**
+#####  **Deploying**
 
 Extract the downloaded archive to your target directory.
 
@@ -38,9 +38,9 @@ chmod +x webrtc-streamer
 ./webrtc-streamer -H 0.0.0.0:8000 -o 
 ```
  
-##### Windows
+####  Windows
 
-###### **Download**
+#####  **Download**
 
 Download Address:  [Releases · mpromonet/webrtc-streamer](https://github.com/mpromonet/webrtc-streamer/releases) 
 
@@ -49,7 +49,7 @@ Below is the v0.8.10 download interface; the Windows version is highlighted in t
 ![alt text](8.png)
 
 
-###### **Deploying**
+#####  **Deploying**
 
 Extract the downloaded archive to your target directory.
 
@@ -60,20 +60,20 @@ Extract the downloaded archive to your target directory.
 webrtc-streamer.exe -H 0.0.0.0:8000 -o  
 ```
  
-##### Docker
+####   Docker
 
 The following steps assume that Docker is already installed. If Docker is not installed, please refer to the official documentation.  [Install | Docker Docs](https://docs.docker.com/engine/install/)
 
-###### **Use Image**
+#####  **Use Image**
 
 ```bash
 # -o use null codec (keep frame encoded)，This minimizes the server's performance impact.
 docker run -p 8000:8000 -it mpromonet/webrtc-streamer -o
 ```
  
-#### Troubleshooting playback issues
+##  Troubleshooting playback issues
 
-##### Firewall
+####   Firewall
 
 After the service is deployed, the RTSP connection to the camera may still fail to play. In this case, you need to configure the appropriate port rules and open the startup ports for WebRTC Streamer, such as 8000 (startup TCP port), 3478 (built-in STUN server TCP and UDP ports), and 49152–65535 (UDP ports used for establishing WebRTC connections).
 You should create inbound and outbound rules for **TCP** and **UDP** on ports **8000** (the startup port you specified for WebRTC Streamer) and **3478** (the built-in STUN server port).
@@ -82,7 +82,7 @@ Then, when starting WebRTC Streamer, append the corresponding parameters and com
 
 `webrtc-streamer.exe -H 0.0.0.0:8000 -S -R 49152:65535 -o`
 
-###### **Turn on the firewall**
+#####  **Turn on the firewall**
 
 ![alt text](9.png)
 
@@ -91,27 +91,27 @@ Then, when starting WebRTC Streamer, append the corresponding parameters and com
 
 1. Inbounds => New Rule
 
-![alt text](10.png)
+     ![alt text](10.png)
 
 2. Select Port and create the rule according to the options in the image below. 
 
-![alt text](11.png)
+     ![alt text](11.png)
 
-![alt text](12.png)
+     ![alt text](12.png)
 
-![alt text](13.png)
+     ![alt text](13.png)
 
-![alt text](14.png)
+     ![alt text](14.png)
 
-![alt text](15.png)
+     ![alt text](15.png)
 
-![alt text](16.png)
+     ![alt text](16.png)
 
 3. Completed the creation of inbound rules for TCP ports 3478 and 8000.
 
 4. Then repeat steps 1–3 to complete the creation of inbound rules for UDP ports 3478, 8000, and 49152–65535.
 
-![alt text](17.png)
+     ![alt text](17.png)
 
 
 
@@ -119,22 +119,22 @@ Then, when starting WebRTC Streamer, append the corresponding parameters and com
 
 1. Outbound Rules => New Rule
 
-![alt text](18.png)
+     ![alt text](18.png)
 
 2. Select Port and create the rule according to the options in the image below. 
 
 
 
-![alt text](19.png)
-![alt text](20.png)
-![alt text](21.png)
-![alt text](22.png)
-![alt text](23.png)
+     ![alt text](19.png)
+     ![alt text](20.png)
+     ![alt text](21.png)
+     ![alt text](22.png)
+     ![alt text](23.png)
 
 3. Completed the creation of outbound rules for TCP ports 3478 and 8000.
 4. Then repeat steps 1–3 to complete the creation of outbound rules for UDP ports 3478, 8000, and 49152–65535.
 
-![alt text](24.png)
+     ![alt text](24.png)
 
 
 ###### **Launch WebRtc Streamer.**

@@ -43,15 +43,15 @@ Registry of historical data tags and tag value types, used to register tags and 
 | ProviderId      | BigInt        | Source of ScadaProviderMapping ID                                                             |
 | NormalizedName  | String        | String After Tag Is Converted to Chinese Pinyin                                               |
 
-## ScadaTagHistory
+## ScadaTagHistory Or ScadaTagHistory_{ProvideId}_{PartitonSize}_{DateKey}
 
-**Raw Tag History Storage**
+Raw Tag History Storage
 
 When the historical database is configured without partitioning, all raw tag history data is stored in the table **ScadaTagHistory**.
 
 When partitioning is enabled, the data is stored in dynamically generated tables following the naming convention:
 
-**ScadaTagHistory_{ProviderId}_ {PartitionSize}_{DateKey}**
+**ScadaTagPreProcessed_{ProvideId}_{WindowSize}_{DateKey}**
 
 | Column Name | Data Type | Description                                                                                                                      |
 |-------------|-----------|----------------------------------------------------------------------------------------------------------------------------------|
