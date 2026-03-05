@@ -698,9 +698,9 @@ nav:
                                       - appendix/system-function/system-page/system-page-setpropertyvalue.md
                             - System.PTZControl:
                                       - appendix/system-function/system-ptzcontrol/index.md
-                                      - appendix/system-function/system-ptzcontrol/system-ptzControl-move.md
-                                      - appendix/system-function/system-ptzcontrol/system-ptzControl-stop.md
-                                      - appendix/system-function/system-ptzcontrol/system-ptzControl-setposition.md                                                
+                                      - appendix/system-function/system-ptzcontrol/system-ptzcontrol-move.md
+                                      - appendix/system-function/system-ptzcontrol/system-ptzcontrol-stop.md
+                                      - appendix/system-function/system-ptzcontrol/system-ptzcontrol-setposition.md                                                
                             - System.Security:
                                       - appendix/system-function/system-security/index.md
                                       - appendix/system-function/system-security/system-security-changepassword.md
