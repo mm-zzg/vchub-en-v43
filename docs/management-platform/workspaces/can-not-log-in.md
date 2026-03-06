@@ -12,9 +12,9 @@ If you have other workspaces in your system and have the login information for t
 1. **Log in to the WAGO SCADA installation server.**
 2. **Go to the user data directory.**
 
-   - For Windows installation, the default user data directory is: “%ProgramData%\WAGOSCADA”, usually located at “C:\ProgramData\WAGOSCADA”.
-   - For Linux installation, the default user data directory is: `/usr/share/WAGOSCADA`.
-   - If you changed the user data directory during installation, go to the directory you modified.
+    - For Windows installation, the default user data directory is: “%ProgramData%\WAGOSCADA”, usually located at “C:\ProgramData\WAGOSCADA”.
+    - For Linux installation, the default user data directory is: `/usr/share/WAGOSCADA`.
+    - If you changed the user data directory during installation, go to the directory you modified.
 3. **Navigate to the \Workspaces folder.**
 
       This directory contains all the workspaces, with each workspace stored in its own separate folder.
@@ -30,6 +30,7 @@ If you have other workspaces in your system and have the login information for t
 
 6. **Log in using the switched workspace user information.** 
 
+
 # **Method 2: Create a New Workspace**
 
 If there are no other available workspaces in your system, Method 1 will not be applicable. In this case, you can choose to create a new workspace.
@@ -43,7 +44,7 @@ If there are no other available workspaces in your system, Method 1 will not be 
     - Default installation directory for Linux: `/usr/local/bin/wagoscada`
     
     - If you changed the installation directory during setup, go to your custom installation directory.
-    
+
 3. **Delete the "workspace_initialized" file in the root directory**
 4. **Restart the service**
 5. **Refresh the frontend page, and you will be guided to create a new workspace Simply enter a username and password to complete the workspace creation.**

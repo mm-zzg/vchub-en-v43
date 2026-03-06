@@ -69,7 +69,7 @@ Used for communication with the OPC UA server. Only UA TCP is supported,  UA HTT
 
 For more detailed information on advanced properties, please refer to the official documentation:   [https://reference.opcfoundation.org/](https://reference.opcfoundation.org/) 
 
-9. Click the **"OK"** button. The data will be displayed under the previously created device.
+9.Click the **"OK"** button. The data will be displayed under the previously created device.
     ![alt text](11.png)
 
 ## **Note**

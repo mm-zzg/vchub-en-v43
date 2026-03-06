@@ -47,9 +47,9 @@ To further enhance system security, it is recommended to perform the following s
 1. Create a dedicated service account<br>
     
     
-   Create a dedicated account in Windows local users and groups (e.g., WAGOSCADASvc):
+    Create a dedicated account in Windows local users and groups (e.g., WAGOSCADASvc):
    
-      ![alt text](14.png)
+    ![alt text](14.png)
        
 2. Set service installation directory permissions
     

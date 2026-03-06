@@ -26,7 +26,7 @@ Take Azure as an example, you need to add inbound connection rules in the networ
 
 ![alt text](6.png)
 
-3. LAN firewall outbound rules may also restrict the ports of non-HTTP services, LAN servers sending TCP connections to the public network with a target port of 8060 may be intercepted by the LAN local firewall, so you need to check with the LAN administrator to make sure that the ports used for networking are not blocked, and if blocked, you can apply for the opening of networking ports or change the networking ports of the cloud nodes.
+3.LAN firewall outbound rules may also restrict the ports of non-HTTP services, LAN servers sending TCP connections to the public network with a target port of 8060 may be intercepted by the LAN local firewall, so you need to check with the LAN administrator to make sure that the ports used for networking are not blocked, and if blocked, you can apply for the opening of networking ports or change the networking ports of the cloud nodes.
 
 
 

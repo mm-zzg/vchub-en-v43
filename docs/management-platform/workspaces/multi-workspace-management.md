@@ -72,12 +72,13 @@ The "More" dropdown menu under any project data includes an **Export** option, a
 
 During the export process, users can optionally **set a password** for the exported file to enhance data security.
 
-![alt text](7.png)
+![alt text](8.png)
+
 
 
 The exported file is saved in `.wsbk` format to the local Downloads directory. It can be used for workspace backup and synchronization across multiple nodes.
 
-![alt text](8.png)
+![alt text](7.png)
 
 #### **Import**
 

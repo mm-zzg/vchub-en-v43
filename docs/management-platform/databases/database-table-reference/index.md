@@ -46,7 +46,7 @@ Within the **History Database** page, users can configure both the **storage med
 
 ## Database Connection
 
-The VC Hub system currently supports five types of databases: **MySQL**, **SQL Server**, **PostgreSQL**, **SQLite**, and **InfluxDB**.
+The SCADA system currently supports five types of databases: **MySQL**, **SQL Server**, **PostgreSQL**, **SQLite**, and **InfluxDB**.
 
 Users can configure the database connection by specifying the appropriate **connection URL**, **username**, and other relevant credentials. These configured databases are then utilized for storing **alarm history** and **tag history** data.
 

@@ -14,14 +14,15 @@ The MQTT SparkplugB driver in WAGO SCADA is designed and developed based on the 
 
 4. Click "Add Node" in the Operation column, enter the node name and add a new node for the current group.
   
-   **Node:** Node represents the entity of a specific device, and has a unique identifier, which is used to distinguish each device. 
-   ![alt text](3.png)
+    **Node:** Node represents the entity of a specific device, and has a unique identifier, which is used to distinguish each device. 
+
+    ![alt text](3.png)
 
 5. Click the **"OK"** button. The data will be displayed in the node list page of the current group. Please note that the status column only indicates the start/stop status of the current node, not the connection status. 
-   ![alt text](4.png)
+    ![alt text](4.png)
 
 6. Click the Enable button in the Enable Status column to enable the node.
-   ![alt text](5.png)
+    ![alt text](5.png)
 
 **Configuration Fields**
 

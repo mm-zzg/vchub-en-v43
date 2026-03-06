@@ -37,6 +37,8 @@ Use custom curves to display equipment failure rates.
 | Y Axis       | The display range is set to 1~60.    |
 | Line Style   | Set the dataset and cell binding for the curve.  <br>![alt text](47.png)  <br>Set the style of the curve.  <br>![alt text](48.png)  <br>- **Line Color**: #00bfbf   <br>- **Line Width**: 1   <br>- **Area**: False     <br>- **Line Style**: Solid Line <br>- **Line Type**:Line       <br>- **Symbol Color**: #00bf35    <br>- **Symbol Style**: Dot        <br>- **Symbol Size**: 6          <br>- **Decimals**:1    |
 
+
 3.Click the Preview button to preview.
-    ![alt text](49.png)
+
+![alt text](49.png)
 

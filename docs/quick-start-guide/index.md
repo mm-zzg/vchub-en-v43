@@ -16,7 +16,7 @@ After the installation of WAGO SCADA, a SQLite database will be automatically cr
 
 ## 3.Add Assets
 
-After the installation of VC Hub, a default asset will be automatically created, which you can use for basic testing. You can also click "Tags" -> "Assets" page and then click the "New" button to create new assets.See details in [Assets](../management-platform/assets-and-tags/asset/index.md)
+After the installation of WAGO SCADA, a default asset will be automatically created, which you can use for basic testing. You can also click "Tags" -> "Assets" page and then click the "New" button to create new assets.See details in [Assets](../management-platform/assets-and-tags/asset/index.md)
 
 ## 4.Open the Editor
 

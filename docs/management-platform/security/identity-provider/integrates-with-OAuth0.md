@@ -26,7 +26,7 @@ WAGO SCADA is compatible with OpenID Connect (OIDC) and can seamlessly integrate
 
 
 
-6. Click the **"Create"**button, then navigate the application detail page, then enter the "**Allowed Callback URLs**" and "**Allowed Logout URLs**".  The callback URL of SCADA is **https://{scada-host}/api/oidc/callback/signin**, and the logout url is **https://{scada-host}/api/oidc/callback/signout**. The callback URL can be copied from the identity provider form.
+6. Click the **"Create"** button, then navigate the application detail page, then enter the **"Allowed Callback URLs"** and **"Allowed Logout URLs"** .  The callback URL of SCADA is **https://{scada-host}/api/oidc/callback/signin**, and the logout url is **https://{scada-host}/api/oidc/callback/signout**. The callback URL can be copied from the identity provider form.
 
     ![alt text](6.png)
 

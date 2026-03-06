@@ -18,11 +18,11 @@ The purpose of the demo workspace is to demonstrate the various functions, opera
 
 1. Click the "**Open**" button of the Demo workspace in the workspace list. 
 
-![alt text](2.png)
+    ![alt text](2.png)
 
-It will go to the login page.
+    It will go to the login page.
 
-![alt text](3.png)
+    ![alt text](3.png)
 
 2. Refer to the extracted **Readme.txt** file for the initial **username** and **password** required to log in to the demo workspace.
 3. Use the username and password from step 2 to log into the system.

@@ -32,6 +32,7 @@ If you want to successfully manage and use camera devices, please first deploy t
 #### **Creating a Camera Device**
 
 1.In the actions column of the created device, click the **"Add Camera"** button to add a Camera for the current device.
+
 2.On the Add page, enter the camera information.
 
 ![alt text](3.png)

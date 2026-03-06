@@ -350,7 +350,7 @@ INNER JOIN public."ScadaTagMapping" d ON c."TagId" = d."Id" AND c."ProviderId" =
 #### Breaking Change 13: System.Tag.readHistory function parameters updated
 
 - **Impact** : All scripts using this function.
-- **Change** : From version 4.2, a new aggregate mode query has been added to the parameters of the** System.Tag.readHistory**  function, supporting the return of query results by  a fixed number of points.
+- **Change** : From version 4.2, a new aggregate mode query has been added to the parameters of the **System.Tag.readHistory**  function, supporting the return of query results by  a fixed number of points.
 - **Solution** : Existing code runs, but editing will show errors. Update parameter format accordingly.
 
  Please refer to:Please refer to：[System.Tag.readHistory](../appendix/system-function/system-tag/system-tag-readhistory.md)

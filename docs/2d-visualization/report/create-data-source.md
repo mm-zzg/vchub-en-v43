@@ -30,6 +30,7 @@ Data connection is the first step before any data analysis. The built-in report 
 
 5.Switch to the "Report Designer" page and click the Settings button.
     ![alt text](12.png)
+    
 6.The created data source information is automatically displayed in the report designer's data sources and datasets.
     ![alt text](13.png)
 

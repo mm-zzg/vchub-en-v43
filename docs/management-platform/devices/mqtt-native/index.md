@@ -18,10 +18,10 @@ The MQTT Native driver in WAGO SCADA is designed and developed based on the MQTT
 **Node**: Node represents the entity of a specific device, and has a unique identifier, which is used to distinguish each device.
     ![alt text](3.png)
 
-5. Click the "**OK**" button. The data will be displayed in the node list page of the current group. Please note that the Status column only indicates the start/stop status of the current node, not the connection status.
+5.Click the "**OK**" button. The data will be displayed in the node list page of the current group. Please note that the Status column only indicates the start/stop status of the current node, not the connection status.
     ![alt text](4.png)
 
-6. Click the Enable button in the  Enabled Status column to enable the node.
+6.Click the Enable button in the  Enabled Status column to enable the node.
     ![alt text](5.png)
 
 **Configuration Fields**

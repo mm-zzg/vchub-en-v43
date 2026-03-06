@@ -39,6 +39,12 @@ System functions are named after System, and you can see many different categori
 - [​System.Page.getPropertyValue​](system-page/system-page-getpropertyvalue.md) 
 - [​System.Page.setPropertyValue​](system-page/system-page-setpropertyvalue.md)
 
+**System.PTZControl**
+
+- [System.PTZControl.move](system-ptzcontrol-move.md)   
+- [System.PTZControl.stop](system-ptzcontrol-setposition.md)  
+- [System.PTZControl.setPosition](system-ptzcontrol-stop.md)
+
 **System.Security**
 
 - [​System.Security.changePassword​](system-security/system-security-changepassword.md) 
@@ -77,3 +83,7 @@ System functions are named after System, and you can see many different categori
 
 - [​System.Utils.importScript​](system-utils/system-utils-importscript.md) 
 - [​System.Utils.importStyle​](system-utils/system-utils-importstyle.md)
+
+**System.Function**
+
+- [System.Function.runScript](system-function-runscript.md)
