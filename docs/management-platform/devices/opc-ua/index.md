@@ -20,25 +20,25 @@ Used for communication with the OPC UA server. Only UA TCP is supported,  UA HTT
 4. Click ​**Next** to proceed to the ​**Authentication** page, where you can enter the device **Name**.
     ![alt text](5.png)
 
-**Configuration Fields**
+    **Configuration Fields**
 
-| **Name**            | **Description**              |
-|:------------------------|:--------------------------------|
-| Name                   | Name of the frame connection.                                            |
-| Endpoint URL           | The address of the device connection.                                    |
-| Best Available         | Use the highest level of security to connect.                            |
-| Security Mode          | Protection level for communication with OPC UA servers.                  |
-| Security Policy        | Specific algorithms and protocols for implementing secure communication. |
-| Authentication         | Whether the device has authentication enabled.                           |
-| -Username              | The username used for device authentication.                             |
-| -Password              | The ​password used for device authentication.                            |
-| Operation Timeout (ms) | The operation timeout time of the device in milliseconds.                |
-| Session Timeout (ms)   | The session timeout time for the device in milliseconds.                 |
+    | **Name**            | **Description**              |
+    |:------------------------|:--------------------------------|
+    | Name                   | Name of the frame connection.                                            |
+    | Endpoint URL           | The address of the device connection.                                    |
+    | Best Available         | Use the highest level of security to connect.                            |
+    | Security Mode          | Protection level for communication with OPC UA servers.                  |
+    | Security Policy        | Specific algorithms and protocols for implementing secure communication. |
+    | Authentication         | Whether the device has authentication enabled.                           |
+    | -Username              | The username used for device authentication.                             |
+    | -Password              | The ​password used for device authentication.                            |
+    | Operation Timeout (ms) | The operation timeout time of the device in milliseconds.                |
+    | Session Timeout (ms)   | The session timeout time for the device in milliseconds.                 |
 
 5. Click the **"OK"** button. The data will be displayed on the OPC UA list.
     ![alt text](6.png)
 
-6. Click the Enable button  to enable the device.
+6. Click the Enable button to enable the device.
     ![alt text](7.png)
 
 7. Click the "Add Group" button on the created device to open a new window and add a group to the current device.
@@ -67,7 +67,7 @@ Used for communication with the OPC UA server. Only UA TCP is supported,  UA HTT
 | Deadband Value                | The value of deadband, if the range condition is not met, no data change notification will be triggered.                                                                                                                               |
 | Timestamp Origin              | Specifies the Timestamp Attributes to be transmitted for MonitoredItems or Nodes in Read and HistoryRead. The default is 'Source'.                                                                                                     |
 
-For more detailed information on advanced properties, please refer to the official documentation:   [https://reference.opcfoundation.org/](https://reference.opcfoundation.org/) 
+For more detailed information on advanced properties, please refer to the official documentation: [https://reference.opcfoundation.org/](https://reference.opcfoundation.org/) 
 
 9.Click the **"OK"** button. The data will be displayed under the previously created device.
     ![alt text](11.png)
@@ -115,7 +115,7 @@ Configure the OPC client connection:
 1. Follow the steps in the example above to create an OPC UA device and group. 
 2. Click Test Connection.
     ![alt text](18.png)
-3. Trust VCHub certificate in Codesys
+3. Trust WagoScada certificate in Codesys
     ![alt text](19.png)
 
 ## **Binding to Tags**
@@ -131,9 +131,10 @@ Bind tags to data in the driver.
     1. Click the expand button ▶ next to a node name to expand the node and view its child nodes.
     2. Click on the node you wish to bind. Once selected, the node will be highlighted, and the right window will update to display the relevant property information for that node.
     3. If the selected node is an array, you can enter the desired index in the designated field on the right to access specific elements of the array. For example, entering 0 will access the first element of the array.
-    
+
     ![alt text](22.png)
 4. After completing the node selection and property editing, please ensure that you click the '**OK**' button on the interface to save your settings and binding information.
+
 5. If you decide not to proceed with the current binding, you can click the **'Cancel'** button to discard the changes you've made.
 
 **Important Note on Updating NodeId:**
