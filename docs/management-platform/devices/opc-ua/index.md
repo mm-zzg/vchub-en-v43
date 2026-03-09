@@ -133,6 +133,7 @@ Bind tags to data in the driver.
     3. If the selected node is an array, you can enter the desired index in the designated field on the right to access specific elements of the array. For example, entering 0 will access the first element of the array.
 
     ![alt text](22.png)
+
 4. After completing the node selection and property editing, please ensure that you click the '**OK**' button on the interface to save your settings and binding information.
 
 5. If you decide not to proceed with the current binding, you can click the **'Cancel'** button to discard the changes you've made.

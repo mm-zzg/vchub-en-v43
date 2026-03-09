@@ -52,19 +52,19 @@ new Vue({
         return {
             tableData: [{
                 date: '2016-05-02',
-                name: 'WAGO VC Hub',
+                name: 'WAGO SCADA',
                 address: ' Jinshajiang Road, Putuo District, Shanghai'
             }, {
                 date: '2016-05-04',
-                name: 'WAGO VC Hub',
+                name: 'WAGO SCADA',
                 address: ' Jinshajiang Road, Putuo District, Shanghai'
             }, {
                 date: '2016-05-01',
-                name: 'WAGO VC Hub',
+                name: 'WAGO SCADA',
                 address: ' Jinshajiang Road, Putuo District, Shanghai'
             }, {
                 date: '2016-05-03',
-                name: 'WAGO VC Hub',
+                name: 'WAGO SCADA',
                 address: ' Jinshajiang Road, Putuo District, Shanghai'
             }]
         }

@@ -99,7 +99,7 @@ All data in WAGO SCADA, apart from historical data, is stored in a fixed directo
 
 Users can manually copy the application data directory to another storage device for backup purposes on a regular basis. When restoration is needed, users can manually stop the WAGO SCADA service on Azure VM, replace the application data directory on Azure VM with the backup directory, and then restart the WAGO SCADA service.
 
-Azure provides the [Azure Backup](https://azure.microsoft.com/en-us/products/backup) service, which allows for configuring automatic backups at regular intervals and provides cloud storage space. Azure Backup also offers restoration functionality, as detailed in [Restore files to an Azure virtual machine](https://learn.microsoft.com/en-us/azure/backup/tutorial-restore-files) (Note: Before restoration, the VC Hub service still needs to be manually stopped).
+Azure provides the [Azure Backup](https://azure.microsoft.com/en-us/products/backup) service, which allows for configuring automatic backups at regular intervals and provides cloud storage space. Azure Backup also offers restoration functionality, as detailed in [Restore files to an Azure virtual machine](https://learn.microsoft.com/en-us/azure/backup/tutorial-restore-files) (Note: Before restoration, the WAGO SCADA service still needs to be manually stopped).
 
 The specific location of the application data directory can be configured during the installation process, as shown in the following image.
 
