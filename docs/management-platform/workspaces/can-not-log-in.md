@@ -22,9 +22,10 @@ If you have other workspaces in your system and have the login information for t
       Go to the root directory of a specific workspace folder, where you can check the **“.ini”** file to view information such as the workspace name.
 
       ![alt text](21.png)
+
 4. **Modify the ".ini" file in the root directory of the workspace folder.**
 
-     Change the **Current** field to the **target workspace ID**.
+      Change the **Current** field to the **target workspace ID**.
 
 5. **Restart the service.**
 

@@ -37,7 +37,7 @@ Description: This project is used to display the various control effects of WAGO
      ![alt text](16.png)
 
      ![alt text](17.png)
-     
+
 7. Tables
 
      ![alt text](18.png)
@@ -45,6 +45,7 @@ Description: This project is used to display the various control effects of WAGO
      ![alt text](19.png)
 
 8. Drawing
+
      ![alt text](20.png)
 
      ![alt text](21.png)

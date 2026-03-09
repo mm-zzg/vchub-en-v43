@@ -89,6 +89,7 @@ In this example:
 
 **Notes:**  
   - The exact format of the RTSP address may vary depending on the configuration of the streaming server and supported parameters. Some streaming servers may use other protocol prefixes, such as rtsps:// for RTSP over SSL (RTSP Secure Connection). 
+  
   - When using RTSP addresses, the format of the camera address may vary partially between brands, so please check the documentation of the corresponding brand to ensure that the address is parsed and used correctly! 
 
 #### Application Scenarios

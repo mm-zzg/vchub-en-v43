@@ -251,8 +251,8 @@ nav:
                                                           - management-platform/assets-and-tags/asset/asset-tree/batch-operation/batch-add.md
                                                           - management-platform/assets-and-tags/asset/asset-tree/batch-operation/export-and-import.md
                                                           - Batch Update:
-                                                                  - management-platform/assets-and-tags/asset/asset-tree/batch-update/index.md
-                                                                  - management-platform/assets-and-tags/asset/asset-tree/batch-update/tag.md
+                                                                  - management-platform/assets-and-tags/asset/asset-tree/batch-operation/batch-update/index.md
+                                                                  - management-platform/assets-and-tags/asset/asset-tree/batch-operation/batch-update/tag.md
 
                                                                 
                             - Tag:
