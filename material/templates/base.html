@@ -49,7 +49,7 @@
       {% endif %}
     {% endblock %}
     {% block styles %}
-      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.618322db.min.css' | url }}">
+      <link rel="stylesheet" href="{{ 'assets/stylesheets/main.484c7ddc.min.css' | url }}">
       {% if config.theme.palette %}
         {% set palette = config.theme.palette %}
         <link rel="stylesheet" href="{{ 'assets/stylesheets/palette.ab4e12ef.min.css' | url }}">
@@ -65,11 +65,7 @@
       {% if config.theme.font != false %}
         {% set text = config.theme.font.text | d("Roboto", true) %}
         {% set code = config.theme.font.code | d("Roboto Mono", true) %}
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{
-            text | replace(' ', '+') + ':300,300i,400,400i,700,700i%7C' +
-            code | replace(' ', '+') + ':400,400i,700,700i'
-          }}&display=fallback">
+         <link rel="stylesheet" href="{{ 'assets/stylesheets/local-fonts.css' | url }}">
         <style>:root{--md-text-font:"{{ text }}";--md-code-font:"{{ code }}"}</style>
       {% endif %}
     {% endblock %}
