@@ -11,7 +11,7 @@ Key differences include:
 
 ## **Measurement**
 
-After configuring the InfluxDB database connection and using it within the historical database, when the tag is enabled for historical data, data will be written to InfluxDB. The VC Hub system will automatically create the corresponding Measurement internally.
+After configuring the InfluxDB database connection and using it within the historical database, when the tag is enabled for historical data, data will be written to InfluxDB. The SCADA system will automatically create the corresponding Measurement internally.
 
 ## tag_{HistoryDatabaseName}_{NodeName}
 
@@ -21,13 +21,13 @@ The Measurement name in the tag history database starts with `tag_`.
 
 For example, if the tag name is `HistoryAsset:Device.record`, and the asset bound to this tag is named `HistoryAsset`,
 then by checking the historical database configured for `HistoryAsset`, let's assume the database name is `InfluxDbHistory`,
-and the VC Hub system's node name is `PC-SZ-JJG`, 
+and the SCADA system's node name is `PC-SZ-JJG`, 
 the resulting Measurement name in InfluxDB would be: **tag_InfluxDbHistory_PC-SZ-JJG**
 
 ![alt text](1.png)
 
 | Column Type | Column Type | Value Type | Description                                                                                                                                                                                                                            |
-|-------------|-------------|------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:-------------|:-------------|:------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | P           | Tag         | string     | Tag name                                                                                                                                                                                                                               |
 | T           | Tag         | string     | Value-type numeric string  1: Integer  2: String  3: Double  4: Boolean  5: DateTime                                                                                                                                                   |
 | Q           | Field       | Integer    | The value of Quality                                                                                                                                                                                                                   |

@@ -11,7 +11,7 @@ Request Payload: NA
 Response Payload(JsonArray):
 
 | Name        | Type   | Description       |
-|-------------|--------|-------------------|
+|:-------------|:--------|:-------------------|
 | id          | String | Asset id          |
 | name        | String | Asset name        |
 | description | String | Asset description |
@@ -25,7 +25,7 @@ Protocol: Https
 Request Payload(JsonObject):
 
 | Name        | Type   | Description       |
-|-------------|--------|-------------------|
+|:-------------|:--------|:-------------------|
 | name        | String | Asset name        |
 | description | String | Asset description |
 
@@ -40,7 +40,7 @@ Protocol: Https
 Request Payload(JsonObject):
 
 | Name        | Type   | Description       |
-|-------------|--------|-------------------|
+|:-------------|:--------|:-------------------|
 | name        | String | Asset name        |
 | description | String | Asset description |
 
@@ -55,7 +55,7 @@ Protocol: Https
  Request Payload(JsonObject):
 
 | Name        | Type   | Description       |
-|-------------|--------|-------------------|
+|:-------------|:--------|:-------------------|
 | name        | String | Asset name        |
 | description | String | Asset description |
 
@@ -72,13 +72,13 @@ Protocol: Https
 Request Payload(QueryString):
 
 | Name       | Type   | Description                                     |
-|------------|--------|-------------------------------------------------|
+|:------------|:--------|:-------------------------------------------------|
 | parentPath | String | The parent path used to filter the asset models |
 
 Response Payload(JsonArray)
 
 | Name       | Type   | Description                    |
-|------------|--------|--------------------------------|
+|:------------|:--------|:--------------------------------|
 | treeName   | String | Asset tree name                |
 | parentPath | String | Parent path of Asset model     |
 | name       | String | Asset model name               |
@@ -96,7 +96,7 @@ Protocol: Https
 Request Payload(QueryString):
 
 | Name       | Type   | Description                |
-|------------|--------|----------------------------|
+|:------------|:--------|:----------------------------|
 | parentPath | String | Parent path of Asset model |
 | name       | String | Asset model name           |
 
@@ -113,7 +113,7 @@ Protocol: Https
 Request Payload(QueryString):
 
 | Name       | Type   | Description                |
-|------------|--------|----------------------------|
+|:------------|:--------|:----------------------------|
 | parentPath | String | Parent path of Asset model |
 | name       | String | Asset model name           |
 
@@ -144,7 +144,7 @@ Request Payload: NA;
 Respose Payload(JsonArray):
 
 | Name        | Type               | Description                                                                                                           |
-|-------------|--------------------|-----------------------------------------------------------------------------------------------------------------------|
+|:-------------|:--------------------|:-----------------------------------------------------------------------------------------------------------------------|
 | treeName    | String             | Asset tree name                                                                                                       |
 | parentPath  | String             | Parent path of Asset model                                                                                            |
 | name        | String             | Asset model name                                                                                                      |
@@ -167,7 +167,7 @@ Protocol: Https
 Request Payload(JsonObject):
 
 | Name        | Type   | Description                                                                                                           |
-|-------------|--------|-----------------------------------------------------------------------------------------------------------------------|
+|:-------------|:--------|:-----------------------------------------------------------------------------------------------------------------------|
 | name        | String | Asset model property name                                                                                             |
 | type        | String | Asset type (Instance,Tag)                                                                                             |
 | modelPath   | String | the model path of model instance, only has value when the property type is Instance                                   |
@@ -188,7 +188,7 @@ Protocol: Https
 Request Payload(JsonArray):
 
 | Name        | Type   | Description                                                                                                           |
-|-------------|--------|-----------------------------------------------------------------------------------------------------------------------|
+|:-------------|:--------|:-----------------------------------------------------------------------------------------------------------------------|
 | name        | String | Asset model property name                                                                                             |
 | type        | String | Asset type (Instance,Tag)                                                                                             |
 | modelPath   | String | the model path of model instance, only has value when the property type is Instance                                   |
@@ -205,7 +205,7 @@ Protocol: Https
 Request Payload(JsonObject):
 
 | Name        | Type   | Description                    |
-|-------------|--------|--------------------------------|
+|:-------------|:--------|:--------------------------------|
 | name        | String | Asset model property name      |
 | description | String | The model property description |
 
@@ -234,13 +234,13 @@ Protocol: Https
 Request Payload(QueryString):
 
 | Name       | Type   | Description                                        |
-|------------|--------|----------------------------------------------------|
+|:------------|:--------|:----------------------------------------------------|
 | parentPath | String | The parent path used to filter the asset instances |
 
 Response Payload:
 
 | Name       | Type   | Description                               |
-|------------|--------|-------------------------------------------|
+|:------------|:--------|:-------------------------------------------|
 | treeName   | String | Asset tree name                           |
 | parentPath | String | The parent path of current asset instance |
 | name       | String | Asset model instance name                 |
@@ -258,7 +258,7 @@ Protocol: Https
 Request Payload:(JsonObject)
 
 | Name       | Type   | Description                                   |
-|------------|--------|-----------------------------------------------|
+|:------------|:--------|:-----------------------------------------------|
 | parentPath | String | The parent path of current asset instance     |
 | name       | String | Asset instance name                           |
 | modelPath  | String | The referenced model path of current instance |
@@ -274,7 +274,7 @@ Protocol: Https
 Request Payload:(JsonObject)
 
 | Name       | Type   | Description                               |
-|------------|--------|-------------------------------------------|
+|:------------|:--------|:-------------------------------------------|
 | parentPath | String | The parent path of current asset instance |
 | name       | String | Asset instance name                       |
 
@@ -303,7 +303,7 @@ Request Payload: NA
 Response Payload:
 
 | Name        | Type               | Description                                                                                                           |
-|-------------|--------------------|-----------------------------------------------------------------------------------------------------------------------|
+|:-------------|:--------------------|:-----------------------------------------------------------------------------------------------------------------------|
 | treeName    | String             | Asset tree name                                                                                                       |
 | parentPath  | String             | Parent path of current asset instance property                                                                        |
 | name        | String             | Asset instance name                                                                                                   |
@@ -326,13 +326,13 @@ Protocol: Https
 Request Payload(QueryString):
 
 | Name       | Type   | Description                         |
-|------------|--------|-------------------------------------|
+|:------------|:--------|:-------------------------------------|
 | parentPath | String | The parent path used to filter tags |
 
 Response Payload(JsonArray):
 
 | Name        | Type   | Description                                                                                                           |
-|-------------|--------|-----------------------------------------------------------------------------------------------------------------------|
+|:-------------|:--------|:-----------------------------------------------------------------------------------------------------------------------|
 | treeName    | String | Asset tree name                                                                                                       |
 | parentPath  | String | Parent path of current item                                                                                           |
 | name        | String | Asset instance name                                                                                                   |
@@ -354,7 +354,7 @@ Protocol: Https
 Request Payload(JsonObject):
 
 | Name        | Type   | Description                                                                                                           |
-|-------------|--------|-----------------------------------------------------------------------------------------------------------------------|
+|:-------------|:--------|:-----------------------------------------------------------------------------------------------------------------------|
 | parentPath  | String | Parent path of current tag                                                                                            |
 | name        | String | Asset instance name                                                                                                   |
 | type        | String | Asset type (Folder,Instance,Tag)                                                                                      |
@@ -373,7 +373,7 @@ Protocol: Https
 Request Payload(JsonObject):
 
 | Name        | Type   | Description                |
-|-------------|--------|----------------------------|
+|:-------------|:--------|:----------------------------|
 | parentPath  | String | Parent path of current tag |
 | name        | String | Asset instance name        |
 | description | String | The tag description        |
@@ -401,7 +401,7 @@ Request Payload: NA
 Response Payload(JsonObject):
 
 | Name        | Type                         | Description                   |
-|-------------|------------------------------|-------------------------------|
+|:-------------|:------------------------------|:-------------------------------|
 | name        | String                       | Tag name                      |
 | tagGroup    | String                       | Tag group                     |
 | description | String                       | Description of the tag        |
@@ -417,7 +417,7 @@ Response Payload(JsonObject):
 Value Configuration Model(ValueConfigurationModel)
 
 | Name                 | Type    | Description                                    |
-|----------------------|---------|------------------------------------------------|
+|:----------------------|:---------|:------------------------------------------------|
 | valueType            | String  | Data type(Integer,String,Double,Bool,DateTime) |
 | initialValue         | Dynamic | Initial value                                  |
 | engineeringLowLimit  | Double  | Engineering low limit                          |
@@ -432,7 +432,7 @@ Value Configuration Model(ValueConfigurationModel)
 Alarm Configuration Model(AlarmConfigurationModel)
 
 | Name              | Type                                | Description                        |
-|-------------------|-------------------------------------|------------------------------------|
+|:-------------------|:-------------------------------------|:------------------------------------|
 | limitAlarm        | LimitAlarmConfigurationModel        | Limit alram configuration          |
 | rateOfChangeAlarm | RateOfChangeAlarmConfigurationModel | Rate of change alarm configuration |
 | equivalentAlarm   | EquivalentAlarmConfigurationModel   | Equivalent alarm configuration     |
@@ -441,7 +441,7 @@ Alarm Configuration Model(AlarmConfigurationModel)
 Limit Alarm Configuration Model(LimitAlarmConfigurationModel)
 
 | Name               | Type              | Description             |
-|--------------------|-------------------|-------------------------|
+|:--------------------|:-------------------|:-------------------------|
 | activeDelayEnabled | Boolean           | Enable activation delay |
 | activeDelay        | Integer           | Activation delay time   |
 | resumeDelayEnabled | Boolean           | Enable resume delay     |
@@ -452,7 +452,7 @@ Limit Alarm Configuration Model(LimitAlarmConfigurationModel)
 Limit Alarm Model(LimitAlarmModel)
 
 | Name             | Type    | Description                                                                             |
-|------------------|---------|-----------------------------------------------------------------------------------------|
+|:------------------|:---------|:-----------------------------------------------------------------------------------------|
 | enabled          | Boolean | Enable limit alarm                                                                      |
 | type             | String  | Type(H ,H2 , H3,H4,L,L2,L3,L4)                                                          |
 | name             | String  | Limit alarm name                                                                        |
@@ -467,7 +467,7 @@ Limit Alarm Model(LimitAlarmModel)
 Rate Of Change Alarm Configuration Model(RateOfChangeAlarmConfigurationModel)
 
 | Name               | Type                     | Description                   |
-|--------------------|--------------------------|-------------------------------|
+|:--------------------|:--------------------------|:-------------------------------|
 | activeDelayEnabled | Boolean                  | Enable activation delay       |
 | activeDelay        | Integer                  | Activation delay time         |
 | resumeDelayEnabled | Boolean                  | Enable resume delay           |
@@ -477,7 +477,7 @@ Rate Of Change Alarm Configuration Model(RateOfChangeAlarmConfigurationModel)
 Rate Of Change Alarm Model(RateOfChangeAlarmModel)
 
 | Name             | Type    | Description                                                                             |
-|------------------|---------|-----------------------------------------------------------------------------------------|
+|:-----------------|:---------|:-----------------------------------------------------------------------------------------|
 | enabled          | Boolean | Enable rate of change alarm                                                             |
 | name             | String  | Rate of change alarm name                                                               |
 | priority         | String  | Priority(Low,Medium,High,Critical)                                                      |
@@ -491,7 +491,7 @@ Rate Of Change Alarm Model(RateOfChangeAlarmModel)
 Equivalent Alarm Configuration Model(EquivalentAlarmConfigurationModel)
 
 | Name               | Type                   | Description               |
-|--------------------|------------------------|---------------------------|
+|:--------------------|:------------------------|:---------------------------|
 | activeDelayEnabled | Boolean                | Enable activation delay   |
 | activeDelay        | Integer                | Activation delay time     |
 | resumeDelayEnabled | Boolean                | Enable resume delay       |
@@ -501,7 +501,7 @@ Equivalent Alarm Configuration Model(EquivalentAlarmConfigurationModel)
 Equivalent Alarm Model(EquivalentAlarmModel)
 
 | Name             | Type    | Description                                                                             |
-|------------------|---------|-----------------------------------------------------------------------------------------|
+|:------------------|:---------|:-----------------------------------------------------------------------------------------|
 | enabled          | Boolean | Enable equivalent alarm                                                                 |
 | name             | String  | Equivalent alarm name                                                                   |
 | priority         | String  | Priority(Low,Medium,High,Critical)                                                      |
@@ -513,7 +513,7 @@ Equivalent Alarm Model(EquivalentAlarmModel)
 Boolean Alarm Configuration Model(BooleanAlarmConfigurationModel)
 
 | Name               | Type                |                         |
-|--------------------|---------------------|-------------------------|
+|:--------------------|:---------------------|:-------------------------|
 | activeDelayEnabled | Boolean             | Enable activation delay |
 | activeDelay        | Integer             | Activation delay time   |
 | resumeDelayEnabled | Boolean             | Enable resume delay     |
@@ -523,7 +523,7 @@ Boolean Alarm Configuration Model(BooleanAlarmConfigurationModel)
 Boolean Alarm Model(BooleanAlarmModel)
 
 | Name             | Type    | Description                                                                             |
-|------------------|---------|-----------------------------------------------------------------------------------------|
+|:------------------|:---------|:-----------------------------------------------------------------------------------------|
 | enabled          | Boolean | Enable boolean alarm                                                                    |
 | type             | String  | Alarm type                                                                              |
 | name             | String  | Alarm name                                                                              |
@@ -535,7 +535,7 @@ Boolean Alarm Model(BooleanAlarmModel)
 Historical Configuration Model(HistoricalConfigurationModel)
 
 | Name                 | Type    | Description                                                   |
-|----------------------|---------|---------------------------------------------------------------|
+|:----------------------|:---------|:---------------------------------------------------------------|
 | mode                 | String  | Mode(On Change,Periodic)                                      |
 | storagePeriod        | Integer | Storage period                                                |
 | storagePeriodUnit    | String  | Storage period unit(Msec,Sec,Min,Hour,Day,Week,Month,Year)    |
@@ -549,14 +549,14 @@ Historical Configuration Model(HistoricalConfigurationModel)
 Deadband Configuration Model(DeadbandConfigurationModel)
 
 | Name          | Type    | Description            |
-|---------------|---------|------------------------|
+|:---------------|:---------|:------------------------|
 | mode          | String  | Mode(Absolute,Percent) |
 | deadbandValue | Integer | Deadband value         |
 
 Scale Configuration Model(ScaleConfigurationModel)
 
 | Name     | Type   | Description                        |
-|----------|--------|------------------------------------|
+|:----------|:--------|:------------------------------------|
 | mode     | String | Scale model(Linear,Square,Reverse) |
 | rawMin   | Double | Minimum raw value                  |
 | rawMax   | Double | Maximum raw value                  |
@@ -566,7 +566,7 @@ Scale Configuration Model(ScaleConfigurationModel)
 Event Configuration Model(EventConfigurationModel)
 
 | Name                | Type    | Description                   |
-|---------------------|---------|-------------------------------|
+|:---------------------|:---------|:-------------------------------|
 | setValueEnabled     | Boolean | Enable variable write value   |
 | setValue            | String  | Value to set                  |
 | valueChangedEnabled | Double  | Enable value change detection |
@@ -574,7 +574,7 @@ Event Configuration Model(EventConfigurationModel)
 Simulation Configuration Model(SimulationConfigurationModel)
 
 | Name            | Type    | Description                                                                 |
-|-----------------|---------|-----------------------------------------------------------------------------|
+|:-----------------|:---------|:-----------------------------------------------------------------------------|
 | type            | String  | Simulation type(Fixed,Random,Increment,Decrement,Reverse,Cycle,CurrentTime) |
 | initialValue    | Dynamic | Initial simulation value                                                    |
 | simulationValue | String  | Simulation value                                                            |
@@ -588,13 +588,13 @@ Simulation Configuration Model(SimulationConfigurationModel)
 Custom Configuration Model(CustomConfigurationModel)
 
 | Name    | Type          | Description               |
-|---------|---------------|---------------------------|
+|:---------|:---------------|:---------------------------|
 | customs | CustomModel[] | List of custom properties |
 
 Custom Model(CustomModel)
 
 | Name  | Type    | Description           |
-|-------|---------|-----------------------|
+|:-------|:--------|:-----------------------|
 | name  | String  | Custom property name  |
 | value | Dynamic | Custom property value |
 

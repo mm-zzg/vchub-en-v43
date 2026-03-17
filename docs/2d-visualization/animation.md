@@ -2,7 +2,7 @@
 
 By applying animation effects sensibly, users can enjoy a more efficient, intuitive, and pleasant interface interaction experience.
 
-In VC Hub, when the control has animation properties, the "Animation" column will be displayed in the property bar on the right. Click the setting button to set the animation.
+In WAGO SCADA, when the control has animation properties, the "Animation" column will be displayed in the property bar on the right. Click the setting button to set the animation.
 
 In addition to "Value" supporting binding, the "Enable" state also supports binding. Through binding, the enabled state of the animation can dynamically change along with the value of a certain tag or expression. It is no longer manually fixed as "on/off", but rather determined dynamically by the bound value whether the animation is enabled or not.
 
@@ -10,7 +10,7 @@ In addition to "Value" supporting binding, the "Enable" state also supports bind
 
 ## Animation Types
 
-VC Hub supports the following animation types:
+WAGO SCADA supports the following animation types:
 
 #### Blink
 
@@ -25,12 +25,12 @@ Create a circular control that represents an alarm indicator light that blinks w
 ![alt text](81.png)
 
 | **Properties** | **Value**    |
-|----------------|-----------|
+|:----------------|:-----------|
 | Fill Color     | ff0000    |
 | Border Color   | ff0000    |
 | Enabled Blink  | Enable   |
 | Interval       | 500 ms    |
-| Value          | Expression: tag('Default:Temper')>40;   <br>**Note:** This animation only takes effect when the value is a Bool value. |
+| Value          | Expression: tag('Default:Temper')>40;   <br> **Note:** This animation only takes effect when the value is a Bool value. |
 
 #### Translocation
 
@@ -45,7 +45,7 @@ See where objects are traveling on the conveyor belt.
 ![alt text](82.png)
 
 | **Properties**    | **Value**     |
-|-------------------|------------------|
+|:-------------------|:------------------|
 | Horizontal Enable | Enable  |
 | Value             | Tag: Default.translocation   |
 | Direction         | From left to right  <br>![alt text](83.png) | 
@@ -90,7 +90,7 @@ The liquid level in the tank is constantly changing. Represent the jar as a rect
 ![alt text](91.png)
 
 | **Properties** | **Value**    |
-|----------------|----------|
+|:----------------|:----------|
 | Enable         | Enable   |
 | Value          | Tags: Equipment1. Liquid_Level  |
 | Direction      | The direction of the fill.  <br>![alt text](94.png) Fill from top to bottom. <br>![alt text](95.png) Fill from bottom to top. <br>![alt text](96.png) Fill from left to right. <br>![alt text](97.png) Fill from right to left. | 
@@ -110,10 +110,12 @@ The mercury column of a thermometer changes as the value changes.
 
 ![animation4](../assets/images/animation4.gif)
 
+
+
 ![alt text](100.png)
 
 | **Properties**  | **Value**   |
-|-----------------|----------|
+|:-----------------|:----------|
 | Vertical Enable | Enable   |
 | Value           | Tags: Device 1. Temperature |
 | Reference Point | The direction of the scale. <br>![alt text](101.png) Used for horizontal scaling, indicating scaling left and right with the object's left side as the reference point.  <br>![alt text](102.png) Used for horizontal scaling, indicating scaling left and right with the object's center as the reference point.     <br>![alt text](103.png) Used for horizontal scaling, indicating scaling left and right with the object's right side as the reference point.<br>![alt text](104.png) Used for vertical scaling, indicating scaling up and down with the object's top side as the reference point.     <br>![alt text](105.png) Used for vertical scaling, indicating scaling up and down with the object's center as the reference point.   <br>![alt text](106.png) Used for vertical scaling, indicating scaling up and down with the object's bottom side as the reference point.     | 

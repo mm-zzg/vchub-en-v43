@@ -1,6 +1,6 @@
 # System Function
 
-In this chapter, we will introduce all the built-in script functions available in VC Hub.
+In this chapter, we will introduce all the built-in script functions available in WAGO SCADA.
 
 System functions are named after System, and you can see many different categories of system functions below.
 
@@ -38,6 +38,12 @@ System functions are named after System, and you can see many different categori
 
 - [​System.Page.getPropertyValue​](system-page/system-page-getpropertyvalue.md) 
 - [​System.Page.setPropertyValue​](system-page/system-page-setpropertyvalue.md)
+
+**System.PTZControl**
+
+- [System.PTZControl.move](system-ptzcontrol-move.md)   
+- [System.PTZControl.stop](system-ptzcontrol-setposition.md)  
+- [System.PTZControl.setPosition](system-ptzcontrol-stop.md)
 
 **System.Security**
 
@@ -77,3 +83,7 @@ System functions are named after System, and you can see many different categori
 
 - [​System.Utils.importScript​](system-utils/system-utils-importscript.md) 
 - [​System.Utils.importStyle​](system-utils/system-utils-importstyle.md)
+
+**System.Function**
+
+- [System.Function.runScript](system-function-runscript.md)

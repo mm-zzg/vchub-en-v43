@@ -1,6 +1,6 @@
 # Asset Tree
 
-Within the editor, click on the Assets window to switch to the asset tree list. All tag information is created and maintained in the Assets window. Click the Expand icon to view the subordinate elements, and click the Collapse icon to collapse all child elements under the node.
+Within the editor, click on the Assets window to switch to the asset tree list. All tag information is created and maintained in the Assets window. Click the Expand icon to view the subordinate elements, and click the Collapse icon to collapse all child elements under the node
 
 ![alt text](1.png)
 
@@ -23,7 +23,7 @@ Icon description of the node type：
 ![alt text](10.png)
 
 | Icon |Description |
-|----------------------------------|-----------------------------------------|
+|:----------------------------------|:-----------------------------------------|
 | ![alt text](11.png) | When this icon is clicked, the top toolbar converts to a query box. <br> ![alt text](12.png) <br>After entering the search keyword in the query box, the list below will filter out all nodes with this keyword in their name.   Nodes at different levels will be displayed flat in the list. <br>![alt text](13.png) <br> Click on the left side of the "All" behind the drop-down button to display the filter conditions, you can filter by conditions.  <br>![alt text](14.png)  |
 | ![alt text](15.png) | The asset drop-down box allows you to toggle the assets in the current project at will                                                                                                                                                               |
 | ![alt text](16.png) | The Refresh button, when clicked, reloads the list in the Asset Selection box on the left, and the data in the Asset Tree list below.  |
@@ -33,7 +33,7 @@ Icon description of the node type：
 
 ## Batch Operation
 
-The user can click the "More" button in the upper right corner of the editor and select "Batch Operation".
+The user can click the "More" button in the upper right corner of the editor and select [Batch Operation](batch-operation/index.md).
 
 ![alt text](24.png)
 
@@ -235,7 +235,7 @@ The status column of a tag will visualize the status of the tag's partial config
 The status icons are described below:
 
 | **Icon**                                                                                                                                                                                                                              | **Description**                                                                           |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|
 | ![alt text](44.png) | This icon is displayed when the tag has alarm configuration turned on.                    |
 | ![alt text](45.png) | This icon is displayed when history storage is enabled for the tag.                       |
 | ![alt text](46.png) | This icon is displayed when range conversion is enabled for the tag.                      |

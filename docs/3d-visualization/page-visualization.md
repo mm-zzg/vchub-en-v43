@@ -54,15 +54,15 @@ The Open dialog window will appear. Just find the model you need to upload on th
 | Scale to fit grid | The model will be scaled to the size of the scene's corresponding grid.                          |
 | Scale to units    | There are many units in the grid and the model will be scaled to the size of the number of units |
 
-    After adding it to the scene, you can perform appearance, animation , and action operations.
+After adding it to the scene, you can perform appearance, animation , and action operations.
 
-    ![alt text](3d_PVisualization8.png)
+ ![alt text](3d_PVisualization8.png)
 
-    You can also modify the model, and the model modification operation will enter the model editor.
+You can also modify the model, and the model modification operation will enter the model editor.
 
-    ![alt text](3d_PVisualization9.png)
+![alt text](3d_PVisualization9.png)
 
-    You can also delete and rename the model name. If the model is being edited in the model editor, renaming, deletion, and re-uploading are not allowed. Only by closing the corresponding model editor can the model be renamed, deleted, or re-uploaded.
+ You can also delete and rename the model name. If the model is being edited in the model editor, renaming, deletion, and re-uploading are not allowed. Only by closing the corresponding model editor can the model be renamed, deleted, or re-uploaded.
 
 ## **Structure**
 

@@ -4,7 +4,7 @@ For tags with historical storage enabled, historical data can be queried using a
 
 **Aggregation mode** is a data processing method used for querying or displaying historical data. Typically, a time range is divided into multiple time intervals (based on time periods or a fixed number of points). Within each interval, data is processed according to the selected aggregation mode, enabling users to quickly extract valuable insights.
 
-**VC Hub** supports the following aggregation modes:
+**WAGO SCADA** supports the following aggregation modes:
 
 - **Max**: The maximum value within the time interval.
 - **Min**: The minimum value within the time interval.

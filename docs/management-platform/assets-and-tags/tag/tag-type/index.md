@@ -1,6 +1,6 @@
 # Tag Type
 
-The types of tag in VC Hub include:
+The types of tag in  WAGO SCADA include:
 
 - Memory Tag
 - I/O Tag
@@ -43,9 +43,9 @@ Expression tags must have the **Data Source Path**, **Expression (Read)**, and *
 
 ![alt text](8.png)
 
-| **Name**           | **Description**                                                                                                                                                                                       |
-|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Data Source Path   | You can enter the tag Path directly or select the tag. Only one tag can be filled in.                                                                                                                 |
+| **Name**           | **Description**     |
+|:--------------------|:---------------------------------|
+| Data Source Path   | You can enter the tag Path directly or select the tag. Only one tag can be filled in.      |
 | Expression (Read)  | The default display {Source}, {Source} represents the value of the source tag. You can use the new value obtained from the source tag by expression calculation as the value read by the current tag. |
 | Expression (Write) | The default display {Value}, {Value} represents the original value of the source tag. This expression determines the value that should be written to the current tag.                                 |
 

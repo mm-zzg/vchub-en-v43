@@ -4,8 +4,8 @@ SQL Query in each database only support the following data types.
 
 ## **SQLite**
 
-| **Data Type** | **Description**                                                       |
-|---------------|-----------------------------------------------------------------------|
+| **Data Type** | **Description**     |
+|:---------------|:----------------|
 | INTEGER       | Integer type                                                          |
 | NUMERIC       | A general type that can be an integer, floating-point number, or date |
 | REAL          | Floating-point number type                                            |
@@ -14,7 +14,7 @@ SQL Query in each database only support the following data types.
 ## **MySQL**
 
 | **Data Type**      | **Description**                      |
-|--------------------|--------------------------------------|
+|:-------------------|:-------------------------------------|
 | BIGINT             | Large integer type                   |
 | BIGINT UNSIGNED    | Unsigned large integer type          |
 | BIT                | Bit type                             |
@@ -54,7 +54,7 @@ SQL Query in each database only support the following data types.
 ## **SQL Server**
 
 | **Data Type**    | **Description**                         |
-|------------------|-----------------------------------------|
+|:-----------------|:----------------------------------------|
 | bigint           | Large integer type                      |
 | bit              | Bit type                                |
 | char             | Fixed-length character type             |
@@ -85,8 +85,8 @@ SQL Query in each database only support the following data types.
 
 ## **PostgreSQL**
 
-| **Data Type**                                 | **Description**                                   |
-|-----------------------------------------------|---------------------------------------------------|
+| **Data Type**           | **Description**        |
+|:------------------------|:-----------------------|
 | bigint                                        | Large integer type                                |
 | bigserial                                     | Auto-incrementing large integer type              |
 | boolean                                       | Boolean type                                      |

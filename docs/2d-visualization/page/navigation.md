@@ -1,6 +1,6 @@
 # Navigation
 
-By setting up page navigation, you can navigate between different pages in VC Hub.
+By setting up page navigation, you can navigate between different pages in WAGO SCADA.
 
 Navigation settings can be configured in the event properties of the control.
 
@@ -82,6 +82,7 @@ The following script functions can be used for page navigation:
     ![alt text](30.png)
 
 6. Go back to Page 1 and click on the Preview button to see how it works.
+
 
     When you click the "Open Page 2" button on Page 1, Page 2 is displayed; when you click the "Open Page 1" button on Page 2, Page 1 is displayed.
 

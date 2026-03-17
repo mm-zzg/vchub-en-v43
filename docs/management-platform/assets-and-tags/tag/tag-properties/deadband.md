@@ -14,10 +14,10 @@
 
 ![alt text](16.png)
 
-| **Name**       | **Description**                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name**       | **Description**       |
+|:----------------|:------------------------------------------------------|
 | Mode           | There  are two modes:  <br> 1. Absolute:The absolute value of **(New Value-Previous Value)**, whether it is greater than the dead zonevalue, if it is greater, it will be collected, if not, it will be ignored.<br> 2.Percent: The absolute value of **(New Value - Previous Value)** is greater than the deadband value * the absolute value of **(Engineering Upper Limit - Engineering Lower Limit)** / 100, if greater, it will be collected, otherwise, it will be ignored. |
-| Deadband Value | Used for the calculation of the acquisition deadband.                                                                                                                                                                                                                                                                                                                                       |
+| Deadband Value | Used for the calculation of the acquisition deadband.      |
 
   
 

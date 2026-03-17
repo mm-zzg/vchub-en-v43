@@ -7,13 +7,13 @@ Display the data in a table.
 **Properties**
 
 | **Name**          | **Description**   |
-|-------------------|--------------------|
+|:-------------------|:--------------------|
 | Name              | The name of this control.  |
 | X                 | The distance between the left side of the control and the left side of the canvas.  |
 | Y                 | The distance between the top of the control and the top of the canvas. |
 | W                 | The width of the control.|
 | H                 | The height of the control.   |
-| Table             | Set the table contents.  <br>![alt text](2.png) Click this button to set the default data for the table.  <br>![alt text](3.png) Bind data to a table. You can bind SQL queries and dynamic variables.  When bound to an SQL Query, the data returned by the SQL Query is tabular data.  When a dynamic variable is bound, a cell data replacement is performed on the table content that the user manually added.  |     
+| Table             | Set the table contents.  <br> ![alt text](2.png) Click this button to set the default data for the table. <br> **Display JSON:** Displays the data structure of the dataset in json format.<br> **Delete Row:** Deletes the row in which the selected cell resides.<br> **Delete Column:** Deletes the column in which the selected cell resides.  <br>**Add Row:** Add a new row.      <br>**Add Column:** Add a new column.                                         <br>![alt text](3.png) Bind data to a table. You can bind SQL queries and dynamic variables.  When bound to an SQL Query, the data returned by the SQL Query is tabular data.  When a dynamic variable is bound, a cell data replacement is performed on the table content that the user manually added.  |     
 | Column Properties | Each column can be configured, such as the column width, the data format of the column, etc.   <br>- **Display JSON**: Displays the data structure of the dataset in json format.    <br>- **Generate Columns**: Displays the manually added columns from the table properties here.  If the table is SQL Query bound, the columns that are queried by SQL Query will be displayed here. <br>- **Name**: Column name.  <br>- **Width Weight**: Proportion of the width of each column in the table control.    <br>- **Hide**: Hides the column on the table control. However, the data is still available for viewing and selection (hidden columns are not exported).    <br>- **Sortable**: Enable column sorting. When enabled, the user can click to sort in ascending or descending order at runtime.    <br>- **Filter**: Enable column filtering. When enabled, you can click the filter button to filter the data in the column at run time.        <br>- **Horizontal Align**: Sets the horizontal alignment of column contents.    <br>- **Data Format**: The format of the content expected to be displayed. You can enter it manually, or you can click the Settings button and double-click to select the format you want.     |  
 | Show              | Sets whether the title and grid should be displayed. <br>![alt text](4.png) |
 | Right Click Menu  | Set whether the right-click menu is supported on the running page, and set the style of the right-click menu.  <br>![alt text](5.png)Set the display and hide of the export operation in the right click menu.  If the "Export" option is checked, right-click the table area on the screen run page, and an "Export" button will be displayed. After clicking this button, the table content will be exported as a CSV file format. <br>Font:Set font type, font size, bold, tilt, and font color for the right-click menu.      | 
@@ -24,7 +24,7 @@ Display the data in a table.
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example 1**
 
@@ -178,7 +178,7 @@ Based on the age entered, the database is queried and the results are displayed.
 
 The real-time speed of the different motors is displayed in the table.
 
-By binding dynamic cell , the motor speed value is replaced dynamically.
+By binding, the motor speed value is replaced dynamically.
 
 1. In the tool window of the design page, find the 'Table' control and drag it to the page.
 2. After selecting the table control, click the data set button of "Table" in the properties bar to add data.

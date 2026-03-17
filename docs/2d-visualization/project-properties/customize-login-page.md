@@ -1,6 +1,6 @@
 # Customize the Login Page
 
-If you prefer not to use the default login screen for VC Hub, you can configure a custom login screen for your project. This custom login screen will be displayed when users access the operation screen and login authentication is required.
+If you prefer not to use the default login screen for WAGO SCADA,, you can configure a custom login screen for your project. This custom login screen will be displayed when users access the operation screen and login authentication is required.
 
 You can configure a custom login screen for each item individually.
 
@@ -8,6 +8,7 @@ You can configure a custom login screen for each item individually.
 
 1. In the editor, create a page that will serve as the login page at runtime. For example, the page can include elements such as a username field, a password input box, and a login button, as shown in the figure below.
     ![alt text](5.png)
+
 2. Set an execution script for the login button. When the login button is clicked, retrieve the values from the username and password input for authentication validation. 
     ![alt text](6.png)
 
@@ -24,7 +25,7 @@ You can configure a custom login screen for each item individually.
 ## To configure a login page for your project, follow these steps:
 
 1. In the editor, click the settings button in the top right corner of the project to open the "Project Configuration" popup.
-2. Set the startup page and login page for the project. If no login page is selected, the default VC Hub login page will be used when accessing the runtime page.
+2. Set the startup page and login page for the project. If no login page is selected, the default WAGO SCADA login page will be used when accessing the runtime page.
 3. After configuring, click the **OK** button to save the configuration.
 
     ![alt text](7.png)
@@ -55,7 +56,7 @@ When the user logs out, they will be redirected to the custom login page set for
 
 **Scenario 2：The current Identity Provider is set to Local type, and no custom login page is configured for the project.**
 
-When the user logs out, they will be redirected to the default VC Hub login page.
+When the user logs out, they will be redirected to the default WAGO SCADA login page.
 
 **Scenario 3：The current Identity Provider is set to OpenID Connect type, and no custom login page is configured for the project.**
 

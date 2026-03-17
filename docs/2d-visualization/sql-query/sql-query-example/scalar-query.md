@@ -8,7 +8,7 @@ Query the total number of people in the database, and display the query results 
 
 #### Creating a database connection
 
-On the "Databases"->"Database Connection" page, create a new database connection named **TestSQLQuery**. 
+On the "Databases"->"Database Connection" page, create a new database connection named **TestSQLQuery**. Please refer to the [Database Connection](../../../management-platform/databases/database-connection/index.md)
 
 ![alt text](1.png)
 
@@ -16,7 +16,7 @@ On the "Databases"->"Database Connection" page, create a new database connection
 There is a table named `person_management` in the database, which is used to store personnel information. Its structure is as follows:
 
 | Id | name          | email               | gender | age |
-|----|---------------|---------------------|--------|-----|
+|:----|:---------------|:---------------------|:--------|:-----|
 | 1  | Alice Johnson | `alice@example.com`   | Female | 18  |
 | 2  | Bob Smith     | `bob@example.com`     | Male   | 19  |
 | 3  | Charlie Brown | `charlie@example.com` | Male   | 19  |

@@ -56,6 +56,8 @@ Display and operate the model in this area.
 ## Preview scene
 
 Click the "Preview" button to enter preview mode to ensure that the scene is displayed as expected.
+
+
 ![alt text](3d_SEditor8.png)
 
 

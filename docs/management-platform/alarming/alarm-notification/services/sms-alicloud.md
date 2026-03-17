@@ -15,7 +15,7 @@ Used to configure the SMS sending service for alarm notifications.
  **Properties**
 
 | **Name**         | **Description**                                                                                                                                                 |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name             | Notification service name.                                                                                                                                      |
 | Description      | Notification service description.                                                                                                                               |
 | AccessKey ID     | Alibaba Cloud Service Access Key ID (applied from Alibaba Cloud).                                                                                               |

@@ -81,7 +81,7 @@ You can also set the style of the pipe in the property window.
 **Property**
 
 | **Name** | **Description**          |
-|------------------------|--------|
+|:------------------------|:--------|
 | Name | The name of this control.|
 | X | The distance of the left side of the control from the left side of the canvas.|
 | Y| The distance from the top of the control to the top of the canvas. |
@@ -91,7 +91,7 @@ You can also set the style of the pipe in the property window.
 | Pipe | Set the style for the ends of the pipe as well as the corners.  <br>![alt text](5.png)  Square Head Square Corner <br>![alt text](6.png)Round corner with square head <br>![alt text](7.png)  Square corner with round head <br>![alt text](8.png) Round corner with round head|
 | Background| The background color of the pipe. |
 | Diameter | The diameter of the pipe. | 
-|Fluid | Sets the style of the fluid in the pipe.  <br>- **Style**: Sets the style of the fluid. Includes: None, Triangle, Rectangle, Arrow.  You can also click the settings button next to the style and select an SVG image from the library to use as the fluid style.<br>- **Width**: The width of the fluid.<br>- **Height**: The height of the fluid.<br>- **Color**: The color of the fluid. <br>- **Space**: The distance between adjacent fluids.<br>- **Flow Rate**: Contains 4 options: 0,1, 2, 3. 0 represents stationary, and 3 represents the fastest flow. <br>- **Flow Direction**: The direction of flow of the fluid. Flow from the start point to the end point is forward, and flow from the end point to the start point is reverse.  <br>**Note**: The start point is the position where you start plotting and the end point is the position where you end plotting.|
+|Fluid | Sets the style of the fluid in the pipe.  <br>- **Style**: Sets the style of the fluid. Includes: None, Triangle, Rectangle, Arrow.  You can also click the settings button next to the style and select an SVG image from the library to use as the fluid style.<br>- **Width**: The width of the fluid.<br>- **Height**: The height of the fluid.<br>- **Color**: The color of the fluid. <br>- **Space**: The distance between adjacent fluids.<br>- **Flow Rate**: Contains 4 options: 0,1, 2, 3. 0 represents stationary, and 3 represents the fastest flow. <br>- **Flow Direction**: The direction of flow of the fluid. Flow from the start point to the end point is forward, and flow from the end point to the start point is reverse.  <br> ` Note: The start point is the position where you start plotting and the end point is the position where you end plotting.`|
 
 ## Notes
 

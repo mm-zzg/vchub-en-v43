@@ -11,7 +11,7 @@ The operation interface consists of the top **menu bar**, **toolbar**, **toolbox
 ![alt text](2.png)
 
 | **Serial number** | **Area name**       | **Description**  |
-|-------------------|---------------------|----------------|
+|:-------------------|:---------------------|:----------------|
 | A                 | Menu Bar                                 | Including menu buttons, undo, restore, save, save as, preview operation buttons and start, report, query panel function menus.  |
 | B                 | Tool bar                                 | Commonly used shortcut operations.  |
 | C                 | Tool box                                 | The toolbox contains report control elements that can be used in reports, such as tables, matrix tables, charts, etc. in:  <br>- Menu button  <br>![alt text](3.png)  <br>Equivalent to the expand/collapse switch of the tool box. When you expand the toolbox, you can see the name of each toolbox element; collapse toolbox to leave more space for the design area.  <br>- Element management  <br>![alt text](4.png)  <br>The constituent elements of the report are displayed in a tree directory. When an element node is selected, the settings panel on the right will switch to the property setting options for the corresponding element.  <br>- Group management <br>![alt text](5.png) <br>Display the data grouping information of the current moment table, and perform grouping management and operation.   |

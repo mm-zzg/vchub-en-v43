@@ -6,7 +6,7 @@ After configuring the Identity Provider, you can use the **Login Test** to verif
 
 ##  Login Test
 
-1. Click the ”Security“->”Identity Provider“  menu。
+1. Click the ”Security“->”Identity Provider“  menu
 
     ![alt text](../1.png)
 

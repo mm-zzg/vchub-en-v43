@@ -203,8 +203,15 @@ nav:
                             - management-platform/workspaces/can-not-log-in.md
                   - Projects:
                             - management-platform/projects/index.md
+                            - management-platform/projects/import-and-export.md
                   - Devices:
                             - management-platform/devices/index.md
+                            - Camera:
+                                      - management-platform/devices/camera/index.md
+                                      - management-platform/devices/camera/batch-operation.md
+                                      - management-platform/devices/camera/deploy.md
+                                      - management-platform/devices/camera/play.md
+                                      - management-platform/devices/camera/security.md                   
                             - Modbus TCP:
                                       - management-platform/devices/modbus-tcp/index.md
                                       - management-platform/devices/modbus-tcp/batch-operation.md
@@ -242,8 +249,12 @@ nav:
                                                 - Batch Operation:
                                                           - management-platform/assets-and-tags/asset/asset-tree/batch-operation/index.md
                                                           - management-platform/assets-and-tags/asset/asset-tree/batch-operation/batch-add.md
-                                                          - management-platform/assets-and-tags/asset/asset-tree/batch-operation/batch-update.md
                                                           - management-platform/assets-and-tags/asset/asset-tree/batch-operation/export-and-import.md
+                                                          - Batch Update:
+                                                                  - management-platform/assets-and-tags/asset/asset-tree/batch-operation/batch-update/index.md
+                                                                  - management-platform/assets-and-tags/asset/asset-tree/batch-operation/batch-update/tag.md
+
+                                                                
                             - Tag:
                                       - management-platform/assets-and-tags/tag/index.md
                                       - Tag Type:
@@ -399,6 +410,7 @@ nav:
                                       - 2d-visualization/controls/display/label.md
                                       - 2d-visualization/controls/display/value-display.md
                                       - 2d-visualization/controls/display/led-display.md
+                                      - 2d-visualization/controls/display/camera.md
                                       - 2d-visualization/controls/display/iframe.md
                                       - 2d-visualization/controls/display/rich-text.md
                                       - 2d-visualization/controls/display/page-container.md
@@ -621,6 +633,11 @@ nav:
                                                 - 3d-visualization/3d-low-code-example/object-models-in-the-scene/text-annotation/text.md
         - Appendix:
                   - appendix/index.md
+                  - Demo Workspace:
+                            - appendix/demo-workspace/index.md
+                            - appendix/demo-workspace/home.md
+                            - appendix/demo-workspace/components.md
+                            - appendix/demo-workspace/features.md
                   - System Function:
                             - appendix/system-function/index.md
                             - System.Alarm:
@@ -671,10 +688,19 @@ nav:
                                       - appendix/system-function/system-event/index.md
                                       - appendix/system-function/system-event/system-event-fail.md
                                       - appendix/system-function/system-event/system-event-success.md
+                            - System.Library:
+                                      - appendix/system-function/system-library/index.md
+                                      - appendix/system-function/system-library/system-library-getlocalimage.md
+                                      - appendix/system-function/system-library/system-library-getsystemimage.md
                             - System.Page:
                                       - appendix/system-function/system-page/index.md
                                       - appendix/system-function/system-page/system-page-getpropertyvalue.md
                                       - appendix/system-function/system-page/system-page-setpropertyvalue.md
+                            - System.PTZControl:
+                                      - appendix/system-function/system-ptzcontrol/index.md
+                                      - appendix/system-function/system-ptzcontrol/system-ptzcontrol-move.md
+                                      - appendix/system-function/system-ptzcontrol/system-ptzcontrol-stop.md
+                                      - appendix/system-function/system-ptzcontrol/system-ptzcontrol-setposition.md                                                
                             - System.Security:
                                       - appendix/system-function/system-security/index.md
                                       - appendix/system-function/system-security/system-security-changepassword.md
@@ -708,4 +734,8 @@ nav:
                                       - appendix/system-function/system-utils/index.md
                                       - appendix/system-function/system-utils/system-utils-importscript.md
                                       - appendix/system-function/system-utils/system-utils-importstyle.md
+                            - System.Function:
+                                      - appendix/system-function/system-function/index.md
+                                      - appendix/system-function/system-function/system-function-runscript.md
+                                      
 

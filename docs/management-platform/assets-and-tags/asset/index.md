@@ -1,8 +1,8 @@
 # Asset
 
- There can be any number of assets in VC Hub, and the user can create tags to be maintained in any asset. Assets can be viewed as containers for tags, and the tags in each asset are isolated from each other, and the tags are dependent on the asset for their existence in the system. 
+ There can be any number of assets in WAGO SCADA, and the user can create tags to be maintained in any asset. Assets can be viewed as containers for tags, and the tags in each asset are isolated from each other, and the tags are dependent on the asset for their existence in the system. 
 
- By connecting two VC Hub nodes through a network and using a remote asset, you can view the tag information in an asset of the other node.
+ By connecting two WAGO SCADA nodes through a network and using a remote asset, you can view the tag information in an asset of the other node.
 
  All tags are present in the asset and have real-time values. In addition, the asset can be bound to a history database, which is used to store and query the historical data of the tags.
 
@@ -12,7 +12,7 @@ There are two types of assets to choose from : local assets, and remote assets.
 
 #### **Local Assets**
 
- Local assets are owned by the current VC Hub node, which has all configuration rights for local assets. A local asset named "Default" is automatically created for each new workspace, and the user can create as many assets as needed.
+Local assets are owned by the current WAGO SCADA node, which has all configuration rights for local assets. A local asset named "Default" is automatically created for each new workspace, and the user can create as many assets as needed.
 
 ![alt text](1.png)
 
@@ -20,8 +20,8 @@ There are two types of assets to choose from : local assets, and remote assets.
 
 **Configuration items**
 
-| **Configuration** | **Description**                                                                                                                                                                                                                                                                                                                                               |
-|-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Configuration** | **Description**     |
+|:-------------------|:------------------------------|
 | Name              | The name of the asset, the name cannot be repeated, required.                                                                                                                                                                                                                                                                                                 |
 | Description       | Description of the asset,optional.                                                                                                                                                                                                                                                                                                                            |
 | Type              | The type of the asset,categorized into local and remote assets, the type cannot be changed after the asset is created.                                                                                                                                                                                                                                        |
@@ -39,8 +39,8 @@ There are two types of assets to choose from : local assets, and remote assets.
 
 **Configuration items**
 
-| Configuration            | Description                                                                                                                                                                                                                                                                              |
-|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Configuration            | Description     |
+|:-------------------------|:-----------------------|
 | Name                     | The name of the asset, the name is not repeatable and required.                                                                                                                                                                                                                          |
 | Description              | Description of the asset,optional.                                                                                                                                                                                                                                                       |
 | Type                     | The type of the asset,categorized into local and remote assets, the type cannot be changed after the asset is created.                                                                                                                                                                   |

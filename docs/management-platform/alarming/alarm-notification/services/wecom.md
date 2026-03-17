@@ -17,7 +17,7 @@ Used to configure sending alarm notifications via WeCom to specific groups or us
 **Properties**
 
 | **Name**      |**Description** |
-|---------------|----------------|
+|:---------------|:----------------|
 | Name          | Notification service name. |
 | Description   | Notification service description.|
 | Send To       | You can configure recipients as either WeCom groups or individual WeCom accounts. After selecting the type, add the corresponding information in the section below.  <br> - **Group Name:** You may enter multiple group names, separated by “&”. <br> - **Webhook URL:** Notifications are sent via each group robot’s unique webhook URL. A single robot can be added to multiple group chats—when an alarm is triggered, the robot will push the notification to every group it belongs to, regardless of whether that group’s name was explicitly listed in the configuration. |
@@ -91,4 +91,4 @@ In the alarm notification rules, you will select the notification service.
 2. Click the **"New"** button in the upper right corner of the list.
 3. In the pop-up window, click the **'+WeCom'** button to add a new Email notification rule.In the notification service dropdown, select the previously created notification service.
 
-    ![alt text](36.png)
+![alt text](36.png)

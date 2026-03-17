@@ -1,6 +1,6 @@
 # SIEMENS S7
 
-The Siemens driver in VC Hub supports the basic connection to S7 devices. Currently, VC Hub has drivers for the following Siemens PLCs:
+The Siemens driver in WAGO SCADA supports the basic connection to S7 devices. Currently, WAGO SCADA has drivers for the following Siemens PLCs:
 
 - S7-300
 - S7-400
@@ -26,7 +26,7 @@ The Siemens driver in VC Hub supports the basic connection to S7 devices. Curren
 **Configuration Fields**
 
 | **Name**           | **Description**                                                            |
-|--------------------|----------------------------------------------------------------------------|
+|:--------------------|:---------------------------|
 | Device Name        | The name of the device connection.                                         |
 | Model              | The model number of the device. Includes S7-300, S7-400, S7-1200, S7-1500. |
 | Host               | The domain name or IP address of the device.                               |
@@ -70,8 +70,8 @@ Bind tags to data in the Siemens PLC.
 
 **Configuration Fields**
 
-| **Parameter Type**       |                                                                                                                                                                                                                                                                                                                                           |
-|--------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Parameter Type**       |       |
+|:--------------------------|:-------------------------|
 | **Name**                 | **Description**                                                                                                                                                                                                                                                                                                                           |
 | I                        | Inputs                                                                                                                                                                                                                                                                                                                                    |
 | Q                        | Output                                                                                                                                                                                                                                                                                                                                    |
@@ -89,7 +89,7 @@ Bind tags to data in the Siemens PLC.
 | UDInt                    | This data type is displayed when the data type of the tag is Integer.                                                                                                                                                                                                                                                                     |
 | Dint                     | This data type is displayed when the data type of the tag is Integer.                                                                                                                                                                                                                                                                     |
 | Real                     | This data type is displayed when the data type of the tag is Double.                                                                                                                                                                                                                                                                      |
-| LReal                    | This data type is displayed when the data type of the tag is Double.  | **Note**: Due to Siemens device limitations, this data type is only supported on the following models:   - S7-1200  - S7-1500 | |-------------------------------------------------------------------------------------------------------------------------------| |
+| LReal                    | This data type is displayed when the data type of the tag is Double.  <br>**Note**: Due to Siemens device limitations, this data type is only supported on the following models:   - S7-1200  - S7-1500 
 | Bool                     | This data type is displayed when the data type of the tag is Bool.                                                                                                                                                                                                                                                                        |
 | Char                     | This data type is displayed when the data type of the tag is String.                                                                                                                                                                                                                                                                      |
 | String                   | This data type is displayed when the data type of the tag is String.                                                                                                                                                                                                                                                                      |

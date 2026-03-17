@@ -16,7 +16,7 @@ Used to configure the email sending service for alarm notifications.
 **Properties**
 
 | **Name**          | **Description**                                                                  |
-|-------------------|----------------------------------------------------------------------------------|
+|:-------------------|:----------------------------------------------------------------------------------|
 | Name              | Notification service name.                                                       |
 | Description       | Notification service description.                                                |
 | From Address      | Email account required for sending emails.                                       |
@@ -48,7 +48,7 @@ To use an app-specific password, the Gmail account must have two-step verificati
 **Important Note: To create an app-specific password, you must enable two-step verification for your Google account**
 
 1. Visit the app-specific password creation webpage: https://myaccount.google.com/apppasswords.
-2. Enter the name of the application that requires the password, such as "VCHub"
+2. Enter the name of the application that requires the password, such as "WagoScada"
 3. Copy and save the app-specific password for future use
 
  ![alt text](5.png)
@@ -88,5 +88,5 @@ In the alarm notification rules, you will select the notification service.
 2. Click the **"New"** button in the upper right corner of the list.
 3. In the pop-up window, click the **'+Email'** button to add a new Email notification rule.In the notification service dropdown, select the previously created notification service.
 
-    ![alt text](10.png)
+![alt text](10.png)
 

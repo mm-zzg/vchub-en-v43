@@ -15,11 +15,11 @@ Page Container is used to display the pages within this project.
 | H                   | The height of the control.  |
 | Border              | Set the border of the page container, supporting border color and border thickness.   |
 | Resolution Adaption | Set the resolution adaptation of the page container, supporting options like none, scaled, full. Additionally, the resolution adaptation of the page itself will no longer be effective. |
-| Page                | Bind the page to the control.  <br>![alt text](53.png)  |
+| Page                | Bind the page to the control.  <br>![alt text](53.png) <br> ![alt text](90.png) Drop down to select the page <br> ![alt text](91.png) Refresh button, click to refresh the contents of the drop-down list  <br> ![alt text](92.png) Bind button. After clicking, the property binding window will pop up to bind the page to the control.  <br> ![alt text](91.png) Set the custom properties of the page|
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event**  page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example 1**
 

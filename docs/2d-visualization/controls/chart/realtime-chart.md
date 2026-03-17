@@ -7,7 +7,7 @@ A real time chart is a chart used to display real time changes in data over time
 **Properties**
 
 | **Name**          | **Description**   |
-|-------------------|-------------------|
+|:-------------------|:-------------------|
 | Name              | The name of this control.  |
 | X                 | The distance between the left side of the control and the left side of the canvas, in pixels.      |
 | Y                 | The distance between the top of the control and the top of the canvas, in pixels.  |
@@ -27,7 +27,7 @@ A real time chart is a chart used to display real time changes in data over time
 
 **Event**
 
-Allows you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allows you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
 
 **Example 1**
 
@@ -53,7 +53,7 @@ Use real time chart to display water temperature, and display the water temperat
 2. Set the properties of the real time chart.
 
 | **Property** | **Value**   |
-|--------------|-------------|
+|:--------------|:-------------|
 | X Axis       | Turn off the display of the grid.  |
 | Y Axis       | Turn off the display of the grid. |
 | Data         | Bind tags and set the style of the curve. <br>![alt text](9.png)<br>- **Tag**: @Demo:temperature  <br>- **Name**: temperature   <br>- **Y Axis**: Y-Axis1  <br>- **Line Color**: #6ec800  <br>- **Line Type**: Line  <br>- **Line Style**: Solid line  <br>- **Line Width**: 1    <br>- **Area**: False  <br>- **Alarm Line**: Checked. Select High Temperature Alarm, set Line Color to Red and Style to Dashed.  <br>![alt text](10.png)   <br>- **Symbol Style**: None    <br>- **Symbol Size**: 6    <br>- **Decimals**:2  |

@@ -1,6 +1,6 @@
 # SQLite
 
-On this page, we will demonstrate how to connect VC Hub to SQLite.
+On this page, we will demonstrate how to connect WAGO SCADA to SQLite.
 
 1. On the "**Databases**" -> "**Database Connection**" page, click the "Add" button. 
     ![alt text](6.png)
@@ -25,3 +25,4 @@ On this page, we will demonstrate how to connect VC Hub to SQLite.
 4. Click **"OK"** button, the popup window will be closed and the list of database connections will be displayed. The connection status of the data in the list is "Connected".
     ![alt text](18.png)
 
+5. DB file address: C:\ProgramData\WAGOSCADA\Workspaces\[Workspace ID]\database\history\[Database name].db

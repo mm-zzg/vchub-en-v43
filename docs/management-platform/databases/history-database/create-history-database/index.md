@@ -7,7 +7,7 @@
 3. Fill in the configuration and click "OK" button to save.
     ![alt text](3.png)
 
-     **Note**: When InfluxDB is selected , there is no configuration for partitioning, pre-processing, and data cleaning (InfluxDB itself has the above configurations,  VC Hub does not provide this configuration). 
+     **Note**: When InfluxDB is selected , there is no configuration for partitioning, pre-processing, and data cleaning (InfluxDB itself has the above configurations,  WAGO SCADA does not provide this configuration). 
 
     When data of type InfluxDB is selected for the database connection, the following screen is displayed:
 
@@ -15,8 +15,8 @@
 
 **Configuration description**
 
-| **Configuration items** | **Description**                                                                                                              |
-|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| **Configuration items** | **Description**    |
+|:--------------------------------------|:--------------------------------|
 | Name                                 | Name of the history database.                                                                                                  |
 | Description                          | Description Information of the history database.                                                                               |
 | Database Connection                  | The database connection used for this configuration, derived from data created by the Database Connections page.               |

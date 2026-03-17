@@ -8,16 +8,21 @@
 3. Depending on the selected database type, different configuration screens will be displayed.
 When MySQL, SQL Server, PostgreSQL is selected, the following configuration screen is displayed: 
     ![alt text](3.png)
+
     When InfluxDB is selected, the following configuration screen is displayed:
+
     ![alt text](4.png)
+
     When SQLite is selected, the following configuration screen is displayed:
+
     ![alt text](5.png)
+
 4. Click **"OK"** button to save the data after setting is completed. 
 
 **Configuration items**
 
 | **Configuration Item** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-|------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|:------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Name                   | The name of the database connection.                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Description            | Description of the configuration.                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | Host                   | The address of the database. For example, if the SQL Server server address is 10.1.102.21:1433, then Host is 10.1.102.21.                                                                                                                                                                                                                                                                                                                                              |

@@ -7,7 +7,7 @@ This means when the data source changes, the control's style or value updates au
 ## Controls and Properties that Support Bidirectional Binding
 
 | **Control**    | **Property**                 |
-|----------------|------------------------------|
+|:----------------|:------------------------------|
 | Text Input     | Text                         |
 | Number Input   | Value                        |
 | Slider         | Value                        |
@@ -72,12 +72,12 @@ The text input is bound to an dynamic tag to display the running status of diffe
 
 1. Draw a text input, a dropdown, and 2 text label controls on the page.
 
-    ![alt text](57.png)
+    ![alt text](58.png)
 
 2. The dropdown options are set to: Motor 1, Motor 2, Motor 3.
 3. Click the bind button of the "Text" property of the text input control.
 
-    ![alt text](58.png)
+    ![alt text](57.png)
 
 4. After selecting ”Dynamic Tag“ in the property binding window, make the following settings, check “Bidirectional ”, and click the ”OK“ button to complete the binding.
 

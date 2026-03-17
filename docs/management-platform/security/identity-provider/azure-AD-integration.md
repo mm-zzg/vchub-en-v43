@@ -1,6 +1,6 @@
 # Azure AD integration with MFA
 
-The VC Hub  identity provider is compatible with Azure AD, enabling seamless integration. By leveraging Azure AD's multi-factor authentication (MFA) capability, the identity provider can extend MFA support to the VC Hub thereby enhancing security indirectly.
+The SCADA  identity provider is compatible with Azure AD, enabling seamless integration. By leveraging Azure AD's multi-factor authentication (MFA) capability, the identity provider can extend MFA support to the SCADA thereby enhancing security indirectly.
 
 1. Open the Azure portal from Url: [ https://portal.azure.com/]( https://portal.azure.com/) , then open the Microsoft Entra ID.
 
@@ -10,7 +10,7 @@ The VC Hub  identity provider is compatible with Azure AD, enabling seamless int
 
     ![alt text](11.png)
 
-3. Click the "Authentication" menu item in the left panel,  then fill the VC Hub login url and logout url into the "Web Redirect URIs" panel.
+3. Click the "Authentication" menu item in the left panel,  then fill the scada login url and logout url into the "Web Redirect URIs" panel.
 
     ![alt text](12.png)
 
@@ -42,7 +42,7 @@ The VC Hub  identity provider is compatible with Azure AD, enabling seamless int
 
     ![alt text](19.png)
 
-11. Navigate to VC Hub identity provider page, then create a new provider with the client id, client secret and openId onnecct meta docuemnt Url
+11. Navigate to SCADA identity provider page, then create a new provider with the client id, client secret and openId onnecct meta docuemnt Url
 
     ![alt text](20.png)
 

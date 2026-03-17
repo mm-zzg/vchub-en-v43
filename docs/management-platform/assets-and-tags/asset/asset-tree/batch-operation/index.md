@@ -41,13 +41,16 @@ When the "Instance" tab is selected and the batch operation button is clicked, b
 
 It only adds basic information, with detailed tag settings to be completed later through the "Batch Update" function.
 
+[Batch Add](batch-add.md)
 
 #### Batch Update
 
 Updates the detailed settings of the tag.
 
+[Batch Update](batch-update/index.md)
 
 #### Export and Import
 
 Used for making backups of models and instances, or copying instances to other asset trees.
 
+[Export and Import](export-and-import.md)

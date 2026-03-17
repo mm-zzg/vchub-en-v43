@@ -30,6 +30,7 @@ To apply animation effects such as rotation to these controls, configure animati
 - [IFrame](display/iframe.md) 
 - [Label](display/label.md) 
 - [LED Display](display/led-display.md) 
+- [Camera](display/camera.md)
 - [Page Container](display/page-container.md) 
 - [Rich Text](display/rich-text.md) 
 - [Ruler](display/ruler.md) 
@@ -38,13 +39,11 @@ To apply animation effects such as rotation to these controls, configure animati
 
 **Button**  
 
-- [2-State Button](button/2-state-button.md)
 - [Button](button/button.md) 
 - [Checkbox](button/checkbox.md) 
 - [Menu](button/menu.md) 
-- [Multi-State Button](button/multi-state-button.md) 
 - [Radio Button](button/radio-button.md) 
-- [Toggle Button](button/toggle-button.md)
+
 
 **Chart**  
 

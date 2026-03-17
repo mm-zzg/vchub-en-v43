@@ -13,7 +13,7 @@ Custom property refer to properties that users add to tag to meet their specific
 ![alt text](41.png)
 
 | **Name** | **Description**                                                                       |
-|----------|---------------------------------------------------------------------------------------|
+|:----------|:-----|
 | Name     | Required.The name of the customized property.                                         |
 | Type     | Required.Drop-down selection with Integer, Double, Bool, String, DateTime.            |
 | Value    | Required.Depending on the type of data selected, different input boxes are displayed. |

@@ -1,6 +1,6 @@
 # Event
 
-In VC Hub, when a model has event properties, the 'Event' column will be displayed in the right-hand property panel. Clicking the settings button allows for event configuration.
+In WAGO SCADA, when a model has event properties, the 'Event' column will be displayed in the right-hand property panel. Clicking the settings button allows for event configuration.
 
 ![alt text](3d_Event1.png)
 

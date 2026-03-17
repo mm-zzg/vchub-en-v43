@@ -1,6 +1,6 @@
 # API Document (Swagger)
 
-When you enter the VC Hub host address in the browser and append the suffix "swagger" (e.g.,  [https://example.com/swagger](https://example.com/swagger),  [http://localhost:8066/swagger](http://localhost:8066/swagger)), it will navigate to the Open API documentation page. This page lists all the Open API definitions for VC Hub.
+When you enter the WAGO SCADA host address in the browser and append the suffix "swagger" (e.g.,  [https://example.com/swagger](https://example.com/swagger),  [http://localhost:8066/swagger](http://localhost:8066/swagger)), it will navigate to the Open API documentation page. This page lists all the Open API definitions for WAGO SCADA.
 
 ![alt text](2.png)
 

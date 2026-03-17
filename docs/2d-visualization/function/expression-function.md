@@ -21,7 +21,7 @@ To create an expression function, right-click on the "Expression Function" node 
 **Property**
 
 | **Name**    | **Description**   |
-|-------------|-------------|
+|:-------------|:-------------|
 | Description | Description of expression function. |
 | Script      | **Note:**  <br>- An expression function must contain one and only one `export function`. The name of this export function serves as the name of the expression function. <br>- Names of expression functions must be unique across all functions. <br>- If needed, non-export functions can be defined within the expression function, but they cannot be called by external scripts. <br>- The name displayed in the list corresponds to the name of the export function. <br>- Expression functions only support the two system functions `tag` and `property`. All functions under the `System` namespace are **not supported**. <br>- Expression functions and page functions are independent of each other and **cannot call one another**. |
 

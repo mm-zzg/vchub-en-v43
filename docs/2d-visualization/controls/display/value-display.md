@@ -17,15 +17,15 @@ Value display control is used to display data, which can display numerical, bool
 | Data   | The data received by the control.  <br> -Text: What needs to be displayed. You can enter it manually or click the binding button to bind.   <br> -Units: Sets the unit of the displayed data. You can enter it manually or click the Bind button to bind it. <br> - Format: The content format is expected to be displayed. You can enter it manually or click the settings button and double-click to select the desired format. |
 | Fill  | The fill color of the control.  <br>![alt text](13.png) |
 | Font  | Set the font of the control content. Including font , font size, font color, bold, italic, underline, horizontal alignment, vertical alignment.|
-| Right Click Menu | Setting the context menu on the control allows you to set the background color, border color, font type, font size, font color, bold, and skew of the menu. You can configure actions for the context menu, including navigation, set value, set property, and script.  On the running page, right-click on the control to display the context menu.  |
+| Right Click Menu | Setting the context menu on the control allows you to set the background color, border color, font type, font size, font color, bold, and skew of the menu. You can configure actions for the context menu, including navigation, set value, set property, and script.<br>On the running page, right-click on the control to display the context menu. (**This feature is supported in version 4.2.1 and above**.)  |
 
 **Animation**
 
-Allow you to execute specific animations based on certain conditions. Please refer to the complete description of various animations on the **2D Visualization-> Animation** page.
+Allow you to execute specific animations based on certain conditions. Please refer to the complete description of various animations on the [Animation](../../animation.md) page.
 
 **Event**
 
-Allow you to perform specific event based on certain conditions. Please refer to the complete description of various events on the **2D Visualization-> Event** page.
+Allow you to perform specific event based on certain conditions. Please refer to the complete description of various events on the [Event](../../event/index.md) page.
 
 **Example 1**
 
@@ -47,7 +47,7 @@ Display the system time.
 ![alt text](16.png)
 
 | **Property** | **Value**                                               |
-|--------------|---------------------------------------------------------|
+|:--------------|:---------------------------------------------------------|
 | Text         | Binding tag: System:Server.CurrentDateTime              |
 | Format       | yyyy-MM-dd HH:mm:ss                                     |
 | Font         | Calibri, 16, 6ec800, horizontal center, vertical center |
@@ -59,7 +59,7 @@ View Celsius and Fahrenheit temperatures via the right-click menu.
 ![alt text](17.png)
 
 | **Property**     | **Value**         |
-|------------------|------------|
+|:------------------|:------------|
 | Text             | expression：  <br>const value = tag('@Demo:temperature');  <br>if(property('ValueDisplay1#units') === '℃'){      <br>return value;  <br>}  <br>return (value * 9 / 5) + 32; |
 | Format           | #,##0.# |
 | Font             | Calibri,16, 6ec800，horizontal center, vertical center |

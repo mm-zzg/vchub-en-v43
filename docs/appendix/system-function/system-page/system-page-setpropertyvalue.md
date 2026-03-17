@@ -26,10 +26,10 @@ System.Page.setPropertyValue('#custom.no', value > 100 ? 0 : value + 1);
 
 
 ```   
-Set the text property of TextInput1 to 'WAGO VC Hub'.
+Set the text property of TextInput1 to 'WAGO SCADA'.
 
 ```typescript 
-System.Page.setPropertyValue('TextInput1#text', 'WAGO VC Hub');
+System.Page.setPropertyValue('TextInput1#text', 'WAGO SCADA');
 
 
 

@@ -42,6 +42,9 @@ After binding, the icon turns green.
 
 You can quickly distinguish which properties have binding set by the color of the binding icon.
 
+Note: When performing property binding, the bound property must match the data type of the current property. Properties that do not match cannot be bound. For example, in the following image, the height property of the pipe is of type 'number', so only properties of type 'number' can be bound.
+
+![alt text](61.png)
 
 Summarized as follows:
 

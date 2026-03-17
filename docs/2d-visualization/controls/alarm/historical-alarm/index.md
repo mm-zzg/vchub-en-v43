@@ -21,7 +21,7 @@ Historical alarm, no flashing, no alarm sound, no line color.
 **Properties**
 
 | **Name**         | **Description** |
-|------------------|-------------------|
+|:------------------|:-------------------|
 | Name             | The name of this control.  |
 | X                | The distance between the left side of the control and the left side of the canvas.  |
 | Y                | The distance between the top of the control and the top of the canvas.  |
@@ -43,7 +43,8 @@ Historical alarm, no flashing, no alarm sound, no line color.
 
 **Event**
 
-Allow you to perform specific events based on certain conditions. See the full description of each event on the **2D Visualization-> Event** page.
+Allow you to perform specific events based on certain conditions. See the full description of each event on the [Event](../../event/index.md) page.
+
 
 **Example 1**
 

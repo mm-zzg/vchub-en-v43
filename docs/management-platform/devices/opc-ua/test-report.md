@@ -1,6 +1,6 @@
 # Common OPC UA Server Test Report
 
-We use the following common OPC UA Server and test the communication between it and the OPC UA driver in VC Hub.
+We use the following common OPC UA Server and test the communication between it and the OPC UA driver in WAGO SCADA.
 
 ## OPC UA Server
 
@@ -10,7 +10,7 @@ We use the following common OPC UA Server and test the communication between it 
 
 ## Test Results
 
-#### 1.Supports connectivity via secure connections
+#### 1. Supports connectivity via secure connections
 
 |          | Authentication | Secured Connection |
 |----------|----------------|--------------------|
@@ -18,7 +18,7 @@ We use the following common OPC UA Server and test the communication between it 
 | Softing  | Y              | Y                  |
 | Matrikon | Y              | Y                  |
 
-#### 2.VC Hub supports the following data types for OPC UA Server
+#### 2. WAGO SCADA supports the following data types for OPC UA Server
 
 |                       | Prosys | Softing | Matrikon |
 |-----------------------|--------|---------|----------|

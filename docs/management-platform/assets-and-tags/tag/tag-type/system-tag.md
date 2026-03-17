@@ -8,9 +8,9 @@ You can view the detailed system tags by selecting the asset named "System" in t
 
 The system tags contain the Client and Server directories.
 
-**Client**: The device that the user uses to log on to VC Hub, such as an office computer;
+**Client**: The device that the user uses to log on to WAGO SCADA, such as an office computer;
 
-**Server**: The device on which VC Hub is installed.
+**Server**: The device on which WAGO SCADA is installed.
 
 The **Client** directory contains Username and Role. **Read-only**, not editable.
 
@@ -28,7 +28,7 @@ The Server folder contains the following tags:
 The details are shown in the following table:
 
 | **Name**                                                                                                                                                                                                   | **Description**                                                                                                                                                                                                                                                   | **Data Type** |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------|
+|:----------------|:------------|:---------------|
 | CurrentDateTime                                                                                                                                                                                            | The time of the server where the current system is located.                                                                                                                                                                                                       | DateTime      |
 | NodeName                                                                                                                                                                                                   | The node name of the current system.                                                                                                                                                                                                                              | String        |
 | Timezone                                                                                                                                                                                                   | The time zone of the current server.                                                                                                                                                                                                                              | String        |
@@ -61,3 +61,4 @@ The system tags under the **Server** directory support editing. **Double-click**
 
 
 
+![alt text](12.png)

@@ -1,5 +1,6 @@
 # Usage of Legacy Protocols
 
+
 Protocols like **Modbus TCP/RTU**, **SIEMENS S7**, are commonly used in industrial settings for communication with PLCs, I/O devices, and various automation equipment. However, they lack inherent support for **authentication and encryption**, posing security challenges in modern networks.
 
 1. **Modbus TCP/RTU**: One of the oldest and most widely used protocols in industrial automation, Modbus is simple and reliable but lacks authentication and encryption mechanisms in its original form. This makes it vulnerable to attacks such as replay, unauthorized access, and data tampering. **Modbus TLS extension protocol is currently not supported.**

@@ -22,4 +22,5 @@ Currently, only supports **Table** control.
 
     ![alt text](49.png)
 
-**Note**: For more detailed information on using SQL Query, please refer to **SQL Query->SQL Query Example->Query** ,**SQL Query->SQL Query Example->Scalar Query**, **SQL Query->SQL Query Example->Update Query**. 
+**Note**: For more detailed information on using SQL Query, please refer to 
+[Query](../sql-query/sql-query-example/query.md) ,[Scalar Query](../sql-query/sql-query-example/scalar-query.md), [Update Query](../sql-query/sql-query-example/update-query.md). 

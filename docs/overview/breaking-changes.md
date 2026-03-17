@@ -1,25 +1,5 @@
 # Breaking Changes
 
-## Breaking changes in 4.5
-
-#### Breaking Change 1: Change in license authentication method
-
-- **Impact**: After upgrading to version 4.5, existing licenses will become invalid.
-- **Change**: This is due to a change in the license authentication mechanism.
-- **Solution**: New licenses must be purchased. Please contact our sales team to obtain licenses for version 4.5.
-
-#### Breaking Change 2: The "Camera" removed from the device list
-
-- **Impact**: All camera devices.
-- **Change**: From version 4.5, camera removed from device list.
-- **Solution**: The camera management feature has been discontinued. For video-related functions, please adjust your workflow accordingly.
-
-#### Breaking Change 3: Camera control removed
-
-- **Impact** : Pages using camera control.
-- **Change** : From version 4.5, camera removed from the tools.
-- **Solution** : The camera management feature has been discontinued. For video-related functions, please adjust your workflow accordingly.
-
 ## Breaking changes in 4.2
 
 #### Breaking Change 1: Permissions are no longer set on roles
@@ -34,9 +14,9 @@ Configure permissions under the Permission page.
 
 ![alt text](8.png)
 
- Please refer to: **Management->Paltform->Security->Permission**，**Management->Paltform->Security->Access Level**
+ Please refer to: [Permission](../management-platform//security/permission.md)  , [Access Level](../management-platform//security/access-level.md) 
 
- #### Breaking Change 2: Permission control added for project creation
+#### Breaking Change 2: Permission control added for project creation
 
 - **Impact** : Users without Admin or Configurator roles.
 - **Change** : From version 4.2, only Admin or Configurator roles can create, copy, or import projects.
@@ -44,7 +24,7 @@ Configure permissions under the Permission page.
 
 ![alt text](9.png)
 
- Please refer to: **Management->Paltform->Security->Permission**
+ Please refer to: [Permission](../management-platform/security/permission.md)
 
 #### Breaking Change 3: Permission control for designing/deleting projects
 
@@ -56,7 +36,7 @@ Configure permissions under the Permission page.
    -  In the editor's settings, assign design and delete permissions for the role.
 ![alt text](10.png)
 
- Please refer to: **2D Visualization->Project Properties**
+ Please refer to: [Project Properties](../2d-visualization/project-properties/index.md)
 
 #### Breaking Change 4: Bezier curve removed
 
@@ -94,7 +74,7 @@ Configure permissions under the Permission page.
 - **Change** : From version 4.2, added discovery services and advanced group settings, which may caused previously connected devices to no longer function properly.
 - **Solution** : Delete and recreate devices and groups.
 
- Please refer to：**Management->Devices-> OPC UA**
+ Please refer to：[OPC UA](../management-platform/devices/opc-ua/index.md)
 
 #### Breaking Change 10: Alarm table refactored
 
@@ -357,6 +337,7 @@ INNER JOIN public."ScadaTagMapping" d ON c."TagId" = d."Id" AND c."ProviderId" =
 - **Change** : From version 4.2, cameras must now be added under a WebRTC Streamer.
 - **Solution** : Deploy WebRTC Streamer,then create and configure cameras under it.
 
+ Please refer to：[Camera](../management-platform/devices/camera/index.md)
 
 #### Breaking Change 12: Camera control requires re-selection
 
@@ -364,14 +345,15 @@ INNER JOIN public."ScadaTagMapping" d ON c."TagId" = d."Id" AND c."ProviderId" =
 - **Change** : Because the way to add Camera devices has changed since version 4.2, you need to re-select the device you need to play on the camera control. And the runtime no longer supports switching devices and no longer supports the playback of history videos.
 - **Solution** : Re-select the camera device in the editor.
 
+ Please refer to：[Camera](../management-platform/devices/camera/index.md)
 
 #### Breaking Change 13: System.Tag.readHistory function parameters updated
 
 - **Impact** : All scripts using this function.
-- **Change** : From version 4.2, a new aggregate mode query has been added to the parameters of the** System.Tag.readHistory**  function, supporting the return of query results by  a fixed number of points.
+- **Change** : From version 4.2, a new aggregate mode query has been added to the parameters of the **System.Tag.readHistory**  function, supporting the return of query results by  a fixed number of points.
 - **Solution** : Existing code runs, but editing will show errors. Update parameter format accordingly.
 
- Please refer to:**Appendix->System Functions->System.Tag->System.Tag.readHistory**
+ Please refer to:Please refer to：[System.Tag.readHistory](../appendix/system-function/system-tag/system-tag-readhistory.md)
 
 #### BreakingChange 14: Beckhoff driver removed
 
@@ -385,7 +367,8 @@ INNER JOIN public."ScadaTagMapping" d ON c."TagId" = d."Id" AND c."ProviderId" =
 - **Change** : The System.UI.currentPage.* function has one more level relative to other functions. Starting from version 4.2, System.UI.currentPage is adjusted to System.Page 
 - **Solution** : Rename System.UI.currentPage to System.Page in scripts.
 
- Please refer to: **Appendix->System Functions->System.Page->System.Page.getPropertyValue**, **Appendix->System Functions->System.Page->System.Page.setPropertyValue**
+ Please refer to: [System.Page.getPropertyValue](../appendix/system-function/system-page/system-page-getpropertyvalue.md) ,[System.Page.setPropertyValue](../appendix/system-function/system-page/system-page-setpropertyvalue.md)
+ 
 
 #### Breaking Change 16: System.UI.openPopup parameters modified
 
@@ -396,7 +379,8 @@ INNER JOIN public."ScadaTagMapping" d ON c."TagId" = d."Id" AND c."ProviderId" =
    -  The page Properties parameter that was originally passed in now needs to be unified into the **options** object.
 - **Solution** : Old syntax works but shows warnings. Update to new format.
 
- Please refer to: **Appendix->System Functions->System.UI->System.UI.openPopup**
+ Please refer to: [System.UI.openPopup](../appendix/system-function/system-ui/system-ui-openpopup.md) 
+ 
 
 #### Breaking Change 17: In the script, the series under yAxis for realtime chart is changed to axes 
 
@@ -416,7 +400,7 @@ INNER JOIN public."ScadaTagMapping" d ON c."TagId" = d."Id" AND c."ProviderId" =
 - **Change** : From version 4.2, barSpacing under series is changed to barGap.
 - **Solution** : Rename barSpacing to barGap.
 
-#### Breaking Change 20: In the script, the calendarBackgroundColor parameter of the **DatetimeInput** control is adjusted to pickerBackgroundColor. 
+#### Breaking Change 20: In the script, the calendarBackgroundColor parameter of the DatetimeInput control is adjusted to pickerBackgroundColor. 
 
 - **Impact** : Scripts modifying calendar background color.
 - **Change** : From version 4.2,calendarBackgroundColor is changed to pickerBackgroundColor. 

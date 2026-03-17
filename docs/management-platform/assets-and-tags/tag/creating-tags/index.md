@@ -17,6 +17,7 @@ You can create tags in two different ways:
 
 1. Select the tag you want to add, such as a memory tag, and the Add popup window will be opened as below. On the Add popup window, only "Basic Information" and "Value" are displayed by default, and all other configurations are not enabled. You can turn on the corresponding configurations at the top of the popup window, and then the corresponding configurations will be displayed on the Add popup window as shown below.
     ![alt text](4.png)
+    
 2.  Set each configuration item, click the **"OK"** button at the bottom right corner after setting, the tag will be displayed in the asset window. 
 
 **Note:** If you configure a configuration item (e.g. history) and then close it and save the tag, the next time you enable the configuration on the tag, it will automatically display the last configured content. 
