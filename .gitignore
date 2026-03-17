@@ -29,7 +29,6 @@ venv
 .venv
 
 # Build files
-build
 site
 
 # Distribution files
